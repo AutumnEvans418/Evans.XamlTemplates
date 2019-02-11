@@ -4,11 +4,15 @@
              xmlns:local="clr-namespace:Evans.XamlTemplates"
              x:Class="Evans.XamlTemplates.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
+    <StackLayout local:TemplateSystem.TemplateProperties="Test,Test2">
+
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="CenterAndExpand" >
+            <local:TemplateSystem.TemplateProperties>
+                <local:BindingPropertyList></local:BindingPropertyList>
+            </local:TemplateSystem.TemplateProperties>
+        </Label>
     </StackLayout>
 
 </ContentPage>
