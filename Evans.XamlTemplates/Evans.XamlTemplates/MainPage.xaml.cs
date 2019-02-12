@@ -11,7 +11,12 @@ namespace Evans.XamlTemplates
     {
         public MainPage()
         {
+            BindingContext = this;
+
             InitializeComponent();
         }
+
+        public string Value { get; set; } = "test";
+        public string Value1 { get; set; } = "test1";
     }
 }
