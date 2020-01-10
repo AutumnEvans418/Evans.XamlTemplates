@@ -7,35 +7,25 @@ namespace Evans.XamlTemplates
     public partial class LabelEntry : ContentView
     {
         public static BindableProperty LabelProperty = 
-            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay, propertyChanged:LabelPropertyChanged);
-
-        private static void LabelPropertyChanged(BindableObject bindable, object oldvalue, object newvalue)
-        {
-            ((LabelEntry) bindable)._Label.Text = (string)newvalue;
-        }
-
+            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
         public static BindableProperty EntryProperty = 
-            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay, propertyChanged: EntryPropertyChanged);
-
-        private static void EntryPropertyChanged(BindableObject bindable, object oldvalue, object newvalue)
-        {
-            ((LabelEntry)bindable)._Entry.Text = (string)newvalue;
-        }
-
+            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
         public LabelEntry()
         {
             InitializeComponent();
+            _Label.BindingContext = this;
+            _Entry.BindingContext = this;
+            _Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
+            _Entry.SetBinding(Xamarin.Forms.Entry.TextProperty, nameof(Entry));
         }
-
-        public object Label
+        public string Label
         {
-            get => GetValue(LabelProperty);
+            get => (string)GetValue(LabelProperty);
             set => SetValue(LabelProperty, value);
         }
-
-        public object Entry
+        public string Entry
         {
-            get => GetValue(EntryProperty);
+            get => (string)GetValue(EntryProperty);
             set => SetValue(EntryProperty, value);
         } 
     }

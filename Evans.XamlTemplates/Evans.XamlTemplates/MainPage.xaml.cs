@@ -19,7 +19,7 @@ namespace Evans.XamlTemplates
         }
 
         public string Value { get; set; } = "test";
-
+        public IEnumerable<string> Data { get; set; } = new List<string>(){"test", "test2", "test3", "DESTROY"};
         public string Value1
         {
             get => _value1;

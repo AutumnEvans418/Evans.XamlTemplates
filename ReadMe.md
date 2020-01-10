@@ -3,8 +3,10 @@ Xaml templates is a templating engine for xamarin forms that allows you to build
 
 **Turn 40+ lines of code to just 8**
 
-## Example
+## Examples
 Below is an example of a template in a file called template.taml
+
+### Basic Example
 
 ```csharp
 @LabelEntry(string Label,string Text)
@@ -15,7 +17,7 @@ Below is an example of a template in a file called template.taml
 	</StackLayout>
 }
 ```
-
+#### Result
 This will be generated to the following c# and xaml file
 
 LabelEntry.xaml
@@ -47,40 +49,48 @@ namespace Evans.XamlTemplates
     public partial class LabelEntry : ContentView
     {
         public static BindableProperty LabelProperty = 
-            BindableProperty.Create(nameof(Label), typeof(object), typeof(LabelEntry), default, BindingMode.TwoWay, propertyChanged:LabelPropertyChanged);
-
-        private static void LabelPropertyChanged(BindableObject bindable, object oldvalue, object newvalue)
-        {
-            ((LabelEntry) bindable)._Label.Text = (string)newvalue;
-        }
-
+            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
         public static BindableProperty EntryProperty = 
-            BindableProperty.Create(nameof(Label), typeof(object), typeof(LabelEntry), default, BindingMode.TwoWay, propertyChanged: EntryPropertyChanged);
-
-        private static void EntryPropertyChanged(BindableObject bindable, object oldvalue, object newvalue)
-        {
-            ((LabelEntry)bindable)._Entry.Text = (string)newvalue;
-        }
-
+            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
         public LabelEntry()
         {
             InitializeComponent();
+            _Label.BindingContext = this;
+            _Entry.BindingContext = this;
+            _Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
+            _Entry.SetBinding(Xamarin.Forms.Entry.TextProperty, nameof(Entry));
         }
-
-        public object Label
+        public string Label
         {
-            get => GetValue(LabelProperty);
+            get => (string)GetValue(LabelProperty);
             set => SetValue(LabelProperty, value);
         }
-
-        public object Entry
+        public string Entry
         {
-            get => GetValue(EntryProperty);
+            get => (string)GetValue(EntryProperty);
             set => SetValue(EntryProperty, value);
         } 
     }
 }
 ```
+
+### More Advanced Example
+
+```csharp
+@EntryAndPicker(string Label,string Text, IEnumerable<string> data, string selectedItem)
+{
+<StackLayout>
+    <Label Text="@Label"/>
+    <Entry Text="@Text"/>
+    <Label Text="Result:"/>
+    <Label Text="@Text"/>
+    <Picker ItemsSource="@data" SelectedItem="@selectedItem"/>
+    <Label Text="@selectedItem"/>
+</StackLayout>
+}
+```
+#### Result
+
 
 Notice how much code it takes to just make a template?  There needs to be a simpler solution
 
@@ -91,6 +101,23 @@ Notice how much code it takes to just make a template?  There needs to be a simp
 - ClassName
 - Parameters (Comma Seperated)
   - Name of Parameter
-  - Name with Underscore
   - Type of Parameter
-- 
+- Controls With Bindings
+  - Control Type
+  - Control name (Label1, label2, etc...)
+  - Bindings on control
+    - Control Type
+    - Control Property
+    - Bindable Property
+
+## Logic
+```csharp
+foreach parameter
+  - create a bindable property
+  - create a property
+foreach control
+  - Set binding context to this
+  foreach binding on control
+    - set binding for control
+```
+
