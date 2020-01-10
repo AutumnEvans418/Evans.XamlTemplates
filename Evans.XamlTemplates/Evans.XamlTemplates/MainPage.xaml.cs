@@ -9,6 +9,8 @@ namespace Evans.XamlTemplates
 {
     public partial class MainPage : ContentPage
     {
+        private string _value1 = "test1";
+
         public MainPage()
         {
             BindingContext = this;
@@ -17,6 +19,16 @@ namespace Evans.XamlTemplates
         }
 
         public string Value { get; set; } = "test";
-        public string Value1 { get; set; } = "test1";
+
+        public string Value1
+        {
+            get => _value1;
+            set
+            {
+                _value1 = value;
+                Console.WriteLine(value);
+                OnPropertyChanged(nameof(Value1));
+            }
+        }
     }
 }

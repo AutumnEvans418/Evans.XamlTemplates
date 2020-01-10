@@ -4,13 +4,17 @@
              xmlns:local="clr-namespace:Evans.XamlTemplates"
              x:Class="Evans.XamlTemplates.MainPage">
     <ContentPage.Resources>
-        <StackLayout x:Key="Test">
+        <!--<StackLayout x:Key="Test">
             <Label Text="Here are the templates:"></Label>
             <Label Text="{Binding Test}"/>
             <Label Text="{Binding Test1}"></Label>
-        </StackLayout>
+        </StackLayout>-->
     </ContentPage.Resources>
-    <StackLayout>
+
+    <local:LabelEntry Label="{Binding Value}" Entry="{Binding Value1}"></local:LabelEntry>
+
+
+    <!--<StackLayout>
         <Label Text="{Binding Value}"></Label>
         <Label Text="{Binding Value1}"></Label>
         <ContentView Content="{StaticResource Test}">
@@ -21,7 +25,7 @@
                 </local:BindingPropertyList>
             </local:TemplateSystem.TemplateProperties>
         </ContentView>
-    </StackLayout>
+    </StackLayout>-->
     
 
 </ContentPage>
