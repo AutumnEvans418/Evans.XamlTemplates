@@ -11,7 +11,7 @@
         </StackLayout>-->
     </ContentPage.Resources>
     <StackLayout>
-        <local:LabelEntry Label="{Binding Value}" Entry="{Binding Value1}"></local:LabelEntry>
+        <local:LabelEntry Label="{Binding Value}" Text="{Binding Value1}"></local:LabelEntry>
 
         <local:EntryAndPicker Label="{Binding Value}" Text="{Binding Value1}" selectedItem="{Binding Value}" data="{Binding Data}"/>
     </StackLayout>
