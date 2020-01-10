@@ -8,7 +8,7 @@ namespace Evans.XamlTemplates
     {
         public static BindableProperty LabelProperty = 
             BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
-        public static BindableProperty EntryProperty = 
+        public static BindableProperty TextProperty = 
             BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
         public LabelEntry()
         {
@@ -16,17 +16,17 @@ namespace Evans.XamlTemplates
             _Label.BindingContext = this;
             _Entry.BindingContext = this;
             _Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
-            _Entry.SetBinding(Xamarin.Forms.Entry.TextProperty, nameof(Entry));
+            _Entry.SetBinding(Xamarin.Forms.Entry.TextProperty, nameof(Text));
         }
         public string Label
         {
             get => (string)GetValue(LabelProperty);
             set => SetValue(LabelProperty, value);
         }
-        public string Entry
+        public string Text
         {
-            get => (string)GetValue(EntryProperty);
-            set => SetValue(EntryProperty, value);
+            get => (string)GetValue(TextProperty);
+            set => SetValue(TextProperty, value);
         } 
     }
 }
