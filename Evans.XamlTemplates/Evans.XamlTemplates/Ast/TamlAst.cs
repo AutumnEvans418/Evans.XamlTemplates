@@ -5,68 +5,6 @@ using System.Xml;
 
 namespace Evans.XamlTemplates
 {
-    public class ControlProperty : Node
-    {
-        public ControlProperty(Token token) : base(token)
-        {
-        }
-        public string Name { get; set; } = "";
-        public string Value { get; set; } = "";
-        public bool IsParameter => Value.StartsWith("@");
-    }
-
-    public class Control : Node
-    {
-        public Control(Token token) : base(token)
-        {
-        }
-
-        public string Name { get; set; }
-
-        public List<ControlProperty> ControlProperties { get; set; } = new List<ControlProperty>();
-
-        public bool HasParameter => ControlProperties.Any(p => p.IsParameter);
-    }
-
-    public class Body : Node
-    {
-        public Body(Token token) : base(token)
-        {
-        }
-        public string Xml { get; set; } = "";
-        public List<Control> Controls { get; set; } = new List<Control>();
-    }
-
-    public class Parameter : Node
-    {
-        public Parameter(Token token) : base(token)
-        {
-        }
-        public string Type { get; set; } = "";
-        public string Name { get; set; } = "";
-    }
-
-    public class Template : Node
-    {
-        public Template(Token token) : base(token)
-        {
-        }
-
-        public string ClassName { get; set; } = "";
-        public List<Parameter> Parameters { get; set; } = new List<Parameter>();
-        public Body? Body { get; set; }
-    }
-
-    public class Program : Node
-    {
-        public Program(Token token) : base(token)
-        {
-        }
-
-        public List<Template> Templates { get; set; }
-
-    }
-
     public class TamlAst : Iterator<Token>
     {
         public void Eat(TokenType token)
@@ -115,21 +53,73 @@ namespace Evans.XamlTemplates
             return parameter;
         }
 
+        Control GetControl()
+        {
+            var control = new Control(Peek());
+
+            Eat(TokenType.BracketOpen);
+            var name = Peek().Value;
+            Eat(TokenType.Id);
+
+            control.Name = name;
+            while (Peek() is { } token
+                   && token.TokenType != TokenType.BracketClose)
+            {
+                if (Current is { } t && t.TokenType == TokenType.ForwardSlash)
+                {
+                    Eat(TokenType.ForwardSlash);
+                }
+                else
+                {
+                    control.ControlProperties.Add(GetProperty());
+                }
+            }
+            Eat(TokenType.BracketClose);
+            return control;
+        }
+
+        private ControlProperty GetProperty()
+        {
+            var controlProperty = new ControlProperty(Peek());
+
+            controlProperty.Name = Peek().Value;
+            Eat(TokenType.Id);
+            Eat(TokenType.Equal);
+            controlProperty.Value = Peek().Value;
+            Eat(TokenType.Quote);
+            return controlProperty;
+        }
+
         private Body GetBody()
         {
+            var xml = "";
             var body = new Body(Peek());
             Eat(TokenType.CurlyBracketOpen);
             while (Peek() is { } token && token.TokenType != TokenType.CurlyBracketClose)
             {
-                xml += token.Value;
+
+                if (token.TokenType == TokenType.Id && Peek(1) is {} t && t.TokenType != TokenType.Equal)
+                {
+                    xml += token.Value + " ";
+                }
+                else if (token.TokenType == TokenType.Quote)
+                {
+                    xml += $"\"{token.Value}\"";
+                }
+                else
+                {
+                    xml += token.Value;
+                }
                 Move();
             }
             Eat(TokenType.CurlyBracketClose);
             body.Xml = xml;
 
-            //body.Controls = ParseXml(xml);
+            body.Controls = ParseXml(xml);
             return body;
         }
+
+        
 
         private List<Control> ParseXml(string xml)
         {
@@ -147,7 +137,7 @@ namespace Evans.XamlTemplates
         {
             foreach (XmlNode node in parentNode)
             {
-                if(node == null) continue;
+                if (node == null) continue;
                 var control = new Control(Peek());
                 control.Name = node.Name;
                 foreach (XmlAttribute attribute in node.Attributes)
@@ -170,14 +160,14 @@ namespace Evans.XamlTemplates
             {
                 Eat(TokenType.EndOfFile);
             }
-            while (Peek() != null)
+            while (Current.TokenType != TokenType.EndOfFile)
             {
                 program.Templates.Add(GetTemplate());
             }
             return program;
         }
 
-        public Node Evaluate(IEnumerable<Token> tokens)
+        public Program Evaluate(IEnumerable<Token> tokens)
         {
             Input = tokens.ToList();
             return GetProgram();

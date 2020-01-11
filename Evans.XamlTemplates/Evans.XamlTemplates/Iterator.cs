@@ -6,7 +6,7 @@ namespace Evans.XamlTemplates
     {
         public int Index { get; set; }
         public IList<T> Input { get; set; } = new List<T>();
-
+        public T Current => Peek();
         public T Peek(int offset = 0)
         {
             if (Input.Count > Index + offset)
