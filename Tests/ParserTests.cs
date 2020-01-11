@@ -7,10 +7,7 @@ namespace Tests
     [TestFixture]
     public class ParserTests
     {
-        [Test]
-        public void GetTokens()
-        {
-            var code = @"
+        string code = @"
 @LabelEntry(string Label,string Text)
 {
 	<StackLayout>
@@ -18,12 +15,27 @@ namespace Tests
 		<Entry Text=""@Text""/>
 	</StackLayout>
 }";
-
+        [Test]
+        public void GetTokens()
+        {
             var parser = new TamlParser();
 
             var tokens = parser.GetTokens(code);
 
             tokens.Should().NotBeEmpty();
+        }
+
+
+        [Test]
+        public void GenerateTree()
+        {
+            var parser = new TamlParser();
+
+            var tamlAst = new TamlAst();
+
+            var tokens = parser.GetTokens(code);
+
+            var program = tamlAst.Evaluate(tokens);
         }
 
 

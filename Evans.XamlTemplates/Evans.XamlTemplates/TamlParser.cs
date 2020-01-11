@@ -4,52 +4,6 @@ using System.Linq;
 
 namespace Evans.XamlTemplates
 {
-    public enum TokenType
-    {
-        At,
-        Id,
-        ParenthesesOpen,
-        ParenthesesClose,
-        BracketOpen,
-        BracketClose,
-        Comma,
-        ForwardSlash,
-        Quote,
-        CurlyBracketOpen,
-        CurlyBracketClose,
-        Equal
-    }
-
-    public class Token
-    {
-        public Token(TokenType tokenType, string value = null)
-        {
-            TokenType = tokenType;
-            Value = value;
-        }
-
-        public TokenType TokenType { get; set; }
-        public string Value { get; set; }
-    }
-
-    public class Iterator<T>
-    {
-        public int Index { get; set; }
-        public IList<T> Input { get; set; } = new List<T>();
-
-        public T Peek(int offset = 0)
-        {
-            if (Input.Count > Index + offset)
-                return Input[Index + offset];
-            return default;
-        }
-
-        public void Move()
-        {
-            Index++;
-        }
-    }
-
     public class TamlParser : Iterator<char?>
     {
         public IList<Token> Output { get; set; } = new List<Token>();
@@ -142,55 +96,9 @@ namespace Evans.XamlTemplates
                 }
                 
             }
+            Output.Add(new Token(TokenType.EndOfFile));
 
             return Output;
-        }
-    }
-
-    public enum AstType
-    {
-        ClassName,
-        Parameter,
-        ControlName,
-        ControlProperty,
-        ParameterCall,
-    }
-
-    public class Node
-    {
-        public Node(AstType astType, Token token)
-        {
-            AstType = astType;
-            Token = token;
-        }
-
-        public AstType AstType { get; set; }
-
-        public Token Token { get; set; }
-
-    }
-
-    public class TamlAst : Iterator<Token>
-    {
-        public void Eat(TokenType token)
-        {
-            var p = Peek();
-            if (p == null)
-            {
-                throw new InvalidOperationException($"Expected {token} but was null");
-            }
-            if (p is Token t && t.TokenType == token)
-            {
-                throw new InvalidOperationException($"Expected {token} but was {t.TokenType}");
-            }
-            Move();
-        }
-
-        public Node Evaluate(IList<Token> tokens)
-        {
-            Input = tokens;
-            Eat(TokenType.At);
-            
         }
     }
 }
