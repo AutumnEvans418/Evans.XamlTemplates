@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Evans.XamlTemplates
 {
@@ -16,10 +17,22 @@ namespace Evans.XamlTemplates
         Xml,
     }
 
+    public class Token
+    {
+        public Token(TokenType tokenType, string value = null)
+        {
+            TokenType = tokenType;
+            Value = value;
+        }
+
+        public TokenType TokenType { get; set; }
+        public string Value { get; set; }
+    }
+
     public class TamlParser
     {
         public int Index { get; set; }
-        public IList<char> Characters { get; set; } = new List<char>();
+        public IList<char> Characters { get; set; } = new List<char>(); 
         public IList<Token> Tokens { get; set; }
 
         public char? Peek(int offset = 0)
@@ -38,11 +51,16 @@ namespace Evans.XamlTemplates
         {
             Characters = new List<char>(code);
             Index = 0;
+            Tokens = new List<Token>();
             while (Peek() is char val)
             {
-                if (val == '@')
+                if (char.IsWhiteSpace(val))
                 {
-                    Tokens.Add(Token.At);
+                    Move();
+                }
+                else if (val == '@')
+                {
+                    Tokens.Add(new Token(TokenType.At));
                     Move();
                 }
                 else if (char.IsLetter(val))
@@ -51,12 +69,31 @@ namespace Evans.XamlTemplates
                     while (Peek() is char c && char.IsLetter(c))
                     {
                         id += c;
+                        Move();
                     }
-                    Tokens.Add(Token.Id);
+                    Tokens.Add(new Token(TokenType.Id, id));
+                }
+                else if (val == '(')
+                {
+                    Tokens.Add(new Token(TokenType.ParenthesesOpen, val.ToString()));
+                    Move();
+                }
+                else if (val == ')')
+                {
+                    Tokens.Add(new Token(TokenType.ParenthesesClose, val.ToString()));
+                }
+                else if (val == ',')
+                {
+                    Tokens.Add(new Token(TokenType.Comma, val.ToString()));
+                }
+                else
+                {
+                    throw new InvalidOperationException($"Did not recognize token {val}");
                 }
                 
             }
 
+            return Tokens;
         }
     }
 }
