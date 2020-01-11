@@ -14,6 +14,7 @@
         CurlyBracketOpen,
         CurlyBracketClose,
         Equal,
-        EndOfFile
+        EndOfFile,
+        Colon
     }
 }

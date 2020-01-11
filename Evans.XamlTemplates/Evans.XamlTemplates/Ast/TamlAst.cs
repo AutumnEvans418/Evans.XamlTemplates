@@ -53,58 +53,58 @@ namespace Evans.XamlTemplates
             return parameter;
         }
 
-        Control GetControl()
-        {
-            var control = new Control(Peek());
+        //Control GetControl()
+        //{
+        //    var control = new Control(Peek());
 
-            Eat(TokenType.BracketOpen);
-            var name = Peek().Value;
-            Eat(TokenType.Id);
+        //    Eat(TokenType.BracketOpen);
+        //    var name = Peek().Value;
+        //    Eat(TokenType.Id);
 
-            control.Name = name;
-            while (Peek() is { } token
-                   && token.TokenType != TokenType.BracketClose)
-            {
-                if (Current is { } t && t.TokenType == TokenType.ForwardSlash)
-                {
-                    Eat(TokenType.ForwardSlash);
-                }
-                else
-                {
-                    control.ControlProperties.Add(GetProperty());
-                }
-            }
-            Eat(TokenType.BracketClose);
-            return control;
-        }
+        //    control.Name = name;
+        //    while (Peek() is { } token
+        //           && token.TokenType != TokenType.BracketClose)
+        //    {
+        //        if (Current is { } t && t.TokenType == TokenType.ForwardSlash)
+        //        {
+        //            Eat(TokenType.ForwardSlash);
+        //        }
+        //        else
+        //        {
+        //            control.ControlProperties.Add(GetProperty());
+        //        }
+        //    }
+        //    Eat(TokenType.BracketClose);
+        //    return control;
+        //}
 
-        private ControlProperty GetProperty()
-        {
-            var controlProperty = new ControlProperty(Peek());
+        //private ControlProperty GetProperty()
+        //{
+        //    var controlProperty = new ControlProperty(Peek());
 
-            controlProperty.Name = Peek().Value;
-            Eat(TokenType.Id);
-            Eat(TokenType.Equal);
-            controlProperty.Value = Peek().Value;
-            Eat(TokenType.Quote);
-            return controlProperty;
-        }
+        //    controlProperty.Name = Peek().Value;
+        //    Eat(TokenType.Id);
+        //    Eat(TokenType.Equal);
+        //    controlProperty.Value = Peek().Value;
+        //    Eat(TokenType.Quote);
+        //    return controlProperty;
+        //}
 
         private Body GetBody()
         {
             var xml = "";
-            var body = new Body(Peek());
+            var beginning = Peek();
             Eat(TokenType.CurlyBracketOpen);
             while (Peek() is { } token && token.TokenType != TokenType.CurlyBracketClose)
             {
 
-                if (token.TokenType == TokenType.Id && Peek(1) is {} t && t.TokenType != TokenType.Equal)
+                if (token.TokenType == TokenType.Id && Peek(1) is { } t && t.TokenType != TokenType.Equal && t.TokenType != TokenType.Colon)
                 {
                     xml += token.Value + " ";
                 }
                 else if (token.TokenType == TokenType.Quote)
                 {
-                    xml += $"\"{token.Value}\"";
+                    xml += $"\"{token.Value}\" ";
                 }
                 else
                 {
@@ -113,32 +113,32 @@ namespace Evans.XamlTemplates
                 Move();
             }
             Eat(TokenType.CurlyBracketClose);
-            body.Xml = xml;
-
-            body.Controls = ParseXml(xml);
-            return body;
-        }
-
-        
-
-        private List<Control> ParseXml(string xml)
-        {
-            var controls = new List<Control>();
 
             var reader = new XmlDocument();
 
             reader.LoadXml(xml);
+            var body = new Body(beginning, reader);
 
-            RecurseXml(reader.ChildNodes.Cast<XmlNode>().ToList(), controls);
-            return controls;
+            body.Xml = reader;
+
+            body.Controls = ParseXml(reader);
+            return body;
         }
 
-        void RecurseXml(List<XmlNode> parentNode, List<Control> controls)
+
+
+        private List<Control> ParseXml(XmlDocument reader)
         {
+            return RecurseXml(reader.ChildNodes.Cast<XmlNode>().ToList());
+        }
+
+        List<Control> RecurseXml(List<XmlNode> parentNode)
+        {
+            var controls = new List<Control>();
             foreach (XmlNode node in parentNode)
             {
                 if (node == null) continue;
-                var control = new Control(Peek());
+                var control = new Control(Peek(), node);
                 control.Name = node.Name;
                 foreach (XmlAttribute attribute in node.Attributes)
                 {
@@ -148,8 +148,9 @@ namespace Evans.XamlTemplates
                     control.ControlProperties.Add(property);
                 }
                 controls.Add(control);
-                RecurseXml(node.ChildNodes.Cast<XmlNode>().ToList(), controls);
+                control.ChildControls = RecurseXml(node.ChildNodes.Cast<XmlNode>().ToList());
             }
+            return controls;
         }
 
         Program GetProgram()

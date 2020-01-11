@@ -50,6 +50,10 @@ namespace Evans.XamlTemplates
                 {
                     Add(TokenType.ParenthesesClose, val.ToString());
                 }
+                else if (val == ':')
+                {
+                    Add(TokenType.Colon, val.ToString());
+                }
                 else if (val == ',')
                 {
                     Add(TokenType.Comma, val.ToString());

@@ -6,8 +6,10 @@
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.LabelEntry">
   <ContentView.Content>
-      <StackLayout>
-          <Label x:Name="_Label"/>
+      <StackLayout 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          >
+          <Label  x:Name="_Label"/>
           <Entry x:Name="_Entry"/>
       </StackLayout>
     </ContentView.Content>
