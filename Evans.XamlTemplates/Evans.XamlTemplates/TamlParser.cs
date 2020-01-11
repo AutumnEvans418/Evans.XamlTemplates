@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Evans.XamlTemplates
 {
@@ -14,7 +15,9 @@ namespace Evans.XamlTemplates
         Comma,
         ForwardSlash,
         Quote,
-        Xml,
+        CurlyBracketOpen,
+        CurlyBracketClose,
+        Equal
     }
 
     public class Token
@@ -29,29 +32,42 @@ namespace Evans.XamlTemplates
         public string Value { get; set; }
     }
 
-    public class TamlParser
+    public class Iterator<T>
     {
         public int Index { get; set; }
-        public IList<char> Characters { get; set; } = new List<char>(); 
-        public IList<Token> Tokens { get; set; }
+        public IList<T> Input { get; set; } = new List<T>();
 
-        public char? Peek(int offset = 0)
+        public T Peek(int offset = 0)
         {
-            if (Characters.Count > Index + offset)
-                return Characters[Index + offset];
-            return null;
+            if (Input.Count > Index + offset)
+                return Input[Index + offset];
+            return default;
         }
 
         public void Move()
         {
             Index++;
         }
+    }
 
+    public class TamlParser : Iterator<char?>
+    {
+        public IList<Token> Output { get; set; } = new List<Token>();
+
+        public void Add(TokenType type, string val = null)
+        {
+            Output.Add(new Token(type, val));
+            Move();
+        }
         public IEnumerable<Token> GetTokens(string code)
         {
-            Characters = new List<char>(code);
+            Input = new List<char?>();
+            foreach (var c in code)
+            {
+                Input.Add(c);
+            }
             Index = 0;
-            Tokens = new List<Token>();
+            Output = new List<Token>();
             while (Peek() is char val)
             {
                 if (char.IsWhiteSpace(val))
@@ -60,8 +76,7 @@ namespace Evans.XamlTemplates
                 }
                 else if (val == '@')
                 {
-                    Tokens.Add(new Token(TokenType.At));
-                    Move();
+                    Add(TokenType.At);
                 }
                 else if (char.IsLetter(val))
                 {
@@ -71,20 +86,55 @@ namespace Evans.XamlTemplates
                         id += c;
                         Move();
                     }
-                    Tokens.Add(new Token(TokenType.Id, id));
+                    Output.Add(new Token(TokenType.Id, id));
                 }
                 else if (val == '(')
                 {
-                    Tokens.Add(new Token(TokenType.ParenthesesOpen, val.ToString()));
-                    Move();
+                    Add(TokenType.ParenthesesOpen, val.ToString());
                 }
                 else if (val == ')')
                 {
-                    Tokens.Add(new Token(TokenType.ParenthesesClose, val.ToString()));
+                    Add(TokenType.ParenthesesClose, val.ToString());
                 }
                 else if (val == ',')
                 {
-                    Tokens.Add(new Token(TokenType.Comma, val.ToString()));
+                    Add(TokenType.Comma, val.ToString());
+                }
+                else if (val == '{')
+                {
+                    Add(TokenType.CurlyBracketOpen, val.ToString());
+                }
+                else if (val == '}')
+                {
+                    Add(TokenType.CurlyBracketClose, val.ToString());
+                }
+                else if (val == '/')
+                {
+                   Add(TokenType.ForwardSlash, val.ToString());
+                }
+                else if (val == '<')
+                {
+                    Add(TokenType.BracketOpen, val.ToString());
+                }
+                else if (val == '>')
+                {
+                    Add(TokenType.BracketClose, val.ToString());
+                }
+                else if (val == '=')
+                {
+                    Add(TokenType.Equal, val.ToString());
+                }
+                else if (val == '"')
+                {
+                    var q = "";
+                    Move();
+                    while (Peek() is char c && c != '"')
+                    {
+                        q += c;
+                        Move();
+                    }
+                    Move();
+                    Output.Add(new Token(TokenType.Quote, q));
                 }
                 else
                 {
@@ -93,7 +143,54 @@ namespace Evans.XamlTemplates
                 
             }
 
-            return Tokens;
+            return Output;
+        }
+    }
+
+    public enum AstType
+    {
+        ClassName,
+        Parameter,
+        ControlName,
+        ControlProperty,
+        ParameterCall,
+    }
+
+    public class Node
+    {
+        public Node(AstType astType, Token token)
+        {
+            AstType = astType;
+            Token = token;
+        }
+
+        public AstType AstType { get; set; }
+
+        public Token Token { get; set; }
+
+    }
+
+    public class TamlAst : Iterator<Token>
+    {
+        public void Eat(TokenType token)
+        {
+            var p = Peek();
+            if (p == null)
+            {
+                throw new InvalidOperationException($"Expected {token} but was null");
+            }
+            if (p is Token t && t.TokenType == token)
+            {
+                throw new InvalidOperationException($"Expected {token} but was {t.TokenType}");
+            }
+            Move();
+        }
+
+        public Node Evaluate(IList<Token> tokens)
+        {
+            Input = tokens;
+            Eat(TokenType.At);
+            
         }
     }
 }
