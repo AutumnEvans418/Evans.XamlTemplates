@@ -5,7 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.EntryAndPicker">
-  <ContentView.Content>
-      <StackLayout><Label Text="@Label" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /><Entry Text="@Text" x:Name="_Entry" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /><Label Text="Result:" /><Label Text="@Text" x:Name="_Label1" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /><Picker ItemsSource="@Data" SelectedItem="@SelectedItem" x:Name="_Picker" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /><Label Text="@SelectedItem" x:Name="_Label2" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /></StackLayout>
+    <ContentView.Content>
+        <StackLayout>
+            <Label Text="@Label" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+            <Entry Text="@Text" x:Name="_Entry" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+            <Label Text="Result:" />
+            <Label Text="@Text" x:Name="_Label1" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+            <Picker ItemsSource="@Data" SelectedItem="@SelectedItem" x:Name="_Picker" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+            <Label Text="@SelectedItem" x:Name="_Label2" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+        </StackLayout>
     </ContentView.Content>
 </ContentView>

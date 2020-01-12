@@ -13,10 +13,14 @@
   
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.5.0.129452" />
-    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.5">
+    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.7">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\Compiler\Compiler.csproj" />
   </ItemGroup>
 
   <ItemGroup>
