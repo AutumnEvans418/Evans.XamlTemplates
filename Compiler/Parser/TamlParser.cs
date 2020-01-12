@@ -8,9 +8,9 @@ namespace Evans.XamlTemplates
     {
         public IList<Token> Output { get; set; } = new List<Token>();
 
-        public void Add(TokenType type, string val = null)
+        public void Add(TokenType type, string? val = null)
         {
-            Output.Add(new Token(type, val));
+            Output.Add(new Token(type, Index, val));
             Move();
         }
         public IEnumerable<Token> GetTokens(string code)
@@ -22,7 +22,7 @@ namespace Evans.XamlTemplates
             }
             Index = 0;
             Output = new List<Token>();
-            while (Peek() is char val)
+            while (Peek() is { } val)
             {
                 if (char.IsWhiteSpace(val))
                 {
@@ -30,17 +30,17 @@ namespace Evans.XamlTemplates
                 }
                 else if (val == '@')
                 {
-                    Add(TokenType.At);
+                    Add(TokenType.At,val.ToString());
                 }
                 else if (char.IsLetter(val))
                 {
                     var id = "";
-                    while (Peek() is char c && char.IsLetter(c))
+                    while (Peek() is { } c && char.IsLetter(c))
                     {
                         id += c;
                         Move();
                     }
-                    Output.Add(new Token(TokenType.Id, id));
+                    Output.Add(new Token(TokenType.Id, Index, id));
                 }
                 else if (val == '(')
                 {
@@ -92,15 +92,15 @@ namespace Evans.XamlTemplates
                         Move();
                     }
                     Move();
-                    Output.Add(new Token(TokenType.Quote, q));
+                    Output.Add(new Token(TokenType.Quote, Index, q));
                 }
                 else
                 {
-                    throw new InvalidOperationException($"Did not recognize token {val}");
+                    throw new CompileException($"Did not recognize token {val}", Index);
                 }
                 
             }
-            Output.Add(new Token(TokenType.EndOfFile));
+            Output.Add(new Token(TokenType.EndOfFile, Index));
 
             return Output;
         }

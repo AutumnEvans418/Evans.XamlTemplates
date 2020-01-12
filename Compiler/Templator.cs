@@ -24,7 +24,7 @@ namespace Evans.XamlTemplates
             
         }
 
-        public CompileException(string message) : base(message)
+        public CompileException(string message, int index) : base(message + $" at index {index}")
         {
             
         }
@@ -39,6 +39,8 @@ namespace Evans.XamlTemplates
             gen.Namespace = Namespace;
             var tokens = parser.GetTokens(code);
             var t = ast.Evaluate(tokens);
+            var checker= new SyntaxChecker(t);
+            checker.CheckSyntax();
             return gen.Generate(t).ToList();
         }
     }

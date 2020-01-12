@@ -12,9 +12,9 @@ namespace Evans.XamlTemplates.Generator
              xmlns:d=""http://xamarin.com/schemas/2014/forms/design""
              xmlns:mc=""http://schemas.openxmlformats.org/markup-compatibility/2006""
              mc:Ignorable=""d""
-             x:Class=""{AssemblyName}.{Template.ClassName}"">
+             x:Class=""{AssemblyName}.{Template?.ClassName}"">
   <ContentView.Content>
-      {AddNamesToXml(Template.Body)}
+      {AddNamesToXml(Template?.Body)}
     </ContentView.Content>
 </ContentView>";
 
@@ -22,7 +22,7 @@ namespace Evans.XamlTemplates.Generator
         string AddNamesToXml(Body? body)
         {
             if (body == null) return "";
-            return body.Xml.OuterXml;
+            return body.FormattedXml;
         }
 
         

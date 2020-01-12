@@ -19,27 +19,56 @@ namespace Tests
 		<Label Text=""@Label""/>
 		<Entry Text=""@Text""/>
 	</StackLayout>
-}";
+}
+";
+
+        string codeMissingBracket = @"
+@LabelEntry(string Label,string Text)
+{
+	<StackLayout>
+		<Label Text=""@Label""/>
+		<Entry Text=""@Text""/>
+	</StackLayout>
+";
+
+
         [Test]
         public void GetTokens()
         {
-            var parser = new TamlParser();
-
             var tokens = parser.GetTokens(code);
-
             tokens.Should().NotBeEmpty();
         }
 
+        string codeMissingParenthesis = @"
+@LabelEntry(string Label,string Text
+{
+	<StackLayout>
+		<Label Text=""@Label""/>
+		<Entry Text=""@Text""/>
+	</StackLayout>
+}
+";
 
+        [Test]
+        public void Ast_MissingParenthesis_Should_ThrowException()
+        {
+            var tokens = parser.GetTokens(codeMissingParenthesis);
+            var program = Assert.Throws<CompileException>(() => tamlAst.Evaluate(tokens));
+        }
+
+        [Test]
+        public void Ast_MissingBracket_Should_ThrowException()
+        {
+            var tokens = parser.GetTokens(codeMissingBracket);
+            var program = Assert.Throws<CompileException>(()=> tamlAst.Evaluate(tokens));
+        }
+        TamlParser parser = new TamlParser();
+
+        TamlAst tamlAst = new TamlAst();
         [Test]
         public void GenerateTree()
         {
-            var parser = new TamlParser();
-
-            var tamlAst = new TamlAst();
-
             var tokens = parser.GetTokens(code);
-
             var program = tamlAst.Evaluate(tokens);
         }
 

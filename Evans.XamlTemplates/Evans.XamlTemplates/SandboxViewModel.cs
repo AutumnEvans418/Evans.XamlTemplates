@@ -51,14 +51,24 @@ namespace Evans.XamlTemplates
                     CSharp = result.CSharp.Content;
                     Error = "";
                 }
+                else
+                {
+                    Xaml = "";
+                    CSharp = "";
+                    Error = "";
+                }
             }
             catch (CompileException e)
             {
                 Error = e.ToString();
+                Xaml = "";
+                CSharp = "";
             }
             catch (Exception e)
             {
                 Error = e.ToString();
+                Xaml = "";
+                CSharp = "";
                 throw;
             }
         }
