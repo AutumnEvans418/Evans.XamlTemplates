@@ -26,6 +26,11 @@ namespace Evans.XamlTemplates
         {
             foreach (var control in controls)
             {
+                if (parameters.Any(p => p.Name == control.Name))
+                {
+                    throw new CompileException($"Parameter cannot have the same name as a control: '{control.Name}'", control.Token.Index);
+                }
+
                 if (control.HasParameter)
                 {
                     foreach (var property in control.ControlProperties.Where(p=>p.IsParameter))
