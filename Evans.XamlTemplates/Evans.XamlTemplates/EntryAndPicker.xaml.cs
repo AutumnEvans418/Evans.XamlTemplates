@@ -15,10 +15,10 @@ namespace Evans.XamlTemplates
             BindableProperty.Create(nameof(Label), typeof(string), typeof(EntryAndPicker), default, BindingMode.TwoWay);
 public static BindableProperty TextProperty = 
             BindableProperty.Create(nameof(Text), typeof(string), typeof(EntryAndPicker), default, BindingMode.TwoWay);
-public static BindableProperty dataProperty = 
-            BindableProperty.Create(nameof(data), typeof(IEnumerable<string>), typeof(EntryAndPicker), default, BindingMode.TwoWay);
-public static BindableProperty selectedItemProperty = 
-            BindableProperty.Create(nameof(selectedItem), typeof(string), typeof(EntryAndPicker), default, BindingMode.TwoWay);
+public static BindableProperty DataProperty = 
+            BindableProperty.Create(nameof(Data), typeof(IEnumerable<string>), typeof(EntryAndPicker), default, BindingMode.TwoWay);
+public static BindableProperty SelectedItemProperty = 
+            BindableProperty.Create(nameof(SelectedItem), typeof(string), typeof(EntryAndPicker), default, BindingMode.TwoWay);
 
         public EntryAndPicker()
         {
@@ -36,8 +36,8 @@ _Label2.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(selectedItem));
         }
         public string Label { get => (string)GetValue(LabelProperty); set => SetValue(LabelProperty, value); }
 public string Text { get => (string)GetValue(TextProperty); set => SetValue(TextProperty, value); }
-public IEnumerable<string> data { get => (IEnumerable<string>)GetValue(dataProperty); set => SetValue(dataProperty, value); }
-public string selectedItem { get => (string)GetValue(selectedItemProperty); set => SetValue(selectedItemProperty, value); }
+public IEnumerable<string> Data { get => (IEnumerable<string>)GetValue(DataProperty); set => SetValue(DataProperty, value); }
+public string SelectedItem { get => (string)GetValue(SelectedItemProperty); set => SetValue(SelectedItemProperty, value); }
 
     }
 }

@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Evans.XamlTemplates\Evans.XamlTemplates\Evans.XamlTemplates.csproj" />
+    <ProjectReference Include="..\Compiler\Compiler.csproj" />
   </ItemGroup>
 
 </Project>

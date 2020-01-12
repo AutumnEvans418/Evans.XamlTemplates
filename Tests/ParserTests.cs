@@ -91,7 +91,7 @@ namespace Tests
         }
 
         private string advanced = @"
-@EntryAndPicker(string Label,string Text, IEnumerable<string> data, string selectedItem)
+@EntryAndPicker(string Label,string Text, IEnumerable<string> Data, string SelectedItem)
 {
 <StackLayout>
     <Label Text=""@Label""/>
