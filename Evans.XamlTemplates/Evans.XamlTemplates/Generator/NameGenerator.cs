@@ -39,6 +39,11 @@ namespace Evans.XamlTemplates.Generator
                     name += controlPrefix[name];
                     NamedControls.Add(name, control);
                 }
+                else
+                {
+                    controlPrefix.Add(name,1);
+                    name += controlPrefix[name];
+                }
             }
             else
             {

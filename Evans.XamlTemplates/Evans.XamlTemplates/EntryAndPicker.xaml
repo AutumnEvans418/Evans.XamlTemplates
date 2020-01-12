@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
@@ -6,13 +6,6 @@
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.EntryAndPicker">
   <ContentView.Content>
-      <StackLayout>
-          <Label x:Name="_Label" />
-          <Entry x:Name="_Entry" />
-          <Label Text="Result:"/>
-          <Label x:Name="_Label1" />
-          <Picker x:Name="_Picker" />
-          <Label x:Name="_Label2" />
-      </StackLayout>
+      <StackLayout><Label Text="@Label" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /><Entry Text="@Text" x:Name="_Entry" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /><Label Text="Result:" /><Label Text="@Text" x:Name="_Label1" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /><Picker ItemsSource="@data" SelectedItem="@selectedItem" x:Name="_Picker" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /><Label Text="@selectedItem" x:Name="_Label2" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /></StackLayout>
     </ContentView.Content>
 </ContentView>

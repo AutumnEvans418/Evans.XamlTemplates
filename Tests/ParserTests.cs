@@ -133,7 +133,7 @@ namespace Tests
         [Test]
         public void WriteToFile()
         {
-            var path = @"..\Evans.XamlTemplates\Evans.XamlTemplates";
+            var path = @"..\..\..\..\Evans.XamlTemplates\Evans.XamlTemplates";
             var result = GeneratedTypes();
 
             foreach (var generatedType in result)
