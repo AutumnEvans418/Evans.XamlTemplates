@@ -12,6 +12,6 @@
 {
 	<StackLayout>
         <Label Text="@label"/>
-        <Entry HeightRequest="500" Text="@code"></Entry>
+        <Entry Text="@code" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></Entry>
     </StackLayout>
 }

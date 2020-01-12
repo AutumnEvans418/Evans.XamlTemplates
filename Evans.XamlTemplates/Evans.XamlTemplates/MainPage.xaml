@@ -13,10 +13,14 @@
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
             </Grid.RowDefinitions>
-            <local:CodeEditor Grid.Column="0" label="Type Here" code="{Binding Code}"/>
+            <!--<local:CodeEditor Grid.Column="0" label="Type Here" code="{Binding Code}"/>
 
-            <local:CodeEditor Grid.Column="1" label="Xaml" code="{Binding Xaml}"/>
+            <local:CodeEditor Grid.Column="1" label="Xaml" code="{Binding Xaml}"/>-->
+
+            <Editor Grid.Column="0" Text="{Binding Code}"/>
             
+            <Label Grid.Column="1" Text="{Binding Xaml}"/>
+
             <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding Error}"></Label>
         </Grid>
     </ScrollView>

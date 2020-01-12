@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Evans.XamlTemplates.Generator;
 
@@ -16,7 +17,18 @@ namespace Evans.XamlTemplates
 }";
     }
 
+    public class CompileException : Exception
+    {
+        public CompileException()
+        {
+            
+        }
 
+        public CompileException(string message) : base(message)
+        {
+            
+        }
+    }
     public class Templator
     {
         TamlParser parser = new TamlParser();

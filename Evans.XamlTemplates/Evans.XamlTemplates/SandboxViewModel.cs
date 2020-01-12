@@ -49,11 +49,17 @@ namespace Evans.XamlTemplates
                 {
                     Xaml = result.Xaml.Content;
                     CSharp = result.CSharp.Content;
+                    Error = "";
                 }
+            }
+            catch (CompileException e)
+            {
+                Error = e.ToString();
             }
             catch (Exception e)
             {
                 Error = e.ToString();
+                throw;
             }
         }
     }
