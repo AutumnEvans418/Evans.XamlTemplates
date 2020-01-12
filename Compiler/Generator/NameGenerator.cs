@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Evans.XamlTemplates.Generator
 {
@@ -12,6 +13,13 @@ namespace Evans.XamlTemplates.Generator
                 {
                     if (control.Node.Attributes != null && control.Node.OwnerDocument != null)
                     {
+
+                        foreach (var property in control.ControlProperties.Where(p=>p.IsParameter))
+                        {
+                            control.Node.Attributes.Remove(control.Node.Attributes[property.Name]);
+
+                        }
+
                         //control.Node.Attributes.RemoveAll();
                         var att = control.Node.OwnerDocument.CreateAttribute("x", "Name", "http://schemas.microsoft.com/winfx/2009/xaml");
                         att.Value = AddControl(control);
@@ -43,6 +51,7 @@ namespace Evans.XamlTemplates.Generator
                 {
                     controlPrefix.Add(name,1);
                     name += controlPrefix[name];
+                    NamedControls.Add(name, control);
                 }
             }
             else
