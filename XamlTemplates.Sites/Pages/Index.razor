@@ -3,23 +3,37 @@
 
 Try writing some code and see the result!
 
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <textarea  @bind="@codestr" style="width: 100%;height: 100%; box-sizing: border-box"></textarea>
+        </div>
+        <div class="col-6">
+            <h3>Xaml Code</h3>
+            <pre>@Xaml</pre>
 
-
-
-
+            <h3>CSharp Code</h3>
+            <pre>@CSharp</pre>
+        </div>
+    </div>
+</div>
 @code {
-    
-    private string Code = "";
+    private string _codestr = Evans.XamlTemplates.Examples.Basic;
+    private string codestr {get => _codestr; set { _codestr = value; CodeChanged();}}
     private string Xaml = "";
     private string CSharp = "";
 
     Evans.XamlTemplates.Templator gen = new Evans.XamlTemplates.Templator();
     private void CodeChanged()
     {
-        var result = gen.Generate(Code,"Templates");
+        var result = gen.Generate(codestr,"Templates");
 
         Xaml = result[0].Xaml.Content;
         CSharp = result[0].CSharp.Content;
+    }
+    protected override void OnInitialized()
+    {
+        CodeChanged();
     }
 
 }
