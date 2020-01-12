@@ -8,10 +8,10 @@ namespace Evans.XamlTemplates
     public class Examples
     {
         public const string Basic = @"
-@LabelEntry(string Label,string Text)
+@LabelEntry(string label,string Text)
 {
 	<StackLayout>
-		<Label Text=""@Label""/>
+		<Label Text=""@label""/>
 		<Entry Text=""@Text""/>
 	</StackLayout>
 }";

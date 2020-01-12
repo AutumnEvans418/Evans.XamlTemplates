@@ -3,26 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Evans.XamlTemplates"
              x:Class="Evans.XamlTemplates.MainPage" x:DataType="local:SandboxViewModel">
-    <ScrollView>
-        <Grid Margin="10">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-            </Grid.RowDefinitions>
-            <!--<local:CodeEditor Grid.Column="0" label="Type Here" code="{Binding Code}"/>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--<local:CodeEditor Grid.Column="0" label="Type Here" code="{Binding Code}"/>
 
             <local:CodeEditor Grid.Column="1" label="Xaml" code="{Binding Xaml}"/>-->
 
-            <Editor Grid.Column="0" Text="{Binding Code}"/>
-            
-            <Label Grid.Column="1" Text="{Binding Xaml}"/>
+        <Editor Grid.Column="0" Grid.RowSpan="2" Text="{Binding Code}"/>
+        <ScrollView Grid.Column="1" Grid.Row="0">
+            <Label  Text="{Binding Xaml}"/>
+        </ScrollView>
+        <ScrollView Grid.Column="1" Grid.Row="1">
+            <Label Text="{Binding CSharp}"/>
+        </ScrollView>
+        <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" TextColor="Red" Text="{Binding Error}"/>
+    </Grid>
 
-            <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding Error}"></Label>
-        </Grid>
-    </ScrollView>
-    
 </ContentPage>

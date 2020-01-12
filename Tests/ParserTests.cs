@@ -13,20 +13,20 @@ namespace Tests
     public class ParserTests
     {
         string code = @"
-@LabelEntry(string Label,string Text)
+@LabelEntry(string label,string Text)
 {
 	<StackLayout>
-		<Label Text=""@Label""/>
+		<Label Text=""@label""/>
 		<Entry Text=""@Text""/>
 	</StackLayout>
 }
 ";
 
         string codeMissingBracket = @"
-@LabelEntry(string Label,string Text)
+@LabelEntry(string label,string Text)
 {
 	<StackLayout>
-		<Label Text=""@Label""/>
+		<Label Text=""@label""/>
 		<Entry Text=""@Text""/>
 	</StackLayout>
 ";
@@ -40,14 +40,43 @@ namespace Tests
         }
 
         string codeMissingParenthesis = @"
-@LabelEntry(string Label,string Text
+@LabelEntry(string label,string Text
 {
 	<StackLayout>
-		<Label Text=""@Label""/>
+		<Label Text=""@label""/>
 		<Entry Text=""@Text""/>
 	</StackLayout>
 }
 ";
+
+        private string codeMultipleTypes = @"
+@LabelEntry(string label,string Text)
+{
+	<StackLayout>
+		<Entry Text=""@Text""/>
+		<Entry Text=""@Text""/>
+		<Entry Text=""@Text""/>
+	</StackLayout>
+}";
+
+        Templator templator = new Templator();
+
+       [Test]
+        public void MultipleControlTypes_Should_ChangeName()
+        {
+            var result = templator.Generate(codeMultipleTypes, "test").First();
+
+            result.CSharp.Content.Should().Contain("_Entry");
+            result.Xaml.Content.Should().Contain("_Entry");
+
+            result.CSharp.Content.Should().Contain("_Entry1");
+            result.Xaml.Content.Should().Contain("_Entry1");
+            result.CSharp.Content.Should().Contain("_Entry2");
+            result.Xaml.Content.Should().Contain("_Entry2");
+        }
+
+
+        Generator gen = new Generator();
 
         [Test]
         public void Ast_MissingParenthesis_Should_ThrowException()
@@ -80,7 +109,7 @@ namespace Tests
             var tamlAst = new TamlAst();
 
             string code = @"
-@LabelEntry(string Label,string Text)
+@LabelEntry(string label,string Text)
 {
     <Label 
         xmlns:x=""http://schemas.microsoft.com/winfx/2009/xaml"" 
@@ -100,11 +129,8 @@ namespace Tests
         [Test]
         public void GenerateFiles()
         {
-            var parser = new TamlParser();
 
-            var tamlAst = new TamlAst();
 
-            var gen = new Generator();
             var tokens = parser.GetTokens(code);
 
             var program = tamlAst.Evaluate(tokens);
@@ -120,10 +146,10 @@ namespace Tests
         }
 
         private string advanced = @"
-@EntryAndPicker(string Label,string Text, IEnumerable<string> Data, string SelectedItem)
+@EntryAndPicker(string label,string Text, IEnumerable<string> Data, string SelectedItem)
 {
 <StackLayout>
-    <Label Text=""@Label""/>
+    <Label Text=""@label""/>
     <Entry Text=""@Text""/>
     <Label Text=""Result:""/>
     <Label Text=""@Text""/>

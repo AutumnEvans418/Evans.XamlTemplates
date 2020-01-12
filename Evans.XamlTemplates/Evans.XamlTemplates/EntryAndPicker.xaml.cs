@@ -13,31 +13,33 @@ namespace Evans.XamlTemplates
     {
         public static BindableProperty LabelProperty = 
             BindableProperty.Create(nameof(Label), typeof(string), typeof(EntryAndPicker), default, BindingMode.TwoWay);
-public static BindableProperty TextProperty = 
+        public static BindableProperty TextProperty = 
             BindableProperty.Create(nameof(Text), typeof(string), typeof(EntryAndPicker), default, BindingMode.TwoWay);
-public static BindableProperty DataProperty = 
+        public static BindableProperty DataProperty = 
             BindableProperty.Create(nameof(Data), typeof(IEnumerable<string>), typeof(EntryAndPicker), default, BindingMode.TwoWay);
-public static BindableProperty SelectedItemProperty = 
+        public static BindableProperty SelectedItemProperty = 
             BindableProperty.Create(nameof(SelectedItem), typeof(string), typeof(EntryAndPicker), default, BindingMode.TwoWay);
 
         public EntryAndPicker()
         {
             InitializeComponent();
             _Label.BindingContext = this;
-_Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
-_Entry.BindingContext = this;
-_Entry.SetBinding(Xamarin.Forms.Entry.TextProperty,nameof(Text));
-_Picker.BindingContext = this;
-_Picker.SetBinding(Xamarin.Forms.Picker.ItemsSourceProperty,nameof(Data));
-_Picker.SetBinding(Xamarin.Forms.Picker.SelectedItemProperty,nameof(SelectedItem));
-_Label2.BindingContext = this;
-_Label2.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(SelectedItem));
+            _Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
+            _Entry.BindingContext = this;
+            _Entry.SetBinding(Xamarin.Forms.Entry.TextProperty,nameof(Text));
+            _Label1.BindingContext = this;
+            _Label1.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Text));
+            _Picker.BindingContext = this;
+            _Picker.SetBinding(Xamarin.Forms.Picker.ItemsSourceProperty,nameof(Data));
+            _Picker.SetBinding(Xamarin.Forms.Picker.SelectedItemProperty,nameof(SelectedItem));
+            _Label2.BindingContext = this;
+            _Label2.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(SelectedItem));
 
         }
         public string Label { get => (string)GetValue(LabelProperty); set => SetValue(LabelProperty, value); }
-public string Text { get => (string)GetValue(TextProperty); set => SetValue(TextProperty, value); }
-public IEnumerable<string> Data { get => (IEnumerable<string>)GetValue(DataProperty); set => SetValue(DataProperty, value); }
-public string SelectedItem { get => (string)GetValue(SelectedItemProperty); set => SetValue(SelectedItemProperty, value); }
+        public string Text { get => (string)GetValue(TextProperty); set => SetValue(TextProperty, value); }
+        public IEnumerable<string> Data { get => (IEnumerable<string>)GetValue(DataProperty); set => SetValue(DataProperty, value); }
+        public string SelectedItem { get => (string)GetValue(SelectedItemProperty); set => SetValue(SelectedItemProperty, value); }
 
     }
 }
