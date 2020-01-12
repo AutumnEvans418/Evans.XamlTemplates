@@ -2,3 +2,7 @@
 {
 	<Label Text="@Hello"/>
 }
+
+@TestFour(string hi){
+	<Entry Text="test"/>
+}
