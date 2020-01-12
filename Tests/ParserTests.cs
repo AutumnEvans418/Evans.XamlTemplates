@@ -85,6 +85,7 @@ namespace Tests
 
             
             Console.WriteLine(result.First().Xaml.Content);
+            Console.WriteLine(result.First().CSharp.Content);
         }
 
     }

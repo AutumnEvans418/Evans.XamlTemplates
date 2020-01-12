@@ -1,68 +1,102 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 
 namespace Evans.XamlTemplates.Generator
 {
+    
+
     public class GenerateCSharp
     {
-        private string CSharpTemplate = @"
+        private string AssemblyName => Assembly.GetExecutingAssembly().GetName().Name;
+
+        private string CSharpTemplate => @"
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Evans.XamlTemplates
+namespace "+ AssemblyName + @"
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LabelEntry : ContentView
+    public partial class" + Template?.ClassName + @": ContentView
     {
-        public static BindableProperty LabelProperty = 
-            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
-        public static BindableProperty TextProperty = 
-            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
-        public LabelEntry()
+        " + GenerateBindableProperties() + @"
+        public " + Template?.ClassName + @"()
         {
             InitializeComponent();
-            _Label.BindingContext = this;
-            _Entry.BindingContext = this;
-            _Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
-            _Entry.SetBinding(Xamarin.Forms.Entry.TextProperty, nameof(Text));
+            " + GenerateConstructor() + @"
         }
-        public string Label
-        {
-            get => (string)GetValue(LabelProperty);
-            set => SetValue(LabelProperty, value);
-        }
-        public string Text
-        {
-            get => (string)GetValue(TextProperty);
-            set => SetValue(TextProperty, value);
-        } 
+        " + GenerateProperties() + @"
     }
 }";
-
-
-        private readonly NameGenerator _nameGenerator;
-
-        public GenerateCSharp(NameGenerator nameGenerator)
+        private string GenerateConstructor()
         {
-            _nameGenerator = nameGenerator;
+            if (NameGenerator == null) return "";
+            //var str = @"_Label.BindingContext = this;
+            //_Entry.BindingContext = this;
+            //_Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
+            //_Entry.SetBinding(Xamarin.Forms.Entry.TextProperty, nameof(Text));";
+            var str = "";
+            foreach (var control in NameGenerator.NamedControls)
+            {
+                str += $"{control.Key}.BindingContext = this;{Environment.NewLine}";
+
+                foreach (var property in control.Value.ControlProperties.Where(p=>p.IsParameter))
+                {
+                    str += $"{control.Key}.SetBinding(Xamarin.Forms.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
+                }
+            }
+
+            return str;
         }
-        public string Result { get; set; }
-
-        public GeneratedFile Generate(Template template)
+        private string GenerateProperties()
         {
-            Result = "";
+            if (Template == null) return "";
+            var parameters = Template.Parameters;
+            var str = "";
+
+            foreach (var parameter in parameters)
+            {
+                str += @"public " + parameter.Type + @" Label { get => (" + parameter.Type + @")GetValue(" + parameter.Name + @"Property); set => SetValue(" + parameter.Name + @"Property, value); }
+";
+            }
+
+            return str;
+        }
+
+        string GenerateBindableProperties()
+        {
+            if (Template == null) return "";
+            var parameters = Template.Parameters;
+            var str = "";
+
+            foreach (var parameter in parameters)
+            {
+                str += $@"public static BindableProperty {parameter.Name}Property = 
+            BindableProperty.Create(nameof({parameter.Name}), typeof({parameter.Type}), typeof({Template?.ClassName}), default, BindingMode.TwoWay);
+";
+            }
+
+            return str;
+        }
+
+        public Template? Template { get; set; }
+        public NameGenerator? NameGenerator { get; set; }
+        public GeneratedFile Generate(Template template, NameGenerator nameGenerator)
+        {
+            Template = template;
+            NameGenerator = nameGenerator;
             var name = template.ClassName;
             var file = new GeneratedFile();
 
             file.FileName = name + ".xaml.cs";
-            file.Content = Result;
+            file.Content = CSharpTemplate;
             return file;
         }
     }
 
     public class GenerateXaml
     {
-        private readonly NameGenerator _nameGenerator;
         private string AssemblyName => Assembly.GetExecutingAssembly().GetName().Name;
         private string XamlTemplate => $@"
 <?xml version=""1.0"" encoding=""UTF-8""?>
@@ -77,36 +111,15 @@ namespace Evans.XamlTemplates
     </ContentView.Content>
 </ContentView>";
 
-        public GenerateXaml(NameGenerator nameGenerator)
-        {
-            _nameGenerator = nameGenerator;
-        }
         
         string AddNamesToXml(Body? body)
         {
             if (body == null) return "";
-            RecurseControls(body.Controls);
             return body.Xml.OuterXml;
         }
 
-        void RecurseControls(IEnumerable<Control> controls)
-        {
-            foreach (var control in controls)
-            {
-                if (control.HasParameter)
-                {
-                    if (control.Node.Attributes != null && control.Node.OwnerDocument != null)
-                    {
-                        //control.Node.Attributes.RemoveAll();
-                        var att = control.Node.OwnerDocument.CreateAttribute("x","Name", "http://schemas.microsoft.com/winfx/2009/xaml");
-                        att.Value = _nameGenerator.AddControl(control);
-                        control.Node.Attributes.Append(att);
-                    }
-                }
-                RecurseControls(control.ChildControls);
-            }
-        }
-        public Template Template { get; set; }
+        
+        public Template? Template { get; set; }
         public GeneratedFile Generate(Template template)
         {
             Template = template;

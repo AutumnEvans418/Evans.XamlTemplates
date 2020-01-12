@@ -4,9 +4,26 @@ namespace Evans.XamlTemplates.Generator
 {
     public class NameGenerator
     {
-
-        public NameGenerator()
+        void RecurseControls(IEnumerable<Control> controls)
         {
+            foreach (var control in controls)
+            {
+                if (control.HasParameter)
+                {
+                    if (control.Node.Attributes != null && control.Node.OwnerDocument != null)
+                    {
+                        //control.Node.Attributes.RemoveAll();
+                        var att = control.Node.OwnerDocument.CreateAttribute("x", "Name", "http://schemas.microsoft.com/winfx/2009/xaml");
+                        att.Value = AddControl(control);
+                        control.Node.Attributes.Append(att);
+                    }
+                }
+                RecurseControls(control.ChildControls);
+            }
+        }
+        public NameGenerator(IEnumerable<Control> controls)
+        {
+            RecurseControls(controls);
             //map the types and names here instead of the xamlgenerator.  That way it doesn't matter which is run first
         }
         Dictionary<string, int> controlPrefix = new Dictionary<string, int>();
@@ -27,7 +44,6 @@ namespace Evans.XamlTemplates.Generator
             {
                 NamedControls.Add(name, control);
             }
-
             return name;
         }
     }

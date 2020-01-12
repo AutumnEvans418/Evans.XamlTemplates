@@ -10,6 +10,6 @@ namespace Evans.XamlTemplates
 
         public string ClassName { get; set; } = "";
         public List<Parameter> Parameters { get; set; } = new List<Parameter>();
-        public Body? Body { get; set; }
+        public Body? Body { get; set; } 
     }
 }
