@@ -15,12 +15,13 @@ namespace Evans.XamlTemplates
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        protected void SetProperty<T>(ref T prop, T value, Action? action = null)
+        protected void SetProperty<T>(ref T prop, T value, Action? action = null, [CallerMemberName] string? propertyName = null)
         {
             if (prop?.Equals(value) != true)
             {
                 prop = value;
                 action?.Invoke();
+                OnPropertyChanged(propertyName);
             }
         }
 

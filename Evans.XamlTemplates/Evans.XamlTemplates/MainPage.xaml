@@ -16,7 +16,7 @@
             <local:CodeEditor Grid.Column="0" label="Type Here" code="{Binding Code}"/>
 
             <local:CodeEditor Grid.Column="1" label="Xaml" code="{Binding Xaml}"/>
-
+            
             <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding Error}"></Label>
         </Grid>
     </ScrollView>
