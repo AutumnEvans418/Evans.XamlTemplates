@@ -1,0 +1,27 @@
+﻿@page "/"
+<h1>Xaml Templates</h1>
+
+Try writing some code and see the result!
+
+
+
+
+
+@code {
+    
+    private string Code = "";
+    private string Xaml = "";
+    private string CSharp = "";
+
+    Evans.XamlTemplates.Templator gen = new Evans.XamlTemplates.Templator();
+    private void CodeChanged()
+    {
+        var result = gen.Generate(Code,"Templates");
+
+        Xaml = result[0].Xaml.Content;
+        CSharp = result[0].CSharp.Content;
+    }
+
+}
+
+@*<SurveyPrompt Title="How is Blazor working for you?" />*@
