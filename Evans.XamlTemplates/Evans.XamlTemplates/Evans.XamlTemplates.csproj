@@ -13,7 +13,7 @@
   
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.5.0.129452" />
-    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.3">
+    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>

@@ -1,0 +1,4 @@
+﻿@Test(string Hello)
+{
+	<Label Text="@Hello"/>
+}
