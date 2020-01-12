@@ -210,6 +210,13 @@ foreach control
 
 # Resources
 
+## Useful Scripts
+In the msbuild task  
+```.\nuget.exe pack .\XamlTemplates.MSBuild.nuspec```  
+You can then add the package using the following command:  
+```dotnet add package XamlTemplates.MSBuild```  
+**Note: this works because Nuget.config defines a custom location for the nuget packages**
+
 - Based off my compilers project
 - creating an msbuild task:
   - https://blog.rsuter.com/implement-custom-msbuild-tasks-and-distribute-them-via-nuget/
