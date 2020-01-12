@@ -42,12 +42,33 @@ namespace Evans.XamlTemplates
             return template;
         }
 
+        private string GetTypeName()
+        {
+            var name = Peek().Value;
+            Eat(TokenType.Id);
+            if (Peek().TokenType == TokenType.BracketOpen)
+            {
+                name += Peek().Value;
+                Eat(TokenType.BracketOpen);
+                while (Peek() is { } token && token.TokenType != TokenType.BracketClose)
+                {
+                    name += Peek().Value;
+                    Eat(TokenType.Id);
+                }
+                name += Peek().Value;
+                Eat(TokenType.BracketClose);
+            }
+           
+
+            return name;
+        }
+
         private Parameter GetParameter()
         {
             var parameter = new Parameter(Peek());
 
-            parameter.Type = Peek().Value;
-            Eat(TokenType.Id);
+            parameter.Type = GetTypeName();
+
             parameter.Name = Peek().Value;
             Eat(TokenType.Id);
             return parameter;

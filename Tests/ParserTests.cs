@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Evans.XamlTemplates;
 using Evans.XamlTemplates.Generator;
@@ -88,6 +90,58 @@ namespace Tests
             Console.WriteLine(result.First().CSharp.Content);
         }
 
+        private string advanced = @"
+@EntryAndPicker(string Label,string Text, IEnumerable<string> data, string selectedItem)
+{
+<StackLayout>
+    <Label Text=""@Label""/>
+    <Entry Text=""@Text""/>
+    <Label Text=""Result:""/>
+    <Label Text=""@Text""/>
+    <Picker ItemsSource=""@data"" SelectedItem=""@selectedItem""/>
+    <Label Text=""@selectedItem""/>
+</StackLayout>
+}";
+        [Test]
+        public void GenerateFiles_Advanced()
+        {
+            var result = GeneratedTypes();
+
+            result.First().Xaml.FileName.Should().Be("EntryAndPicker.xaml");
+            result.First().CSharp.FileName.Should().Be("EntryAndPicker.xaml.cs");
+
+
+            Console.WriteLine(result.First().Xaml.Content);
+            Console.WriteLine(result.First().CSharp.Content);
+        }
+
+        private IEnumerable<GeneratedType> GeneratedTypes()
+        {
+            var parser = new TamlParser();
+
+            var tamlAst = new TamlAst();
+
+            var gen = new Generator();
+            var tokens = parser.GetTokens(advanced);
+
+            var program = tamlAst.Evaluate(tokens);
+
+            var result = gen.Generate(program);
+            return result;
+        }
+
+        [Test]
+        public void WriteToFile()
+        {
+            var path = @"..\Evans.XamlTemplates\Evans.XamlTemplates";
+            var result = GeneratedTypes();
+
+            foreach (var generatedType in result)
+            {
+                File.WriteAllText(Path.Combine(path,generatedType.CSharp.FileName), generatedType.CSharp.Content);
+                File.WriteAllText(Path.Combine(path,generatedType.Xaml.FileName), generatedType.Xaml.Content);
+            }
+        }
     }
 
     
