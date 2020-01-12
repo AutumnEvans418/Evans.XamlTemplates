@@ -5,7 +5,7 @@ namespace Evans.XamlTemplates.Generator
 {
     public class GenerateXaml
     {
-        private string AssemblyName => Assembly.GetExecutingAssembly().GetName().Name;
+        public string AssemblyName { get; set; } = Assembly.GetCallingAssembly().GetName().Name;
         private string XamlTemplate => $@"<?xml version=""1.0"" encoding=""UTF-8""?>
 <ContentView xmlns=""http://xamarin.com/schemas/2014/forms"" 
              xmlns:x=""http://schemas.microsoft.com/winfx/2009/xaml""

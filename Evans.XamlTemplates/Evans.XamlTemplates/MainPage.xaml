@@ -13,7 +13,7 @@
     <StackLayout>
         <local:LabelEntry Label="{Binding Value}" Text="{Binding Value1}"></local:LabelEntry>
 
-        <local:EntryAndPicker Label="{Binding Value}" Text="{Binding Value1}" selectedItem="{Binding Value}" data="{Binding Data}"/>
+        <local:EntryAndPicker Label="{Binding Value}" Text="{Binding Value1}" SelectedItem="{Binding Value}" Data="{Binding Data}"/>
     </StackLayout>
     
     <!--<StackLayout>

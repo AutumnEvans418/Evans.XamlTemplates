@@ -208,3 +208,8 @@ foreach control
     - set binding for control
 ```
 
+# Resources
+
+- Based off my compilers project
+- creating an msbuild task:
+  - https://blog.rsuter.com/implement-custom-msbuild-tasks-and-distribute-them-via-nuget/

@@ -28,10 +28,10 @@ _Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
 _Entry.BindingContext = this;
 _Entry.SetBinding(Xamarin.Forms.Entry.TextProperty,nameof(Text));
 _Picker.BindingContext = this;
-_Picker.SetBinding(Xamarin.Forms.Picker.ItemsSourceProperty,nameof(data));
-_Picker.SetBinding(Xamarin.Forms.Picker.SelectedItemProperty,nameof(selectedItem));
+_Picker.SetBinding(Xamarin.Forms.Picker.ItemsSourceProperty,nameof(Data));
+_Picker.SetBinding(Xamarin.Forms.Picker.SelectedItemProperty,nameof(SelectedItem));
 _Label2.BindingContext = this;
-_Label2.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(selectedItem));
+_Label2.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(SelectedItem));
 
         }
         public string Label { get => (string)GetValue(LabelProperty); set => SetValue(LabelProperty, value); }

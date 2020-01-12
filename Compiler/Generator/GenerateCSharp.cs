@@ -6,7 +6,7 @@ namespace Evans.XamlTemplates.Generator
 {
     public class GenerateCSharp
     {
-        private string AssemblyName => Assembly.GetExecutingAssembly().GetName().Name;
+        public string AssemblyName { get; set; } = Assembly.GetCallingAssembly().GetName().Name;
 
         private string CSharpTemplate => @"
 using System;

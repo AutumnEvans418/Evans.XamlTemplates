@@ -98,8 +98,8 @@ namespace Tests
     <Entry Text=""@Text""/>
     <Label Text=""Result:""/>
     <Label Text=""@Text""/>
-    <Picker ItemsSource=""@data"" SelectedItem=""@selectedItem""/>
-    <Label Text=""@selectedItem""/>
+    <Picker ItemsSource=""@Data"" SelectedItem=""@SelectedItem""/>
+    <Label Text=""@SelectedItem""/>
 </StackLayout>
 }";
         [Test]
@@ -122,6 +122,9 @@ namespace Tests
             var tamlAst = new TamlAst();
 
             var gen = new Generator();
+
+            gen.Namespace = "Evans.XamlTemplates";
+
             var tokens = parser.GetTokens(advanced);
 
             var program = tamlAst.Evaluate(tokens);
