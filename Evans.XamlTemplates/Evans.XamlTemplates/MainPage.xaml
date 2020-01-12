@@ -2,32 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Evans.XamlTemplates"
-             x:Class="Evans.XamlTemplates.MainPage">
-    <ContentPage.Resources>
-        <!--<StackLayout x:Key="Test">
-            <Label Text="Here are the templates:"></Label>
-            <Label Text="{Binding Test}"/>
-            <Label Text="{Binding Test1}"></Label>
-        </StackLayout>-->
-    </ContentPage.Resources>
-    <StackLayout>
-        <local:LabelEntry Label="{Binding Value}" Text="{Binding Value1}"></local:LabelEntry>
+             x:Class="Evans.XamlTemplates.MainPage" x:DataType="local:SandboxViewModel">
+    <ScrollView>
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <local:CodeEditor Grid.Column="0" label="Type Here" code="{Binding Code}"/>
 
-        <local:EntryAndPicker Label="{Binding Value}" Text="{Binding Value1}" SelectedItem="{Binding Value}" Data="{Binding Data}"/>
-    </StackLayout>
-    
-    <!--<StackLayout>
-        <Label Text="{Binding Value}"></Label>
-        <Label Text="{Binding Value1}"></Label>
-        <ContentView Content="{StaticResource Test}">
-            <local:TemplateSystem.TemplateProperties>
-                <local:BindingPropertyList>
-                    <local:BindingProperty Name="Test" Value="{Binding Value}"/>
-                    <local:BindingProperty Name="Test1" Value="{Binding Value2}"/>
-                </local:BindingPropertyList>
-            </local:TemplateSystem.TemplateProperties>
-        </ContentView>
-    </StackLayout>-->
-    
+            <local:CodeEditor Grid.Column="1" label="Xaml" code="{Binding Xaml}"/>
 
+            <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding Error}"></Label>
+        </Grid>
+    </ScrollView>
+    
 </ContentPage>

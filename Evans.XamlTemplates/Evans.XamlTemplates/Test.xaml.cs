@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-namespace MSBuild
+namespace Evans.XamlTemplates
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Test: ContentView

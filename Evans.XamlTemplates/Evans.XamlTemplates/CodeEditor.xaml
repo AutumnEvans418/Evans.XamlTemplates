@@ -4,8 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Evans.XamlTemplates.Test">
+             x:Class="Evans.XamlTemplates.CodeEditor">
   <ContentView.Content>
-      <Label Text="@Hello" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+      <StackLayout><Label Text="@label" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" /><Entry HeightRequest="500" Text="@code" x:Name="_Entry" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"></Entry></StackLayout>
     </ContentView.Content>
 </ContentView>
