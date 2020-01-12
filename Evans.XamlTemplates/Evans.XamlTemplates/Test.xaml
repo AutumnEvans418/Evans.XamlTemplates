@@ -6,6 +6,6 @@
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.Test">
   <ContentView.Content>
-      <Label Text="@Hello" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+      <Label x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
     </ContentView.Content>
 </ContentView>

@@ -61,7 +61,30 @@ namespace Tests
 
         Templator templator = new Templator();
 
-       [Test]
+
+        private string codeWithNumberId = @"
+@CodeEditor2(string label, string test)
+{
+	<CodeEditor/>
+}";
+        private string codeWithUnderScoreId = @"
+@CodeEditor2_(string label, string test)
+{
+	<CodeEditor/>
+}";
+
+        [Test]
+        public void IdWithNumber_Should_Pass()
+        {
+            templator.Generate(codeWithNumberId, "test");
+        }
+        [Test]
+        public void IdWithUnderScore_Should_Pass()
+        {
+            templator.Generate(codeWithUnderScoreId, "test");
+        }
+
+        [Test]
         public void MultipleControlTypes_Should_ChangeName()
         {
             var result = templator.Generate(codeMultipleTypes, "test").First();

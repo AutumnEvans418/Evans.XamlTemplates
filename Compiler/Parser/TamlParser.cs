@@ -35,7 +35,7 @@ namespace Evans.XamlTemplates
                 else if (char.IsLetter(val))
                 {
                     var id = "";
-                    while (Peek() is { } c && char.IsLetter(c))
+                    while (Peek() is { } c && (char.IsLetter(c) || char.IsNumber(c) || c == '_'))
                     {
                         id += c;
                         Move();

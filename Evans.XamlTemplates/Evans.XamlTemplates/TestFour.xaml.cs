@@ -17,7 +17,7 @@ namespace Evans.XamlTemplates
         public TestFour()
         {
             InitializeComponent();
-            
+
         }
         public string hi { get => (string)GetValue(hiProperty); set => SetValue(hiProperty, value); }
 

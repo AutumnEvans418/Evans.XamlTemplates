@@ -18,7 +18,7 @@ namespace Evans.XamlTemplates
         {
             InitializeComponent();
             _Label.BindingContext = this;
-_Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Hello));
+            _Label.SetBinding(Label.TextProperty,nameof(Hello));
 
         }
         public string Hello { get => (string)GetValue(HelloProperty); set => SetValue(HelloProperty, value); }

@@ -15,3 +15,9 @@
         <Entry Text="@code" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></Entry>
     </StackLayout>
 }
+
+
+@CodeEditor2(string label, string test)
+{
+	<CodeEditor/>
+}

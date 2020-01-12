@@ -13,20 +13,20 @@ namespace Evans.XamlTemplates
     {
         public static BindableProperty labelProperty = 
             BindableProperty.Create(nameof(label), typeof(string), typeof(CodeEditor), default, BindingMode.TwoWay);
-public static BindableProperty codeProperty = 
+        public static BindableProperty codeProperty = 
             BindableProperty.Create(nameof(code), typeof(string), typeof(CodeEditor), default, BindingMode.TwoWay);
 
         public CodeEditor()
         {
             InitializeComponent();
             _Label.BindingContext = this;
-_Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(label));
-_Entry.BindingContext = this;
-_Entry.SetBinding(Xamarin.Forms.Entry.TextProperty,nameof(code));
+            _Label.SetBinding(Label.TextProperty,nameof(label));
+            _Entry.BindingContext = this;
+            _Entry.SetBinding(Entry.TextProperty,nameof(code));
 
         }
         public string label { get => (string)GetValue(labelProperty); set => SetValue(labelProperty, value); }
-public string code { get => (string)GetValue(codeProperty); set => SetValue(codeProperty, value); }
+        public string code { get => (string)GetValue(codeProperty); set => SetValue(codeProperty, value); }
 
     }
 }
