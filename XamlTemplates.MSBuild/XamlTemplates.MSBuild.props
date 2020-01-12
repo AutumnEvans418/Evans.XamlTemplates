@@ -1,29 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <UsingTask TaskName="MyInlineTask"
-             TaskFactory="CodeTaskFactory"
-             AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll">
-    <ParameterGroup>
-      <MyParameter ParameterType="System.String" Required="true" />
-    </ParameterGroup>
-    <Task>
-      <Using Namespace="System"/>
-      <Using Namespace="System.Collections.Generic"/>
-      <Using Namespace="System.IO"/>
-      <Using Namespace="System.Linq"/>
-      <Using Namespace="System.Text"/>
-      <Using Namespace="System.Text.RegularExpressions"/>
-      <Code Type="Fragment" Language="cs">
-        <![CDATA[
-                    var myParameter = this.MyParameter;             
-                    Log.LogMessage(MessageImportance.High, "Hello from MyInlineTask: " + myParameter);
-                ]]>
-      </Code>
-    </Task>
-  </UsingTask>
-  <UsingTask TaskName="MyExternalTask" AssemblyFile="XamlTemplates.MSBuild.dll"/>
-  <Target Name="MyTasks" AfterTargets="AfterBuild">
-    <MyInlineTask MyParameter="Foo" />
-    <MyExternalTask MyParameter="Bar" />
+  <UsingTask TaskName="XamlTemplates" AssemblyFile="XamlTemplates.MSBuild.dll"/>
+  <Target Name="MyTasks" AfterTargets="BeforeBuild">
+    <XamlTemplates Namespace="$(AssemblyName)" />
   </Target>
 </Project>
