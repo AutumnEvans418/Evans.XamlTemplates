@@ -21,30 +21,26 @@ namespace " + AssemblyName + @"
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class " + Template?.ClassName + @": ContentView
     {
-        " + GenerateBindableProperties() + @"
+" + GenerateBindableProperties() + @"
         public " + Template?.ClassName + @"()
         {
             InitializeComponent();
-            " + GenerateConstructor() + @"
+" + GenerateConstructor() + @"
         }
-        " + GenerateProperties() + @"
+" + GenerateProperties() + @"
     }
 }";
         private string GenerateConstructor()
         {
             if (NameGenerator == null) return "";
-            //var str = @"_Label.BindingContext = this;
-            //_Entry.BindingContext = this;
-            //_Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
-            //_Entry.SetBinding(Xamarin.Forms.Entry.TextProperty, nameof(Text));";
             var str = "";
             foreach (var control in NameGenerator.NamedControls)
             {
-                str += $"{control.Key}.BindingContext = this;{Environment.NewLine}";
+                str += $"            {control.Key}.BindingContext = this;{Environment.NewLine}";
 
                 foreach (var property in control.Value.ControlProperties.Where(p=>p.IsParameter))
                 {
-                    str += $"{control.Key}.SetBinding(Xamarin.Forms.{control.Value.Name}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
+                    str += $"            {control.Key}.SetBinding({control.Value.Name}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
                 }
             }
 
@@ -58,7 +54,7 @@ namespace " + AssemblyName + @"
 
             foreach (var parameter in parameters)
             {
-                str += @"public " + parameter.Type + @" " + parameter.Name + @" { get => (" + parameter.Type + @")GetValue(" + parameter.Name + @"Property); set => SetValue(" + parameter.Name + @"Property, value); }
+                str += @"        public " + parameter.Type + @" " + parameter.Name + @" { get => (" + parameter.Type + @")GetValue(" + parameter.Name + @"Property); set => SetValue(" + parameter.Name + @"Property, value); }
 ";
             }
 
@@ -73,7 +69,7 @@ namespace " + AssemblyName + @"
 
             foreach (var parameter in parameters)
             {
-                str += $@"public static BindableProperty {parameter.Name}Property = 
+                str += $@"        public static BindableProperty {parameter.Name}Property = 
             BindableProperty.Create(nameof({parameter.Name}), typeof({parameter.Type}), typeof({Template?.ClassName}), default, BindingMode.TwoWay);
 ";
             }
