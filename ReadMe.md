@@ -244,6 +244,12 @@ Notice how much code it takes to just make a template?  There needs to be a simp
 
 # Developers
 
+## How to build
+
+- Run the ```packAndUpdate.ps1``` powershell script.  This will update the msbuild task and add it to the Evans.XamlTemplates Project
+- Right click solution -> Build Solution
+
+
 ## Feature List
 
 - [ ] Allow to nest templates, such as one template calling another
