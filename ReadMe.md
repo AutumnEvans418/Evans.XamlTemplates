@@ -260,6 +260,7 @@ Notice how much code it takes to just make a template?  There needs to be a simp
 - [ ] Add generated code warning
 - [ ] Add line to the error message
 - [ ] Add syntax highlighting for taml files
+- [ ] Add ability to generate c# methods and event handling
 
 # Analysis
 
