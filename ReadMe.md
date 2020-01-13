@@ -1,10 +1,36 @@
-# Xaml Templates
+# Xaml Templates (Work in Progress)
+**This project is not production ready and just shows how a template system for xaml could work**
+
+## Reasoning (Why does this exist?)
+- Better reuse of components
+- Inspired by the razor engine in asp.net core.
+- Write less code!
+- Mix C# and xaml to generate your view (think razor)
+- Compatible with current xaml projects.
+  - Use as much or as little templates as needed
+
+## How it works
+1. Install the XamlTemplates.MSBuild nuget to your Xamarin.Forms .net standard project
+2. Create a file called ```Templates.taml```
+3. Add the following code ```@HelloLabel() { <Label Text="Hello World!"/> } ```
+4. Build the project
+5. This should generate ```HelloLabel.xaml``` and ```HelloLabel.xaml.cs```
+6. You can now use this template in you xaml like so:  ```<local:HelloLabel/>```
+
+
 Xaml templates is a templating engine for xamarin forms that allows you to build templates with ease without having to make custom controls.
 
 **Turn 40+ lines of code to just 8**
 
 ## Examples
 Below is an example of a template in a file called template.taml
+
+**Easily use templates in your xaml app**
+![](Assets/example.gif)
+**Easy to add and update templates, which update the project on build**
+![](Assets/example2.gif)
+
+![](Assets/example3.gif)
 
 ### Basic Example
 

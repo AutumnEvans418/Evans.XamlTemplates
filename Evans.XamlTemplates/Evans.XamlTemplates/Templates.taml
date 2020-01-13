@@ -1,8 +1,8 @@
 ﻿
-@CodeEditor(string Code)
+@CodeEditor(string Code, bool Visible)
 {
 	<ScrollView>
-        <Label Text="@Code"/>
+        <Label Text="@Code" IsVisible="@Visible"/>
     </ScrollView>
 }
 
