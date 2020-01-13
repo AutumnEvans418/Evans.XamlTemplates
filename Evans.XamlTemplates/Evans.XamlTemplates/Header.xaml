@@ -5,10 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:Evans.XamlTemplates"
              mc:Ignorable="d"
-             x:Class="Evans.XamlTemplates.CodeEditor">
+             x:Class="Evans.XamlTemplates.Header">
   <ContentView.Content>
-      <ScrollView>
-  <Label x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
-</ScrollView>
+      <Label FontSize="Large" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
     </ContentView.Content>
 </ContentView>

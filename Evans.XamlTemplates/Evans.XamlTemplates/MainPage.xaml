@@ -45,6 +45,7 @@
 
     <ContentPage Title="Entries">
         <StackLayout Margin="10">
+            <local:Header Text="{Binding Entry1}"/>
             <local:LabelEntry text="{Binding Entry1}" label="Entry One!" Margin="0,0,0,10"/>
 
             <local:LabelEntry text="{Binding Entry2}" label="Entry Two!"/>

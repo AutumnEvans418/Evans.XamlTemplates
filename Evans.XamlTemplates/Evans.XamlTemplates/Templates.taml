@@ -14,3 +14,9 @@
 		  <Label Text="@text"/>
       </StackLayout>
 }
+
+
+@Header(string Text)
+{
+    <Label Text="@Text" FontSize="Large"/>
+}
