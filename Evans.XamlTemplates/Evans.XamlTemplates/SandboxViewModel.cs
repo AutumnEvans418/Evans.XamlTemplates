@@ -5,6 +5,18 @@ namespace Evans.XamlTemplates
 {
     public class SandboxViewModel : BindableBase
     {
+        public string Entry1
+        {
+            get => _entry1;
+            set => SetProperty(ref _entry1,value);
+        }
+
+        public string Entry2
+        {
+            get => _entry2;
+            set => SetProperty(ref _entry2,value);
+        }
+
         public string Code
         {
             get => _code;
@@ -34,6 +46,8 @@ namespace Evans.XamlTemplates
         private string _xaml = "";
         private string _cSharp = "";
         private string _error = "";
+        private string _entry1;
+        private string _entry2;
 
         public SandboxViewModel()
         {

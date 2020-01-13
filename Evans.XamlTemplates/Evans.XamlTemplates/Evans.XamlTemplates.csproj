@@ -13,7 +13,7 @@
   
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.5.0.129452" />
-    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.8">
+    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.9">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
@@ -24,9 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="EntryAndPicker.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="LabelEntry.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

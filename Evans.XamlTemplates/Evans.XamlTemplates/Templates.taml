@@ -1,23 +1,16 @@
-﻿@Test(string Hello)
+﻿
+@CodeEditor(string Code)
 {
-	<Label Text="@Hello"/>
+	<ScrollView>
+        <Label Text="@Code"/>
+    </ScrollView>
 }
 
-@TestFour(string hi){
-	<Entry Text="test"/>
-}
-
-
-@CodeEditor(string label, string code)
+@LabelEntry(string label, string text)
 {
-	<StackLayout>
-        <Label Text="@label"/>
-        <Entry Text="@code" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></Entry>
-    </StackLayout>
-}
-
-
-@CodeEditor2(string label, string test)
-{
-	<CodeEditor/>
+	 <StackLayout>
+          <Label Text="@label"/>
+          <Entry Text="@text"/>
+		  <Label Text="@text"/>
+      </StackLayout>
 }

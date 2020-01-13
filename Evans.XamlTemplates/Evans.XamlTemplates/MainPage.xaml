@@ -1,30 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Evans.XamlTemplates"
-             x:Class="Evans.XamlTemplates.MainPage" x:DataType="local:SandboxViewModel">
-    <Grid Margin="10">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="Auto"></RowDefinition>
-        </Grid.RowDefinitions>
-        <!--<local:CodeEditor Grid.Column="0" label="Type Here" code="{Binding Code}"/>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Evans.XamlTemplates"
+    x:Class="Evans.XamlTemplates.MainPage" x:DataType="local:SandboxViewModel">
+    <ContentPage Title="Normal">
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Editor Grid.Column="0" Grid.RowSpan="2" Text="{Binding Code}"/>
+            <ScrollView Grid.Column="1" Grid.Row="0">
+                <Label  Text="{Binding Xaml}"/>
+            </ScrollView>
+            <ScrollView Grid.Column="1" Grid.Row="1">
+                <Label Text="{Binding CSharp}"/>
+            </ScrollView>
+            <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" TextColor="Red" Text="{Binding Error}"/>
+        </Grid>
 
-            <local:CodeEditor Grid.Column="1" label="Xaml" code="{Binding Xaml}"/>-->
+    </ContentPage>
+    <ContentPage Title="Templates">
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Editor Grid.Column="0" Grid.RowSpan="2" Text="{Binding Code}"/>
+            <local:CodeEditor Code="{Binding Xaml}" Grid.Column="1" Grid.Row="0"/>
+            <local:CodeEditor Code="{Binding CSharp}" Grid.Column="1" Grid.Row="1"/>
+            <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" TextColor="Red" Text="{Binding Error}"/>
+        </Grid>
+    </ContentPage>
 
-        <Editor Grid.Column="0" Grid.RowSpan="2" Text="{Binding Code}"/>
-        <ScrollView Grid.Column="1" Grid.Row="0">
-            <Label  Text="{Binding Xaml}"/>
-        </ScrollView>
-        <ScrollView Grid.Column="1" Grid.Row="1">
-            <Label Text="{Binding CSharp}"/>
-        </ScrollView>
-        <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" TextColor="Red" Text="{Binding Error}"/>
-    </Grid>
+    <ContentPage Title="Entries">
+        <StackLayout Margin="10">
+            <local:LabelEntry text="{Binding Entry1}" label="Entry One!" Margin="0,0,0,10"/>
 
-</ContentPage>
+            <local:LabelEntry text="{Binding Entry2}" label="Entry Two!"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
+
+

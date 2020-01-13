@@ -9,10 +9,10 @@ Below is an example of a template in a file called template.taml
 ### Basic Example
 
 ```csharp
-@LabelEntry(string Label,string Text)
+@LabelEntry(string label,string Text)
 {
 	<StackLayout>
-		<Label Text="@Label"/>
+		<Label Text="@label"/>
 		<Entry Text="@Text"/>
 	</StackLayout>
 }
@@ -48,19 +48,19 @@ namespace Evans.XamlTemplates
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LabelEntry : ContentView
     {
-        public static BindableProperty LabelProperty = 
-            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
+        public static BindableProperty labelProperty = 
+            BindableProperty.Create(nameof(label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
         public static BindableProperty TextProperty = 
-            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
+            BindableProperty.Create(nameof(Text), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
         public LabelEntry()
         {
             InitializeComponent();
             _Label.BindingContext = this;
             _Entry.BindingContext = this;
-            _Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
-            _Entry.SetBinding(Xamarin.Forms.Entry.TextProperty, nameof(Text));
+            _Label.SetBinding(Label.TextProperty,nameof(label));
+            _Entry.SetBinding(Entry.TextProperty, nameof(Text));
         }
-        public string Label
+        public string label
         {
             get => (string)GetValue(LabelProperty);
             set => SetValue(LabelProperty, value);

@@ -6,9 +6,8 @@
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.CodeEditor">
   <ContentView.Content>
-      <StackLayout>
+      <ScrollView>
   <Label x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
-  <Entry VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" x:Name="_Entry" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"></Entry>
-</StackLayout>
+</ScrollView>
     </ContentView.Content>
 </ContentView>

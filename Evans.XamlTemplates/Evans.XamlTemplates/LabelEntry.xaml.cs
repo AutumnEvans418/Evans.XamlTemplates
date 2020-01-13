@@ -1,32 +1,34 @@
-﻿using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 namespace Evans.XamlTemplates
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LabelEntry : ContentView
+    public partial class LabelEntry: ContentView
     {
-        public static BindableProperty LabelProperty = 
-            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
-        public static BindableProperty TextProperty = 
-            BindableProperty.Create(nameof(Label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
+        public static BindableProperty labelProperty = 
+            BindableProperty.Create(nameof(label), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
+        public static BindableProperty textProperty = 
+            BindableProperty.Create(nameof(text), typeof(string), typeof(LabelEntry), default, BindingMode.TwoWay);
+
         public LabelEntry()
         {
             InitializeComponent();
             _Label.BindingContext = this;
+            _Label.SetBinding(Label.TextProperty,nameof(label));
             _Entry.BindingContext = this;
-            _Label.SetBinding(Xamarin.Forms.Label.TextProperty,nameof(Label));
-            _Entry.SetBinding(Xamarin.Forms.Entry.TextProperty, nameof(Text));
+            _Entry.SetBinding(Entry.TextProperty,nameof(text));
+            _Label1.BindingContext = this;
+            _Label1.SetBinding(Label.TextProperty,nameof(text));
+
         }
-        public string Label
-        {
-            get => (string)GetValue(LabelProperty);
-            set => SetValue(LabelProperty, value);
-        }
-        public string Text
-        {
-            get => (string)GetValue(TextProperty);
-            set => SetValue(TextProperty, value);
-        } 
+        public string label { get => (string)GetValue(labelProperty); set => SetValue(labelProperty, value); }
+        public string text { get => (string)GetValue(textProperty); set => SetValue(textProperty, value); }
+
     }
 }

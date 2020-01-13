@@ -11,22 +11,17 @@ namespace Evans.XamlTemplates
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CodeEditor: ContentView
     {
-        public static BindableProperty labelProperty = 
-            BindableProperty.Create(nameof(label), typeof(string), typeof(CodeEditor), default, BindingMode.TwoWay);
-        public static BindableProperty codeProperty = 
-            BindableProperty.Create(nameof(code), typeof(string), typeof(CodeEditor), default, BindingMode.TwoWay);
+        public static BindableProperty CodeProperty = 
+            BindableProperty.Create(nameof(Code), typeof(string), typeof(CodeEditor), default, BindingMode.TwoWay);
 
         public CodeEditor()
         {
             InitializeComponent();
             _Label.BindingContext = this;
-            _Label.SetBinding(Label.TextProperty,nameof(label));
-            _Entry.BindingContext = this;
-            _Entry.SetBinding(Entry.TextProperty,nameof(code));
+            _Label.SetBinding(Label.TextProperty,nameof(Code));
 
         }
-        public string label { get => (string)GetValue(labelProperty); set => SetValue(labelProperty, value); }
-        public string code { get => (string)GetValue(codeProperty); set => SetValue(codeProperty, value); }
+        public string Code { get => (string)GetValue(CodeProperty); set => SetValue(CodeProperty, value); }
 
     }
 }
