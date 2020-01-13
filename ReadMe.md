@@ -242,6 +242,25 @@ namespace Evans.XamlTemplates
 
 Notice how much code it takes to just make a template?  There needs to be a simpler solution
 
+# Developers
+
+## Feature List
+
+- [ ] Allow to nest templates, such as one template calling another
+- [ ] Support third party controls, such as syncfusion
+- [ ] Default value support for parameters ex. ```string test = "test"```
+- [ ] Allow the use of ```@if``` statements
+- [ ] Support ```@foreach``` statements
+- [x] Add example project
+- [x] Create example website
+- [ ] Support WPF
+- [ ] Support UWP
+- [x] Support Xamarin.Forms
+- [ ] Add parameters to MSBuild that can be customized
+- [ ] Add generated code warning
+- [ ] Add line to the error message
+- [ ] Add syntax highlighting for taml files
+
 # Analysis
 
 ## What needs to be known?
