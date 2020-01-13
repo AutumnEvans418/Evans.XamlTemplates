@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Evans.XamlTemplates"
+             mc:Ignorable="d"
+             x:Class="Evans.XamlTemplates.Section">
+  <ContentView.Content>
+      <StackLayout>
+  <Label FontSize="Large" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+  <ContentView x:Name="_ContentView" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+</StackLayout>
+    </ContentView.Content>
+</ContentView>

@@ -2,7 +2,7 @@
   <assembly fullname="Evans.XamlTemplates.Wasm" />
   <assembly fullname="Uno.UI" />
   <assembly fullname="Evans.XamlTemplates" />
-
+  <assembly fullname="Compiler"/>
   <assembly fullname="System.Core">
 	<!-- This is required by Json.NET and any expression.Compile caller -->
 	<type fullname="System.Linq.Expressions*" />

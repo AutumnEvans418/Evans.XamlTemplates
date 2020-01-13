@@ -20,3 +20,11 @@
 {
     <Label Text="@Text" FontSize="Large"/>
 }
+
+@Section(string Header, object SectionContent)
+{
+    <StackLayout>
+        <Label Text="@Header" FontSize="Large"/>
+        <ContentView Content="@SectionContent"/>
+    </StackLayout>
+}

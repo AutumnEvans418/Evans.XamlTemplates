@@ -46,8 +46,8 @@ namespace Evans.XamlTemplates
         private string _xaml = "";
         private string _cSharp = "";
         private string _error = "";
-        private string _entry1;
-        private string _entry2;
+        private string _entry1 = "";
+        private string _entry2 = "";
 
         public SandboxViewModel()
         {

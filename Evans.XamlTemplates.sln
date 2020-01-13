@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AA6773F-B40C-41AD-BC5A-5F5690206024}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		Nuget.Config = Nuget.Config
 		packAndUpdate.ps1 = packAndUpdate.ps1
 		ReadMe.md = ReadMe.md
@@ -26,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evans.XamlTemplates.iOS", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evans.XamlTemplates.UWP", "Evans.XamlTemplates.UWP\Evans.XamlTemplates.UWP.csproj", "{2621F20F-32E8-49C4-80CB-71475B00E9DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evans.XamlTemplates.Wasm", "Evans.XamlTemplates.Wasm\Evans.XamlTemplates.Wasm.csproj", "{7CBF0976-1FD3-48FC-AE79-DDCBF3F82AEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evans.XamlTemplates.Wasm", "Evans.XamlTemplates.Wasm\Evans.XamlTemplates.Wasm.csproj", "{7CBF0976-1FD3-48FC-AE79-DDCBF3F82AEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
