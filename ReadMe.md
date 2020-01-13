@@ -7,7 +7,42 @@
 - Write less code!
 - Mix C# and xaml to generate your view (think razor)
 - Compatible with current xaml projects.
-  - Use as much or as little templates as needed
+  - Use as much or as little templates as needed  
+
+Additionally, I really **hate** writing 
+```xml
+<StackLayout>
+    <Label Text="First Name"/>
+    <Entry Text="{Binding FirstName}"/>
+    <Label Text="Last Name"/>
+    <Entry Text="{Binding LastName}"/>
+    <Label Text="Age"/>
+    <Entry Text="{Binding Age}"/>
+</StackLayout>
+``` 
+over and over again
+
+I'd rather write this:
+
+```xml
+<local:Entry Caption="First Name" Text="{Binding FirstName}"/>
+<local:Entry Caption="Last Name" Text="{Binding LastName}"/>
+<local:Entry Caption="Age" Text="{Binding Age}"/>
+```
+
+We can do this by writing this in our Templates.taml file:
+
+```csharp
+@Entry(string Caption, string Text)
+{
+    <StackLayout>
+        <Label Text="@Caption"/>
+        <Entry Text="@Text"/>        
+    </StackLayout>
+}
+```
+
+This will generate the desired control as seen above
 
 ## How it works
 1. Install the XamlTemplates.MSBuild nuget to your Xamarin.Forms .net standard project
