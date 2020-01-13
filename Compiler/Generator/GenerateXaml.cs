@@ -11,6 +11,7 @@ namespace Evans.XamlTemplates.Generator
              xmlns:x=""http://schemas.microsoft.com/winfx/2009/xaml""
              xmlns:d=""http://xamarin.com/schemas/2014/forms/design""
              xmlns:mc=""http://schemas.openxmlformats.org/markup-compatibility/2006""
+             xmlns:local=""clr-namespace:{AssemblyName}""
              mc:Ignorable=""d""
              x:Class=""{AssemblyName}.{Template?.ClassName}"">
   <ContentView.Content>
