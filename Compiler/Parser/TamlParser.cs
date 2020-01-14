@@ -32,6 +32,10 @@ namespace Evans.XamlTemplates
                 {
                     Add(TokenType.At,val.ToString());
                 }
+                else if (val == '.')
+                {
+                    Add(TokenType.Period, val.ToString());
+                }
                 else if (char.IsLetter(val))
                 {
                     var id = "";
