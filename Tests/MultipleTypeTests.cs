@@ -7,7 +7,7 @@ namespace Tests
     [TestFixture]
     public class MultipleTypeTests
     {
-        string code = @"
+       public const string code = @"
 @LabelEntry(string label,string Text)
 {
 	<StackLayout>
@@ -30,9 +30,38 @@ namespace Tests
 }
 ";
 
+       public const string codeWithoutXmlns = @"
+@Header(string Text)
+{
+    <Label Text=""@Text"" FontSize=""Large""/>
+}
+@Section(string Header, object Content)
+{
+    <StackLayout>
+        <local:Header Text=""@Header""/>
+        <ContentView Content=""@Content""/>
+    </StackLayout>
+}
+";
+        public const string codeWithoutXmlnsAndLocal = @"
+@Header(string Text)
+{
+    <Label Text=""@Text"" FontSize=""Large""/>
+}
+@Section(string HeaderText, object Content)
+{
+    <StackLayout>
+        <Header Text=""@HeaderText""/>
+        <ContentView Content=""@Content""/>
+    </StackLayout>
+}
+";
+
         readonly Templator templator = new Templator();
-        [Test]
-        public void EmbbedTypes_Should_Pass()
+        [TestCase(code)]
+        [TestCase(codeWithoutXmlns)]
+        [TestCase(codeWithoutXmlnsAndLocal)]
+        public void EmbbedTypes_Should_Pass(string code)
         {
             var result = templator.Generate(code, "Example");
 
