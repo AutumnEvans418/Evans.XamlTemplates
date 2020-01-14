@@ -11,7 +11,7 @@ namespace Evans.XamlTemplates
             Xml = xml;
         }
 
-        public string FormattedXml => XDocument.Parse(Xml.OuterXml).ToString();
+        public string FormattedXml => XDocument.Parse(Xml.FirstChild.InnerXml).ToString();
 
         public XmlDocument Xml { get; set; }
         public List<Control> Controls { get; set; } = new List<Control>();

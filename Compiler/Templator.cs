@@ -38,7 +38,14 @@ namespace Evans.XamlTemplates
         {
             gen.Namespace = Namespace;
             var tokens = parser.GetTokens(code);
-            var t = ast.Evaluate(tokens);
+
+            var defaultDeclarations = new List<string>
+            {
+                $"xmlns:local=\"clr-namespace:{Namespace}\"",
+                $"xmlns:x=\"http://schemas.microsoft.com/winfx/2009/xaml\""
+            };
+
+            var t = ast.Evaluate(tokens, defaultDeclarations);
             var checker= new SyntaxChecker(t);
             checker.CheckSyntax();
             return gen.Generate(t).ToList();

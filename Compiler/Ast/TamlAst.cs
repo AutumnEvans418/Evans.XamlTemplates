@@ -113,9 +113,12 @@ namespace Evans.XamlTemplates
 
             var reader = new XmlDocument();
             
+            
+
             try
             {
-                reader.LoadXml(xml);
+                var declarations = _defaultXmlDeclaration.Aggregate(" ", (s, s1) => s + " " + s1);
+                reader.LoadXml($"<_Root {declarations}>" +  xml + "</_Root>");
             }
             catch (XmlException e)
             {
@@ -132,7 +135,7 @@ namespace Evans.XamlTemplates
 
         private List<Control> ParseXml(XmlDocument reader)
         {
-            return RecurseXml(reader.ChildNodes.Cast<XmlNode>().ToList());
+            return RecurseXml(reader.FirstChild.ChildNodes.Cast<XmlNode>().ToList());
         }
 
         List<Control> RecurseXml(List<XmlNode> parentNode)
@@ -174,8 +177,10 @@ namespace Evans.XamlTemplates
             return program;
         }
 
-        public Program Evaluate(IEnumerable<Token> tokens)
+        private IEnumerable<string> _defaultXmlDeclaration = new List<string>();
+        public Program Evaluate(IEnumerable<Token> tokens, IEnumerable<string>? defaultXmlDeclarations = null)
         {
+            _defaultXmlDeclaration = defaultXmlDeclarations ?? new List<string>();
             Index = 0;
             Input = tokens.ToList();
             return GetProgram();
