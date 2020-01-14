@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Syncfusion.SfDataGrid.XForms.UWP;
 
 namespace Evans.XamlTemplates.UWP
 {
@@ -20,7 +21,7 @@ namespace Evans.XamlTemplates.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            SfDataGridRenderer.Init();
             LoadApplication(new Evans.XamlTemplates.App());
         }
     }

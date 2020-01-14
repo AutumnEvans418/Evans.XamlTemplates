@@ -2,6 +2,7 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Evans.XamlTemplates"
+    xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
     x:Class="Evans.XamlTemplates.MainPage" x:DataType="local:SandboxViewModel">
     <ContentPage Title="Normal">
         <Grid Margin="10">
@@ -56,6 +57,11 @@
                 </local:Section.SectionContent>
             </local:Section>
         </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Syncfusion">
+        <syncfusion:SfDataGrid ItemsSource="{Binding Data}">
+            <syncfusion:SfDataGrid.AutoGenerateColumns>True</syncfusion:SfDataGrid.AutoGenerateColumns>
+        </syncfusion:SfDataGrid>
     </ContentPage>
 </TabbedPage>
 

@@ -1,20 +1,50 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace Evans.XamlTemplates
 {
+    public class Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
+    }
     public class SandboxViewModel : BindableBase
     {
+     
+        readonly Templator _templator = new Templator();
+        private string _code = Examples.Basic;
+        private string _xaml = "";
+        private string _cSharp = "";
+        private string _error = "";
+        private string _entry1 = "";
+        private string _entry2 = "";
+
+        public SandboxViewModel()
+        {
+            CodeChanged();
+
+            Data = new ObservableCollection<Person>
+            {
+                new Person {Age = 45, FirstName = "Steve", LastName = "Stephens"},
+                new Person {Age = 32, FirstName = "Test", LastName = "Man"},
+                new Person {Age = 48, FirstName = "Test", LastName = "Man"},
+                new Person {Age = 6, FirstName = "Baby", LastName = "Yoda"},
+            };
+        }
+
+        public ObservableCollection<Person> Data { get; set; }
         public string Entry1
         {
             get => _entry1;
-            set => SetProperty(ref _entry1,value);
+            set => SetProperty(ref _entry1, value);
         }
 
         public string Entry2
         {
             get => _entry2;
-            set => SetProperty(ref _entry2,value);
+            set => SetProperty(ref _entry2, value);
         }
 
         public string Code
@@ -38,21 +68,9 @@ namespace Evans.XamlTemplates
         public string Error
         {
             get => _error;
-            set => SetProperty(ref _error,value);
+            set => SetProperty(ref _error, value);
         }
 
-        readonly Templator _templator = new Templator();
-        private string _code = Examples.Basic;
-        private string _xaml = "";
-        private string _cSharp = "";
-        private string _error = "";
-        private string _entry1 = "";
-        private string _entry2 = "";
-
-        public SandboxViewModel()
-        {
-            CodeChanged();
-        }
         public void CodeChanged()
         {
             try

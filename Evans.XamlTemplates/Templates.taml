@@ -28,3 +28,4 @@
         <ContentView Content="@SectionContent"/>
     </StackLayout>
 }
+

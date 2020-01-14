@@ -26,6 +26,2050 @@ namespace Evans.XamlTemplates.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::Evans.XamlTemplates.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::Evans.XamlTemplates.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::Evans.XamlTemplates.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_in = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_fade_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_out = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_fade_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_grow_fade_in_from_bottom = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_popup_enter = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_popup_enter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_popup_exit = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_popup_exit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_in_bottom = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_in_top = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_slide_in_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_out_bottom = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_out_top = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_slide_out_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_in = global::Evans.XamlTemplates.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_out = global::Evans.XamlTemplates.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_snackbar_in = global::Evans.XamlTemplates.Droid.Resource.Animation.design_snackbar_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_snackbar_out = global::Evans.XamlTemplates.Droid.Resource.Animation.design_snackbar_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.EnterFromLeft = global::Evans.XamlTemplates.Droid.Resource.Animation.EnterFromLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.EnterFromRight = global::Evans.XamlTemplates.Droid.Resource.Animation.EnterFromRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.ExitToLeft = global::Evans.XamlTemplates.Droid.Resource.Animation.ExitToLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.ExitToRight = global::Evans.XamlTemplates.Droid.Resource.Animation.ExitToRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_appbar_state_list_animator = global::Evans.XamlTemplates.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarDivider = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarItemBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarPopupTheme = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarSize = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarSplitStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabBarStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabTextStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTheme = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarWidgetTheme = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionDropDownStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionMenuTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionMenuTextColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCloseButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCloseDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCopyDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCutDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeFindDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModePasteDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModePopupWindowStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeSelectAllDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeShareDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeSplitBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeWebSearchDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowMenuStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionProviderClass = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionProviderClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionViewClass = global::Evans.XamlTemplates.Droid.Resource.Attribute.actionViewClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.activityChooserViewStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogButtonGroupStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogCenterButtons = global::Evans.XamlTemplates.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.alertDialogStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogTheme = global::Evans.XamlTemplates.Droid.Resource.Attribute.alertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.allowStacking = global::Evans.XamlTemplates.Droid.Resource.Attribute.allowStacking;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alpha = global::Evans.XamlTemplates.Droid.Resource.Attribute.alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alphabeticModifiers = global::Evans.XamlTemplates.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowHeadLength = global::Evans.XamlTemplates.Droid.Resource.Attribute.arrowHeadLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowShaftLength = global::Evans.XamlTemplates.Droid.Resource.Attribute.arrowShaftLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoCompleteTextViewStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeMaxTextSize = global::Evans.XamlTemplates.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeMinTextSize = global::Evans.XamlTemplates.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizePresetSizes = global::Evans.XamlTemplates.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeStepGranularity = global::Evans.XamlTemplates.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeTextType = global::Evans.XamlTemplates.Droid.Resource.Attribute.autoSizeTextType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.background = global::Evans.XamlTemplates.Droid.Resource.Attribute.background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundSplit = global::Evans.XamlTemplates.Droid.Resource.Attribute.backgroundSplit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundStacked = global::Evans.XamlTemplates.Droid.Resource.Attribute.backgroundStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTint = global::Evans.XamlTemplates.Droid.Resource.Attribute.backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTintMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.barLength = global::Evans.XamlTemplates.Droid.Resource.Attribute.barLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_autoHide = global::Evans.XamlTemplates.Droid.Resource.Attribute.behavior_autoHide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_hideable = global::Evans.XamlTemplates.Droid.Resource.Attribute.behavior_hideable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_overlapTop = global::Evans.XamlTemplates.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_peekHeight = global::Evans.XamlTemplates.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_skipCollapsed = global::Evans.XamlTemplates.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderWidth = global::Evans.XamlTemplates.Droid.Resource.Attribute.borderWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderlessButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomSheetDialogTheme = global::Evans.XamlTemplates.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomSheetStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNegativeButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNeutralButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarPositiveButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonGravity = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonPanelSideLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonStyleSmall = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonTint = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonTintMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.buttonTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardBackgroundColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardCornerRadius = global::Evans.XamlTemplates.Droid.Resource.Attribute.cardCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardElevation = global::Evans.XamlTemplates.Droid.Resource.Attribute.cardElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardMaxElevation = global::Evans.XamlTemplates.Droid.Resource.Attribute.cardMaxElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardPreventCornerOverlap = global::Evans.XamlTemplates.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardUseCompatPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkboxStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.checkboxStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedTextViewStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIcon = global::Evans.XamlTemplates.Droid.Resource.Attribute.closeIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeItemLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.closeItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseContentDescription = global::Evans.XamlTemplates.Droid.Resource.Attribute.collapseContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseIcon = global::Evans.XamlTemplates.Droid.Resource.Attribute.collapseIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleGravity = global::Evans.XamlTemplates.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.color = global::Evans.XamlTemplates.Droid.Resource.Attribute.color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorAccent = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorAccent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorBackgroundFloating = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorButtonNormal = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorButtonNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlActivated = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorControlActivated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlHighlight = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorControlHighlight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlNormal = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorControlNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorError = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorError;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimary = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorPrimary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimaryDark = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSwitchThumbNormal = global::Evans.XamlTemplates.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.commitIcon = global::Evans.XamlTemplates.Droid.Resource.Attribute.commitIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentDescription = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetEnd = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetEndWithActions = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetLeft = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentInsetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetRight = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentInsetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetStart = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetStartWithNavigation = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingBottom = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingLeft = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingRight = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingTop = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentScrim = global::Evans.XamlTemplates.Droid.Resource.Attribute.contentScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.controlBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.controlBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterEnabled = global::Evans.XamlTemplates.Droid.Resource.Attribute.counterEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterMaxLength = global::Evans.XamlTemplates.Droid.Resource.Attribute.counterMaxLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterOverflowTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.counterTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.customNavigationLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.customNavigationLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.defaultQueryHint = global::Evans.XamlTemplates.Droid.Resource.Attribute.defaultQueryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogPreferredPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogTheme = global::Evans.XamlTemplates.Droid.Resource.Attribute.dialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.displayOptions = global::Evans.XamlTemplates.Droid.Resource.Attribute.displayOptions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.divider = global::Evans.XamlTemplates.Droid.Resource.Attribute.divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerHorizontal = global::Evans.XamlTemplates.Droid.Resource.Attribute.dividerHorizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.dividerPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerVertical = global::Evans.XamlTemplates.Droid.Resource.Attribute.dividerVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableSize = global::Evans.XamlTemplates.Droid.Resource.Attribute.drawableSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawerArrowStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropDownListViewStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropdownListPreferredItemHeight = global::Evans.XamlTemplates.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.editTextBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.editTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.editTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.elevation = global::Evans.XamlTemplates.Droid.Resource.Attribute.elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorEnabled = global::Evans.XamlTemplates.Droid.Resource.Attribute.errorEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.errorTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expanded = global::Evans.XamlTemplates.Droid.Resource.Attribute.expanded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleGravity = global::Evans.XamlTemplates.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMargin = global::Evans.XamlTemplates.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginBottom = global::Evans.XamlTemplates.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginEnd = global::Evans.XamlTemplates.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginStart = global::Evans.XamlTemplates.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginTop = global::Evans.XamlTemplates.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabSize = global::Evans.XamlTemplates.Droid.Resource.Attribute.fabSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollEnabled = global::Evans.XamlTemplates.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.font = global::Evans.XamlTemplates.Droid.Resource.Attribute.font;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontFamily = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderAuthority = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderCerts = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontProviderCerts;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderFetchStrategy = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderFetchTimeout = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderPackage = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontProviderPackage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderQuery = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontProviderQuery;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontWeight = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.foregroundInsidePadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.gapBetweenBars = global::Evans.XamlTemplates.Droid.Resource.Attribute.gapBetweenBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.goIcon = global::Evans.XamlTemplates.Droid.Resource.Attribute.goIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.headerLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.headerLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.height = global::Evans.XamlTemplates.Droid.Resource.Attribute.height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideOnContentScroll = global::Evans.XamlTemplates.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintAnimationEnabled = global::Evans.XamlTemplates.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintEnabled = global::Evans.XamlTemplates.Droid.Resource.Attribute.hintEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.hintTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeAsUpIndicator = global::Evans.XamlTemplates.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.homeLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.icon = global::Evans.XamlTemplates.Droid.Resource.Attribute.icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTint = global::Evans.XamlTemplates.Droid.Resource.Attribute.iconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTintMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.iconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconifiedByDefault = global::Evans.XamlTemplates.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.imageButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.imageButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.indeterminateProgressStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.initialActivityCount = global::Evans.XamlTemplates.Droid.Resource.Attribute.initialActivityCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.insetForeground = global::Evans.XamlTemplates.Droid.Resource.Attribute.insetForeground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.isLightTheme = global::Evans.XamlTemplates.Droid.Resource.Attribute.isLightTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconTint = global::Evans.XamlTemplates.Droid.Resource.Attribute.itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.itemPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.itemTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.keylines = global::Evans.XamlTemplates.Droid.Resource.Attribute.keylines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layoutManager = global::Evans.XamlTemplates.Droid.Resource.Attribute.layoutManager;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_anchor = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_anchorGravity = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_behavior = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_collapseMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_collapseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_collapseParallaxMultiplier = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_dodgeInsetEdges = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_insetEdge = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_insetEdge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_keyline = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_keyline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollFlags = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollInterpolator = global::Evans.XamlTemplates.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceBackgroundIndicator = global::Evans.XamlTemplates.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listDividerAlertDialog = global::Evans.XamlTemplates.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listItemLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.listItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.listLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listMenuViewStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPopupWindowStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeight = global::Evans.XamlTemplates.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightLarge = global::Evans.XamlTemplates.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightSmall = global::Evans.XamlTemplates.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingLeft = global::Evans.XamlTemplates.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingRight = global::Evans.XamlTemplates.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logo = global::Evans.XamlTemplates.Droid.Resource.Attribute.logo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logoDescription = global::Evans.XamlTemplates.Droid.Resource.Attribute.logoDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxActionInlineWidth = global::Evans.XamlTemplates.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxButtonHeight = global::Evans.XamlTemplates.Droid.Resource.Attribute.maxButtonHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.measureWithLargestChild = global::Evans.XamlTemplates.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.menu = global::Evans.XamlTemplates.Droid.Resource.Attribute.menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.multiChoiceItemLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationContentDescription = global::Evans.XamlTemplates.Droid.Resource.Attribute.navigationContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationIcon = global::Evans.XamlTemplates.Droid.Resource.Attribute.navigationIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.navigationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.numericModifiers = global::Evans.XamlTemplates.Droid.Resource.Attribute.numericModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.overlapAnchor = global::Evans.XamlTemplates.Droid.Resource.Attribute.overlapAnchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingBottomNoButtons = global::Evans.XamlTemplates.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingEnd = global::Evans.XamlTemplates.Droid.Resource.Attribute.paddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingStart = global::Evans.XamlTemplates.Droid.Resource.Attribute.paddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingTopNoTitle = global::Evans.XamlTemplates.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.panelBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelMenuListTheme = global::Evans.XamlTemplates.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelMenuListWidth = global::Evans.XamlTemplates.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleContentDescription = global::Evans.XamlTemplates.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleDrawable = global::Evans.XamlTemplates.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleEnabled = global::Evans.XamlTemplates.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTint = global::Evans.XamlTemplates.Droid.Resource.Attribute.passwordToggleTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTintMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupMenuStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.popupMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupTheme = global::Evans.XamlTemplates.Droid.Resource.Attribute.popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupWindowStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.popupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.preserveIconSpacing = global::Evans.XamlTemplates.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.pressedTranslationZ = global::Evans.XamlTemplates.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.progressBarPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.progressBarPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.progressBarStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.progressBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.queryBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryHint = global::Evans.XamlTemplates.Droid.Resource.Attribute.queryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.radioButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.radioButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.ratingBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleIndicator = global::Evans.XamlTemplates.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleSmall = global::Evans.XamlTemplates.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.reverseLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.reverseLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.rippleColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimAnimationDuration = global::Evans.XamlTemplates.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimVisibleHeightTrigger = global::Evans.XamlTemplates.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchHintIcon = global::Evans.XamlTemplates.Droid.Resource.Attribute.searchHintIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchIcon = global::Evans.XamlTemplates.Droid.Resource.Attribute.searchIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchViewStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.searchViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.seekBarStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.seekBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.selectableItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackgroundBorderless = global::Evans.XamlTemplates.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showAsAction = global::Evans.XamlTemplates.Droid.Resource.Attribute.showAsAction;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showDividers = global::Evans.XamlTemplates.Droid.Resource.Attribute.showDividers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showText = global::Evans.XamlTemplates.Droid.Resource.Attribute.showText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showTitle = global::Evans.XamlTemplates.Droid.Resource.Attribute.showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleChoiceItemLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spanCount = global::Evans.XamlTemplates.Droid.Resource.Attribute.spanCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinBars = global::Evans.XamlTemplates.Droid.Resource.Attribute.spinBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinnerDropDownItemStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinnerStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.spinnerStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.splitTrack = global::Evans.XamlTemplates.Droid.Resource.Attribute.splitTrack;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.srcCompat = global::Evans.XamlTemplates.Droid.Resource.Attribute.srcCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.stackFromEnd = global::Evans.XamlTemplates.Droid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_above_anchor = global::Evans.XamlTemplates.Droid.Resource.Attribute.state_above_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsed = global::Evans.XamlTemplates.Droid.Resource.Attribute.state_collapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsible = global::Evans.XamlTemplates.Droid.Resource.Attribute.state_collapsible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.statusBarBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarScrim = global::Evans.XamlTemplates.Droid.Resource.Attribute.statusBarScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subMenuArrow = global::Evans.XamlTemplates.Droid.Resource.Attribute.subMenuArrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.submitBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.submitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitle = global::Evans.XamlTemplates.Droid.Resource.Attribute.subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.subtitleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suggestionRowLayout = global::Evans.XamlTemplates.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchMinWidth = global::Evans.XamlTemplates.Droid.Resource.Attribute.switchMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.switchPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.switchStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.switchTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabContentStart = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabContentStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabGravity = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorHeight = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMaxWidth = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabMaxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMinWidth = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingBottom = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingEnd = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingStart = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabPaddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingTop = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabSelectedTextColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabTextColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.tabTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAllCaps = global::Evans.XamlTemplates.Droid.Resource.Attribute.textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceLargePopupMenu = global::Evans.XamlTemplates.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItem = global::Evans.XamlTemplates.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSecondary = global::Evans.XamlTemplates.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSmall = global::Evans.XamlTemplates.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearancePopupMenuHeader = global::Evans.XamlTemplates.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Evans.XamlTemplates.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSearchResultTitle = global::Evans.XamlTemplates.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSmallPopupMenu = global::Evans.XamlTemplates.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorAlertDialogListItem = global::Evans.XamlTemplates.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorSearchUrl = global::Evans.XamlTemplates.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.theme = global::Evans.XamlTemplates.Droid.Resource.Attribute.theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thickness = global::Evans.XamlTemplates.Droid.Resource.Attribute.thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTextPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.thumbTextPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTint = global::Evans.XamlTemplates.Droid.Resource.Attribute.thumbTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTintMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.thumbTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMark = global::Evans.XamlTemplates.Droid.Resource.Attribute.tickMark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTint = global::Evans.XamlTemplates.Droid.Resource.Attribute.tickMarkTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTintMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tint = global::Evans.XamlTemplates.Droid.Resource.Attribute.tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tintMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.tintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.title = global::Evans.XamlTemplates.Droid.Resource.Attribute.title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleEnabled = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargin = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginBottom = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginEnd = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginStart = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginTop = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargins = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleMargins;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.titleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarId = global::Evans.XamlTemplates.Droid.Resource.Attribute.toolbarId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarNavigationButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarStyle = global::Evans.XamlTemplates.Droid.Resource.Attribute.toolbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipForegroundColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipFrameBackground = global::Evans.XamlTemplates.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipText = global::Evans.XamlTemplates.Droid.Resource.Attribute.tooltipText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.track = global::Evans.XamlTemplates.Droid.Resource.Attribute.track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTint = global::Evans.XamlTemplates.Droid.Resource.Attribute.trackTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTintMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.trackTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.useCompatPadding = global::Evans.XamlTemplates.Droid.Resource.Attribute.useCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.voiceIcon = global::Evans.XamlTemplates.Droid.Resource.Attribute.voiceIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionBar = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionBarOverlay = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionModeOverlay = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedHeightMajor = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedHeightMinor = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedWidthMajor = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedWidthMinor = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMajor = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMinor = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowNoTitle = global::Evans.XamlTemplates.Droid.Resource.Attribute.windowNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_action_bar_embed_tabs = global::Evans.XamlTemplates.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_allow_stacked_button_bar = global::Evans.XamlTemplates.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Evans.XamlTemplates.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_background_cache_hint_selector_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_borderless_text_material = global::Evans.XamlTemplates.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_text_material = global::Evans.XamlTemplates.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_color_highlight_material = global::Evans.XamlTemplates.Droid.Resource.Color.abc_color_highlight_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_input_method_navigation_guard = global::Evans.XamlTemplates.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_disable_only_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_disable_only_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text = global::Evans.XamlTemplates.Droid.Resource.Color.abc_search_url_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_normal = global::Evans.XamlTemplates.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_pressed = global::Evans.XamlTemplates.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_selected = global::Evans.XamlTemplates.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_secondary_text_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_secondary_text_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_btn_checkable = global::Evans.XamlTemplates.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_default = global::Evans.XamlTemplates.Droid.Resource.Color.abc_tint_default;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_edittext = global::Evans.XamlTemplates.Droid.Resource.Color.abc_tint_edittext;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_seek_thumb = global::Evans.XamlTemplates.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_spinner = global::Evans.XamlTemplates.Droid.Resource.Color.abc_tint_spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_switch_track = global::Evans.XamlTemplates.Droid.Resource.Color.abc_tint_switch_track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.accent_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.accent_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.background_floating_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.background_floating_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.background_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.background_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_disabled_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_disabled_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_inverse_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_inverse_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.bright_foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.button_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.button_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.button_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.button_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_dark_background = global::Evans.XamlTemplates.Droid.Resource.Color.cardview_dark_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_light_background = global::Evans.XamlTemplates.Droid.Resource.Color.cardview_light_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_end_color = global::Evans.XamlTemplates.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_start_color = global::Evans.XamlTemplates.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_bottom_navigation_shadow_color = global::Evans.XamlTemplates.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_error = global::Evans.XamlTemplates.Droid.Resource.Color.design_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_end_color = global::Evans.XamlTemplates.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_mid_color = global::Evans.XamlTemplates.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_start_color = global::Evans.XamlTemplates.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_end_inner_color = global::Evans.XamlTemplates.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_end_outer_color = global::Evans.XamlTemplates.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_inner_color = global::Evans.XamlTemplates.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_outer_color = global::Evans.XamlTemplates.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_snackbar_background_color = global::Evans.XamlTemplates.Droid.Resource.Color.design_snackbar_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_tint_password_toggle = global::Evans.XamlTemplates.Droid.Resource.Color.design_tint_password_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.dim_foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.foreground_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.foreground_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.highlighted_text_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.highlighted_text_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.highlighted_text_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_800 = global::Evans.XamlTemplates.Droid.Resource.Color.material_blue_grey_800;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_900 = global::Evans.XamlTemplates.Droid.Resource.Color.material_blue_grey_900;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_950 = global::Evans.XamlTemplates.Droid.Resource.Color.material_blue_grey_950;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_deep_teal_200 = global::Evans.XamlTemplates.Droid.Resource.Color.material_deep_teal_200;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_deep_teal_500 = global::Evans.XamlTemplates.Droid.Resource.Color.material_deep_teal_500;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_100 = global::Evans.XamlTemplates.Droid.Resource.Color.material_grey_100;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_300 = global::Evans.XamlTemplates.Droid.Resource.Color.material_grey_300;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_50 = global::Evans.XamlTemplates.Droid.Resource.Color.material_grey_50;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_600 = global::Evans.XamlTemplates.Droid.Resource.Color.material_grey_600;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_800 = global::Evans.XamlTemplates.Droid.Resource.Color.material_grey_800;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_850 = global::Evans.XamlTemplates.Droid.Resource.Color.material_grey_850;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_900 = global::Evans.XamlTemplates.Droid.Resource.Color.material_grey_900;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_action_color_filter = global::Evans.XamlTemplates.Droid.Resource.Color.notification_action_color_filter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_icon_bg_color = global::Evans.XamlTemplates.Droid.Resource.Color.notification_icon_bg_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_dark_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.primary_dark_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_dark_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.primary_dark_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.primary_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.primary_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_default_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_default_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.primary_text_default_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.ripple_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.ripple_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_default_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_default_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_disabled_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_disabled_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_disabled_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_disabled_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.switch_thumb_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_dark = global::Evans.XamlTemplates.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_light = global::Evans.XamlTemplates.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_dark = global::Evans.XamlTemplates.Droid.Resource.Color.tooltip_background_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_light = global::Evans.XamlTemplates.Droid.Resource.Color.tooltip_background_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_content_inset_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_height_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_elevation_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_stacked_max_height = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_height_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_width_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_inset_horizontal_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_inset_vertical_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_padding_horizontal_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_padding_vertical_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_config_prefDialogWidth = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_corner_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_inset_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_padding_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_height_major = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_height_minor = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_width_major = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_width_minor = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_min_width_major = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_min_width_minor = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_padding_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_padding_top_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_title_divider_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_disabled_alpha_material_dark = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_disabled_alpha_material_light = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_icon_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_top_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_floating_window_z = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_panel_menu_list_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_progress_bar_height_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_search_view_preferred_height = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_search_view_preferred_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_seekbar_track_background_height_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_select_dialog_padding_start_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_switch_padding = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_switch_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_body_1_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_body_2_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_button_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_caption_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_1_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_2_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_3_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_4_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_headline_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_large_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_medium_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_menu_header_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_menu_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_small_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_subhead_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material_toolbar = global::Evans.XamlTemplates.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_compat_inset_shadow = global::Evans.XamlTemplates.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_default_elevation = global::Evans.XamlTemplates.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_default_radius = global::Evans.XamlTemplates.Droid.Resource.Dimension.cardview_default_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_inset_horizontal_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_inset_vertical_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_padding_horizontal_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_padding_vertical_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_control_corner_material = global::Evans.XamlTemplates.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_appbar_elevation = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_text_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_elevation = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_height = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_item_max_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_item_min_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_margin = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_shadow_height = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_text_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_border_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_fab_border_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_elevation = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_fab_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_image_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_fab_image_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_size_mini = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_size_normal = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_translation_z_pressed = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_elevation = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_icon_padding = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_icon_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_max_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_padding_bottom = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_separator_vertical_padding = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_action_inline_max_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_background_corner_radius = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_elevation = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_max_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_min_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_horizontal = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_vertical = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_text_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_max_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_tab_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_scrollable_min_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_text_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_tab_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_text_size_2line = global::Evans.XamlTemplates.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.disabled_alpha_material_dark = global::Evans.XamlTemplates.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.disabled_alpha_material_light = global::Evans.XamlTemplates.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_default_thickness = global::Evans.XamlTemplates.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_margin = global::Evans.XamlTemplates.Droid.Resource.Dimension.fastscroll_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_minimum_range = global::Evans.XamlTemplates.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_colored = global::Evans.XamlTemplates.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_dark = global::Evans.XamlTemplates.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_light = global::Evans.XamlTemplates.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_alpha_material_dark = global::Evans.XamlTemplates.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_alpha_material_light = global::Evans.XamlTemplates.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_pressed_alpha_material_dark = global::Evans.XamlTemplates.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_pressed_alpha_material_light = global::Evans.XamlTemplates.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Evans.XamlTemplates.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Evans.XamlTemplates.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Evans.XamlTemplates.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_icon_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_text_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_action_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_big_circle_margin = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_content_margin_start = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_large_icon_height = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_large_icon_width = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_main_column_padding_top = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_media_narrow_margin = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_right_icon_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_right_side_padding_top = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_small_icon_background_padding = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_small_icon_size_as_large = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_subtext_size = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_subtext_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_top_pad;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad_large_text = global::Evans.XamlTemplates.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_corner_radius = global::Evans.XamlTemplates.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_horizontal_padding = global::Evans.XamlTemplates.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_margin = global::Evans.XamlTemplates.Droid.Resource.Dimension.tooltip_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Evans.XamlTemplates.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_precise_anchor_threshold = global::Evans.XamlTemplates.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_vertical_padding = global::Evans.XamlTemplates.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_y_offset_non_touch = global::Evans.XamlTemplates.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_y_offset_touch = global::Evans.XamlTemplates.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_action_bar_item_background_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_borderless_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_colored_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_default_mtrl_shape = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_internal_bg = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_top_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_control_background_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_control_background_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_dialog_material_background = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_edit_text_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_ab_back_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_clear_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_go_search_api_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_overflow_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_search_api_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_black_16dp = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_black_36dp = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_black_48dp = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_half_black_16dp = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_half_black_36dp = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_star_half_black_48dp = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_voice_search_api_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_item_background_holo_dark = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_item_background_holo_light = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_focused_holo = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_longpressed_holo = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_pressed_holo_dark = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_pressed_holo_light = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_holo_dark = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_holo_light = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_popup_background_mtrl_mult = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_indicator_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_small_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_thumb_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_tick_mark_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_track_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_spinner_textfield_background_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_switch_thumb_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_cursor_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_material = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_vector_test = global::Evans.XamlTemplates.Droid.Resource.Drawable.abc_vector_test;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar1 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar10 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar11 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar12 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar13 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar14 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar15 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar16 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar17 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar18 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar19 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar2 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar20 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar21 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar22 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar23 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar24 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar25 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar26 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar27 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar28 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar29 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar3 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar30 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar4 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar5 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar6 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar7 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar8 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar9 = global::Evans.XamlTemplates.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_hide_password = global::Evans.XamlTemplates.Droid.Resource.Drawable.avd_hide_password;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_show_password = global::Evans.XamlTemplates.Droid.Resource.Drawable.avd_show_password;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_bottom_navigation_item_background = global::Evans.XamlTemplates.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_fab_background = global::Evans.XamlTemplates.Droid.Resource.Drawable.design_fab_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_ic_visibility = global::Evans.XamlTemplates.Droid.Resource.Drawable.design_ic_visibility;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_ic_visibility_off = global::Evans.XamlTemplates.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_password_eye = global::Evans.XamlTemplates.Droid.Resource.Drawable.design_password_eye;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_snackbar_background = global::Evans.XamlTemplates.Droid.Resource.Drawable.design_snackbar_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.dropdownbuttonimage = global::Evans.XamlTemplates.Droid.Resource.Drawable.dropdownbuttonimage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.input_layout_drop_down_icon = global::Evans.XamlTemplates.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglecollapseicon = global::Evans.XamlTemplates.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglevisibleicon = global::Evans.XamlTemplates.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.navigation_empty_icon = global::Evans.XamlTemplates.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_action_background = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_action_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_bg_low;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low_normal = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low_pressed = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_normal = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_bg_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_normal_pressed = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_icon_background = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_icon_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_template_icon_bg = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_template_icon_low_bg = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_tile_bg = global::Evans.XamlTemplates.Droid.Resource.Drawable.notification_tile_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notify_panel_notification_icon_bg = global::Evans.XamlTemplates.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_dark = global::Evans.XamlTemplates.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_light = global::Evans.XamlTemplates.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ALT = global::Evans.XamlTemplates.Droid.Resource.Id.ALT;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.CTRL = global::Evans.XamlTemplates.Droid.Resource.Id.CTRL;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.FUNCTION = global::Evans.XamlTemplates.Droid.Resource.Id.FUNCTION;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.Itemname = global::Evans.XamlTemplates.Droid.Resource.Id.Itemname;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.META = global::Evans.XamlTemplates.Droid.Resource.Id.META;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SHIFT = global::Evans.XamlTemplates.Droid.Resource.Id.SHIFT;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SYM = global::Evans.XamlTemplates.Droid.Resource.Id.SYM;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar = global::Evans.XamlTemplates.Droid.Resource.Id.action_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_activity_content = global::Evans.XamlTemplates.Droid.Resource.Id.action_bar_activity_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_container = global::Evans.XamlTemplates.Droid.Resource.Id.action_bar_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_root = global::Evans.XamlTemplates.Droid.Resource.Id.action_bar_root;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_spinner = global::Evans.XamlTemplates.Droid.Resource.Id.action_bar_spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_subtitle = global::Evans.XamlTemplates.Droid.Resource.Id.action_bar_subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_title = global::Evans.XamlTemplates.Droid.Resource.Id.action_bar_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_container = global::Evans.XamlTemplates.Droid.Resource.Id.action_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_context_bar = global::Evans.XamlTemplates.Droid.Resource.Id.action_context_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_divider = global::Evans.XamlTemplates.Droid.Resource.Id.action_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_image = global::Evans.XamlTemplates.Droid.Resource.Id.action_image;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_menu_divider = global::Evans.XamlTemplates.Droid.Resource.Id.action_menu_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_menu_presenter = global::Evans.XamlTemplates.Droid.Resource.Id.action_menu_presenter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_bar = global::Evans.XamlTemplates.Droid.Resource.Id.action_mode_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_bar_stub = global::Evans.XamlTemplates.Droid.Resource.Id.action_mode_bar_stub;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_close_button = global::Evans.XamlTemplates.Droid.Resource.Id.action_mode_close_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_text = global::Evans.XamlTemplates.Droid.Resource.Id.action_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.actions = global::Evans.XamlTemplates.Droid.Resource.Id.actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.activity_chooser_view_content = global::Evans.XamlTemplates.Droid.Resource.Id.activity_chooser_view_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.add = global::Evans.XamlTemplates.Droid.Resource.Id.add;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.alertTitle = global::Evans.XamlTemplates.Droid.Resource.Id.alertTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.all = global::Evans.XamlTemplates.Droid.Resource.Id.all;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.always = global::Evans.XamlTemplates.Droid.Resource.Id.always;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.async = global::Evans.XamlTemplates.Droid.Resource.Id.async;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.auto = global::Evans.XamlTemplates.Droid.Resource.Id.auto;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.beginning = global::Evans.XamlTemplates.Droid.Resource.Id.beginning;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.blocking = global::Evans.XamlTemplates.Droid.Resource.Id.blocking;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottom = global::Evans.XamlTemplates.Droid.Resource.Id.bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_navarea = global::Evans.XamlTemplates.Droid.Resource.Id.bottomtab_navarea;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_tabbar = global::Evans.XamlTemplates.Droid.Resource.Id.bottomtab_tabbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.buttonPanel = global::Evans.XamlTemplates.Droid.Resource.Id.buttonPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center = global::Evans.XamlTemplates.Droid.Resource.Id.center;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_horizontal = global::Evans.XamlTemplates.Droid.Resource.Id.center_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_vertical = global::Evans.XamlTemplates.Droid.Resource.Id.center_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.checkbox = global::Evans.XamlTemplates.Droid.Resource.Id.checkbox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chronometer = global::Evans.XamlTemplates.Droid.Resource.Id.chronometer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_horizontal = global::Evans.XamlTemplates.Droid.Resource.Id.clip_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_vertical = global::Evans.XamlTemplates.Droid.Resource.Id.clip_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.collapseActionView = global::Evans.XamlTemplates.Droid.Resource.Id.collapseActionView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.container = global::Evans.XamlTemplates.Droid.Resource.Id.container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.contentPanel = global::Evans.XamlTemplates.Droid.Resource.Id.contentPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.coordinator = global::Evans.XamlTemplates.Droid.Resource.Id.coordinator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.custom = global::Evans.XamlTemplates.Droid.Resource.Id.custom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.customPanel = global::Evans.XamlTemplates.Droid.Resource.Id.customPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.decor_content_parent = global::Evans.XamlTemplates.Droid.Resource.Id.decor_content_parent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.default_activity_button = global::Evans.XamlTemplates.Droid.Resource.Id.default_activity_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_bottom_sheet = global::Evans.XamlTemplates.Droid.Resource.Id.design_bottom_sheet;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_action_area = global::Evans.XamlTemplates.Droid.Resource.Id.design_menu_item_action_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_action_area_stub = global::Evans.XamlTemplates.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_text = global::Evans.XamlTemplates.Droid.Resource.Id.design_menu_item_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_navigation_view = global::Evans.XamlTemplates.Droid.Resource.Id.design_navigation_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.disableHome = global::Evans.XamlTemplates.Droid.Resource.Id.disableHome;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.edit_query = global::Evans.XamlTemplates.Droid.Resource.Id.edit_query;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.end = global::Evans.XamlTemplates.Droid.Resource.Id.end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.enterAlways = global::Evans.XamlTemplates.Droid.Resource.Id.enterAlways;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.enterAlwaysCollapsed = global::Evans.XamlTemplates.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.exitUntilCollapsed = global::Evans.XamlTemplates.Droid.Resource.Id.exitUntilCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expand_activities_button = global::Evans.XamlTemplates.Droid.Resource.Id.expand_activities_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expanded_menu = global::Evans.XamlTemplates.Droid.Resource.Id.expanded_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill = global::Evans.XamlTemplates.Droid.Resource.Id.fill;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_horizontal = global::Evans.XamlTemplates.Droid.Resource.Id.fill_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_vertical = global::Evans.XamlTemplates.Droid.Resource.Id.fill_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@fixed = global::Evans.XamlTemplates.Droid.Resource.Id.@fixed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.flyoutcontent_appbar = global::Evans.XamlTemplates.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.flyoutcontent_recycler = global::Evans.XamlTemplates.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.forever = global::Evans.XamlTemplates.Droid.Resource.Id.forever;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.home = global::Evans.XamlTemplates.Droid.Resource.Id.home;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.homeAsUp = global::Evans.XamlTemplates.Droid.Resource.Id.homeAsUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.icon = global::Evans.XamlTemplates.Droid.Resource.Id.icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.icon_group = global::Evans.XamlTemplates.Droid.Resource.Id.icon_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ifRoom = global::Evans.XamlTemplates.Droid.Resource.Id.ifRoom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.image = global::Evans.XamlTemplates.Droid.Resource.Id.image;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.info = global::Evans.XamlTemplates.Droid.Resource.Id.info;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.italic = global::Evans.XamlTemplates.Droid.Resource.Id.italic;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.item_touch_helper_previous_elevation = global::Evans.XamlTemplates.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.largeLabel = global::Evans.XamlTemplates.Droid.Resource.Id.largeLabel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.left = global::Evans.XamlTemplates.Droid.Resource.Id.left;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.line1 = global::Evans.XamlTemplates.Droid.Resource.Id.line1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.line3 = global::Evans.XamlTemplates.Droid.Resource.Id.line3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.listMode = global::Evans.XamlTemplates.Droid.Resource.Id.listMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.list_item = global::Evans.XamlTemplates.Droid.Resource.Id.list_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_appbar = global::Evans.XamlTemplates.Droid.Resource.Id.main_appbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_tablayout = global::Evans.XamlTemplates.Droid.Resource.Id.main_tablayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_toolbar = global::Evans.XamlTemplates.Droid.Resource.Id.main_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.masked = global::Evans.XamlTemplates.Droid.Resource.Id.masked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.message = global::Evans.XamlTemplates.Droid.Resource.Id.message;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.middle = global::Evans.XamlTemplates.Droid.Resource.Id.middle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mini = global::Evans.XamlTemplates.Droid.Resource.Id.mini;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.multiply = global::Evans.XamlTemplates.Droid.Resource.Id.multiply;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.navigation_header_container = global::Evans.XamlTemplates.Droid.Resource.Id.navigation_header_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.never = global::Evans.XamlTemplates.Droid.Resource.Id.never;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.none = global::Evans.XamlTemplates.Droid.Resource.Id.none;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.normal = global::Evans.XamlTemplates.Droid.Resource.Id.normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_background = global::Evans.XamlTemplates.Droid.Resource.Id.notification_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column = global::Evans.XamlTemplates.Droid.Resource.Id.notification_main_column;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column_container = global::Evans.XamlTemplates.Droid.Resource.Id.notification_main_column_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parallax = global::Evans.XamlTemplates.Droid.Resource.Id.parallax;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parentPanel = global::Evans.XamlTemplates.Droid.Resource.Id.parentPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.pin = global::Evans.XamlTemplates.Droid.Resource.Id.pin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_circular = global::Evans.XamlTemplates.Droid.Resource.Id.progress_circular;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_horizontal = global::Evans.XamlTemplates.Droid.Resource.Id.progress_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.radio = global::Evans.XamlTemplates.Droid.Resource.Id.radio;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right = global::Evans.XamlTemplates.Droid.Resource.Id.right;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_icon = global::Evans.XamlTemplates.Droid.Resource.Id.right_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_side = global::Evans.XamlTemplates.Droid.Resource.Id.right_side;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.screen = global::Evans.XamlTemplates.Droid.Resource.Id.screen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scroll = global::Evans.XamlTemplates.Droid.Resource.Id.scroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorDown = global::Evans.XamlTemplates.Droid.Resource.Id.scrollIndicatorDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorUp = global::Evans.XamlTemplates.Droid.Resource.Id.scrollIndicatorUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollView = global::Evans.XamlTemplates.Droid.Resource.Id.scrollView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollable = global::Evans.XamlTemplates.Droid.Resource.Id.scrollable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_badge = global::Evans.XamlTemplates.Droid.Resource.Id.search_badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_bar = global::Evans.XamlTemplates.Droid.Resource.Id.search_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_button = global::Evans.XamlTemplates.Droid.Resource.Id.search_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_close_btn = global::Evans.XamlTemplates.Droid.Resource.Id.search_close_btn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_edit_frame = global::Evans.XamlTemplates.Droid.Resource.Id.search_edit_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_go_btn = global::Evans.XamlTemplates.Droid.Resource.Id.search_go_btn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_mag_icon = global::Evans.XamlTemplates.Droid.Resource.Id.search_mag_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_plate = global::Evans.XamlTemplates.Droid.Resource.Id.search_plate;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_src_text = global::Evans.XamlTemplates.Droid.Resource.Id.search_src_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_voice_btn = global::Evans.XamlTemplates.Droid.Resource.Id.search_voice_btn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.select_dialog_listview = global::Evans.XamlTemplates.Droid.Resource.Id.select_dialog_listview;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shellcontent_appbar = global::Evans.XamlTemplates.Droid.Resource.Id.shellcontent_appbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shellcontent_toolbar = global::Evans.XamlTemplates.Droid.Resource.Id.shellcontent_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shortcut = global::Evans.XamlTemplates.Droid.Resource.Id.shortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showCustom = global::Evans.XamlTemplates.Droid.Resource.Id.showCustom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showHome = global::Evans.XamlTemplates.Droid.Resource.Id.showHome;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showTitle = global::Evans.XamlTemplates.Droid.Resource.Id.showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.smallLabel = global::Evans.XamlTemplates.Droid.Resource.Id.smallLabel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_action = global::Evans.XamlTemplates.Droid.Resource.Id.snackbar_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_text = global::Evans.XamlTemplates.Droid.Resource.Id.snackbar_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snap = global::Evans.XamlTemplates.Droid.Resource.Id.snap;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.spacer = global::Evans.XamlTemplates.Droid.Resource.Id.spacer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.split_action_bar = global::Evans.XamlTemplates.Droid.Resource.Id.split_action_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_atop = global::Evans.XamlTemplates.Droid.Resource.Id.src_atop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_in = global::Evans.XamlTemplates.Droid.Resource.Id.src_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_over = global::Evans.XamlTemplates.Droid.Resource.Id.src_over;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.start = global::Evans.XamlTemplates.Droid.Resource.Id.start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submenuarrow = global::Evans.XamlTemplates.Droid.Resource.Id.submenuarrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submit_area = global::Evans.XamlTemplates.Droid.Resource.Id.submit_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tabMode = global::Evans.XamlTemplates.Droid.Resource.Id.tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_transition_group = global::Evans.XamlTemplates.Droid.Resource.Id.tag_transition_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text = global::Evans.XamlTemplates.Droid.Resource.Id.text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text2 = global::Evans.XamlTemplates.Droid.Resource.Id.text2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoButtons = global::Evans.XamlTemplates.Droid.Resource.Id.textSpacerNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoTitle = global::Evans.XamlTemplates.Droid.Resource.Id.textSpacerNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text_input_password_toggle = global::Evans.XamlTemplates.Droid.Resource.Id.text_input_password_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_counter = global::Evans.XamlTemplates.Droid.Resource.Id.textinput_counter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_error = global::Evans.XamlTemplates.Droid.Resource.Id.textinput_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.time = global::Evans.XamlTemplates.Droid.Resource.Id.time;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title = global::Evans.XamlTemplates.Droid.Resource.Id.title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.titleDividerNoCustom = global::Evans.XamlTemplates.Droid.Resource.Id.titleDividerNoCustom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title_template = global::Evans.XamlTemplates.Droid.Resource.Id.title_template;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.top = global::Evans.XamlTemplates.Droid.Resource.Id.top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.topPanel = global::Evans.XamlTemplates.Droid.Resource.Id.topPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.touch_outside = global::Evans.XamlTemplates.Droid.Resource.Id.touch_outside;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.uniform = global::Evans.XamlTemplates.Droid.Resource.Id.uniform;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.up = global::Evans.XamlTemplates.Droid.Resource.Id.up;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.useLogo = global::Evans.XamlTemplates.Droid.Resource.Id.useLogo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.view_offset_helper = global::Evans.XamlTemplates.Droid.Resource.Id.view_offset_helper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.visible = global::Evans.XamlTemplates.Droid.Resource.Id.visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.withText = global::Evans.XamlTemplates.Droid.Resource.Id.withText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.wrap_content = global::Evans.XamlTemplates.Droid.Resource.Id.wrap_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityDefaultDur = global::Evans.XamlTemplates.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityShortDur = global::Evans.XamlTemplates.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.app_bar_elevation_anim_duration = global::Evans.XamlTemplates.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.bottom_sheet_slide_duration = global::Evans.XamlTemplates.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.cancel_button_image_alpha = global::Evans.XamlTemplates.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.config_tooltipAnimTime = global::Evans.XamlTemplates.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.design_snackbar_text_max_lines = global::Evans.XamlTemplates.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.hide_password_duration = global::Evans.XamlTemplates.Droid.Resource.Integer.hide_password_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.show_password_duration = global::Evans.XamlTemplates.Droid.Resource.Integer.show_password_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.status_bar_notification_info_maxnum = global::Evans.XamlTemplates.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_bar_title_item = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_bar_up_container = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_menu_item_layout = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_menu_layout = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_mode_bar = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_mode_close_item_material = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_activity_chooser_view = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_activity_chooser_view_list_item = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_button_bar_material = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_material = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_title_material = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_dialog_title_material = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_expanded_menu_layout = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_checkbox = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_icon = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_layout = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_radio = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_popup_menu_header_item_layout = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_popup_menu_item_layout = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_content_include = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_screen_content_include;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_simple = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_screen_simple;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_toolbar = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_search_view = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_search_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_select_dialog_material = global::Evans.XamlTemplates.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.BottomTabLayout = global::Evans.XamlTemplates.Droid.Resource.Layout.BottomTabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedImageView = global::Evans.XamlTemplates.Droid.Resource.Layout.CustomizedImageView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedView = global::Evans.XamlTemplates.Droid.Resource.Layout.CustomizedView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_navigation_item = global::Evans.XamlTemplates.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_sheet_dialog = global::Evans.XamlTemplates.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_snackbar = global::Evans.XamlTemplates.Droid.Resource.Layout.design_layout_snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_snackbar_include = global::Evans.XamlTemplates.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_tab_icon = global::Evans.XamlTemplates.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_tab_text = global::Evans.XamlTemplates.Droid.Resource.Layout.design_layout_tab_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_menu_item_action_area = global::Evans.XamlTemplates.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item = global::Evans.XamlTemplates.Droid.Resource.Layout.design_navigation_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_header = global::Evans.XamlTemplates.Droid.Resource.Layout.design_navigation_item_header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_separator = global::Evans.XamlTemplates.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_subheader = global::Evans.XamlTemplates.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu = global::Evans.XamlTemplates.Droid.Resource.Layout.design_navigation_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu_item = global::Evans.XamlTemplates.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_text_input_password_icon = global::Evans.XamlTemplates.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FlyoutContent = global::Evans.XamlTemplates.Droid.Resource.Layout.FlyoutContent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action = global::Evans.XamlTemplates.Droid.Resource.Layout.notification_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action_tombstone = global::Evans.XamlTemplates.Droid.Resource.Layout.notification_action_tombstone;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_custom_big = global::Evans.XamlTemplates.Droid.Resource.Layout.notification_template_custom_big;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_icon_group = global::Evans.XamlTemplates.Droid.Resource.Layout.notification_template_icon_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_part_chronometer = global::Evans.XamlTemplates.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_part_time = global::Evans.XamlTemplates.Droid.Resource.Layout.notification_template_part_time;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.RootLayout = global::Evans.XamlTemplates.Droid.Resource.Layout.RootLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_item_material = global::Evans.XamlTemplates.Droid.Resource.Layout.select_dialog_item_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_multichoice_material = global::Evans.XamlTemplates.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_singlechoice_material = global::Evans.XamlTemplates.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.sfcomboBox_layout = global::Evans.XamlTemplates.Droid.Resource.Layout.sfcomboBox_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.ShellContent = global::Evans.XamlTemplates.Droid.Resource.Layout.ShellContent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.support_simple_spinner_dropdown_item = global::Evans.XamlTemplates.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_home_description = global::Evans.XamlTemplates.Droid.Resource.String.abc_action_bar_home_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_up_description = global::Evans.XamlTemplates.Droid.Resource.String.abc_action_bar_up_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_menu_overflow_description = global::Evans.XamlTemplates.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_mode_done = global::Evans.XamlTemplates.Droid.Resource.String.abc_action_mode_done;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activity_chooser_view_see_all = global::Evans.XamlTemplates.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activitychooserview_choose_application = global::Evans.XamlTemplates.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_off = global::Evans.XamlTemplates.Droid.Resource.String.abc_capital_off;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_on = global::Evans.XamlTemplates.Droid.Resource.String.abc_capital_on;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_body_1_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_body_2_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_button_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_button_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_caption_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_caption_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_display_1_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_display_2_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_display_3_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_display_4_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_headline_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_headline_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_menu_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_menu_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_subhead_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_font_family_title_material = global::Evans.XamlTemplates.Droid.Resource.String.abc_font_family_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_search_hint = global::Evans.XamlTemplates.Droid.Resource.String.abc_search_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_clear = global::Evans.XamlTemplates.Droid.Resource.String.abc_searchview_description_clear;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_query = global::Evans.XamlTemplates.Droid.Resource.String.abc_searchview_description_query;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_search = global::Evans.XamlTemplates.Droid.Resource.String.abc_searchview_description_search;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_submit = global::Evans.XamlTemplates.Droid.Resource.String.abc_searchview_description_submit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_voice = global::Evans.XamlTemplates.Droid.Resource.String.abc_searchview_description_voice;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with = global::Evans.XamlTemplates.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with_application = global::Evans.XamlTemplates.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_toolbar_collapse_description = global::Evans.XamlTemplates.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.appbar_scrolling_view_behavior = global::Evans.XamlTemplates.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.bottom_sheet_behavior = global::Evans.XamlTemplates.Droid.Resource.String.bottom_sheet_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_pattern = global::Evans.XamlTemplates.Droid.Resource.String.character_counter_pattern;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.password_toggle_content_description = global::Evans.XamlTemplates.Droid.Resource.String.password_toggle_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye = global::Evans.XamlTemplates.Droid.Resource.String.path_password_eye;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye_mask_strike_through = global::Evans.XamlTemplates.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye_mask_visible = global::Evans.XamlTemplates.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_strike_through = global::Evans.XamlTemplates.Droid.Resource.String.path_password_strike_through;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.search_menu_title = global::Evans.XamlTemplates.Droid.Resource.String.search_menu_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.status_bar_notification_info_overflow = global::Evans.XamlTemplates.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_DropDownUp = global::Evans.XamlTemplates.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Tooltip = global::Evans.XamlTemplates.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_Design_BottomSheetDialog = global::Evans.XamlTemplates.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_CardView = global::Evans.XamlTemplates.Droid.Resource.Style.Base_CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Evans.XamlTemplates.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Evans.XamlTemplates.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Evans.XamlTemplates.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Theme_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_EditText = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SearchView = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_Design_TabLayout = global::Evans.XamlTemplates.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView = global::Evans.XamlTemplates.Droid.Resource.Style.CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Dark = global::Evans.XamlTemplates.Droid.Resource.Style.CardView_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Light = global::Evans.XamlTemplates.Droid.Resource.Style.CardView_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V21_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V21_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V25_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V25_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Evans.XamlTemplates.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Evans.XamlTemplates.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Evans.XamlTemplates.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Evans.XamlTemplates.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body1 = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body2 = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Button = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Caption = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display1 = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display2 = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display3 = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display4 = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Headline = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Large = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Medium = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Menu = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Small = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Subhead = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Title = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Info = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Time = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Title = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Counter = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Error = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Hint = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Tab = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Evans.XamlTemplates.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_CompactMenu = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_NoActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_Design;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_BottomSheetDialog = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_Design_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_NoActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_NoActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat = global::Evans.XamlTemplates.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Evans.XamlTemplates.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Evans.XamlTemplates.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Evans.XamlTemplates.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Light = global::Evans.XamlTemplates.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionMode = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Colored = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Small = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_EditText = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ImageButton = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_SearchView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListMenuView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView_Menu = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupMenu = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupWindow = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ProgressBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SearchView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SeekBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Compat_NotificationActionContainer = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Compat_NotificationActionText = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_AppBarLayout = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_BottomNavigationView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_BottomSheet_Modal = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_CollapsingToolbar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_FloatingActionButton = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_NavigationView = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_Snackbar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TabLayout = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TextInputLayout = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_background = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundSplit = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundStacked = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetEnd = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetLeft = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetRight = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetStart = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_customNavigationLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_displayOptions = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_divider = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_elevation = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_height = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_hideOnContentScroll = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_homeLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_icon = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_itemPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_logo = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_logo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_navigationMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_popupTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_progressBarPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_progressBarStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_subtitle = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_subtitleTextStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_title = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_titleTextStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuView = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_background = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMode_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_backgroundSplit = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_closeItemLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_height = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMode_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_subtitleTextStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_titleTextStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog = global::Evans.XamlTemplates.Droid.Resource.Styleable.AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_android_layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_listItemLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_listLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_showTitle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_background = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_elevation = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_expanded = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatImageView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_android_src = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_srcCompat = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_tint = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_tintMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMark = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_fontFamily = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_textAllCaps = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarSize = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorAccent = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorError = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorPrimary = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_controlBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerVertical = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_switchStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionBar = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Evans.XamlTemplates.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomNavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_elevation = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemIconTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemTextColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_menu = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Evans.XamlTemplates.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout_allowStacking = global::Evans.XamlTemplates.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_android_minHeight = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_android_minWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardBackgroundColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardCornerRadius = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardElevation = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardMaxElevation = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardUseCompatPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingBottom = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingLeft = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingRight = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingTop = global::Evans.XamlTemplates.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_title = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Evans.XamlTemplates.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem = global::Evans.XamlTemplates.Droid.Resource.Styleable.ColorStateListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_alpha = global::Evans.XamlTemplates.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_alpha = global::Evans.XamlTemplates.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_color = global::Evans.XamlTemplates.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton = global::Evans.XamlTemplates.Droid.Resource.Styleable.CompoundButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_android_button = global::Evans.XamlTemplates.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTintMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_keylines = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Evans.XamlTemplates.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DesignTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.DesignTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle = global::Evans.XamlTemplates.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Evans.XamlTemplates.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Evans.XamlTemplates.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_barLength = global::Evans.XamlTemplates.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_color = global::Evans.XamlTemplates.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Evans.XamlTemplates.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Evans.XamlTemplates.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_spinBars = global::Evans.XamlTemplates.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_thickness = global::Evans.XamlTemplates.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_borderWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_elevation = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_fabSize = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_rippleColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Evans.XamlTemplates.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderAuthority = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderCerts = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderPackage = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderQuery = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamilyFont;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_font = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_font = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontWeight = global::Evans.XamlTemplates.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Evans.XamlTemplates.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_divider = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_showDividers = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Evans.XamlTemplates.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow = global::Evans.XamlTemplates.Droid.Resource.Styleable.ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Evans.XamlTemplates.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Evans.XamlTemplates.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_enabled = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_id = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_menuCategory = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_orderInCategory = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_visible = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionProviderClass = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionViewClass = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_alphabeticModifiers = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_checkable = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_checked = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_enabled = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_icon = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_id = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_menuCategory = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_numericShortcut = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_onClick = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_orderInCategory = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_title = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_titleCondensed = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_visible = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_contentDescription = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_iconTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_iconTintMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_numericModifiers = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_showAsAction = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_tooltipText = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_headerBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_horizontalDivider = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_verticalDivider = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_preserveIconSpacing = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_subMenuArrow = global::Evans.XamlTemplates.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_background = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_maxWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_elevation = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_headerLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_menu = global::Evans.XamlTemplates.Droid.Resource.Styleable.NavigationView_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow = global::Evans.XamlTemplates.Droid.Resource.Styleable.PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_overlapAnchor = global::Evans.XamlTemplates.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState = global::Evans.XamlTemplates.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Evans.XamlTemplates.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecycleListView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_orientation = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_layoutManager = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_reverseLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_spanCount = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_stackFromEnd = global::Evans.XamlTemplates.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrimInsetsFrameLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Evans.XamlTemplates.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Evans.XamlTemplates.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_focusable = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_imeOptions = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_inputType = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_maxWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_closeIcon = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_commitIcon = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_defaultQueryHint = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_goIcon = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_iconifiedByDefault = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_queryBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_queryHint = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_searchHintIcon = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_searchIcon = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_submitBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_suggestionRowLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_voiceIcon = global::Evans.XamlTemplates.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.SnackbarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_elevation = global::Evans.XamlTemplates.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner = global::Evans.XamlTemplates.Droid.Resource.Styleable.Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_dropDownWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_entries = global::Evans.XamlTemplates.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_popupBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_prompt = global::Evans.XamlTemplates.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_popupTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOff = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOn = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_thumb = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_showText = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_splitTrack = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchMinWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTintMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_track = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTintMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_icon = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_text = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabItem_android_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabBackground = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabContentStart = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabGravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMaxWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMinWidth = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPadding = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingBottom = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingEnd = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingStart = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingTop = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabTextColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_fontFamily = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowDx = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowDy = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowRadius = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorHint = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorLink = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textSize = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textStyle = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_typeface = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_fontFamily = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textAllCaps = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_hint = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_textColorHint = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterEnabled = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterMaxLength = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorEnabled = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintEnabled = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_android_gravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_android_minHeight = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_buttonGravity = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_collapseContentDescription = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_collapseIcon = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetEnd = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetLeft = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetRight = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetStart = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logo = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_logo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logoDescription = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_maxButtonHeight = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationContentDescription = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationIcon = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_popupTheme = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitle = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitleTextColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_title = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargin = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginBottom = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginEnd = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginStart = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginTop = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargins = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextAppearance = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View = global::Evans.XamlTemplates.Droid.Resource.Styleable.View;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_focusable = global::Evans.XamlTemplates.Droid.Resource.Styleable.View_android_focusable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_theme = global::Evans.XamlTemplates.Droid.Resource.Styleable.View_android_theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingEnd = global::Evans.XamlTemplates.Droid.Resource.Styleable.View_paddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingStart = global::Evans.XamlTemplates.Droid.Resource.Styleable.View_paddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_theme = global::Evans.XamlTemplates.Droid.Resource.Styleable.View_theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper = global::Evans.XamlTemplates.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_android_background = global::Evans.XamlTemplates.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Evans.XamlTemplates.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat = global::Evans.XamlTemplates.Droid.Resource.Styleable.ViewStubCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_id = global::Evans.XamlTemplates.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Evans.XamlTemplates.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_layout = global::Evans.XamlTemplates.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.Layout.ScrollViewer = global::Evans.XamlTemplates.Droid.Resource.Layout.ScrollViewer;
+			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.library_name = global::Evans.XamlTemplates.Droid.Resource.String.library_name;
+			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.load_more_items = global::Evans.XamlTemplates.Droid.Resource.String.load_more_items;
+			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.cancel_drop = global::Evans.XamlTemplates.Droid.Resource.String.cancel_drop;
+			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.drop_above = global::Evans.XamlTemplates.Droid.Resource.String.drop_above;
+			global::Syncfusion.SfDataGrid.XForms.Droid.Resource.String.drop_below = global::Evans.XamlTemplates.Droid.Resource.String.drop_below;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.allowNull = global::Evans.XamlTemplates.Droid.Resource.Attribute.allowNull;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.borderColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.borderColor;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.culture = global::Evans.XamlTemplates.Droid.Resource.Attribute.culture;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.enableGroupSeparator = global::Evans.XamlTemplates.Droid.Resource.Attribute.enableGroupSeparator;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.fontSize = global::Evans.XamlTemplates.Droid.Resource.Attribute.fontSize;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.maximumDecimalDigits = global::Evans.XamlTemplates.Droid.Resource.Attribute.maximumDecimalDigits;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.numberFormat = global::Evans.XamlTemplates.Droid.Resource.Attribute.numberFormat;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.numericTextBoxValue = global::Evans.XamlTemplates.Droid.Resource.Attribute.numericTextBoxValue;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.parsingMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.parsingMode;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.percentDisplayMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.percentDisplayMode;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.selectAllOnFocus = global::Evans.XamlTemplates.Droid.Resource.Attribute.selectAllOnFocus;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.valueChangeMode = global::Evans.XamlTemplates.Droid.Resource.Attribute.valueChangeMode;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.watermark = global::Evans.XamlTemplates.Droid.Resource.Attribute.watermark;
+			global::Com.Syncfusion.Numerictextbox.Resource.Attribute.watermarkColor = global::Evans.XamlTemplates.Droid.Resource.Attribute.watermarkColor;
+			global::Com.Syncfusion.Numerictextbox.Resource.Id.compute = global::Evans.XamlTemplates.Droid.Resource.Id.compute;
+			global::Com.Syncfusion.Numerictextbox.Resource.Id.decimalMode = global::Evans.XamlTemplates.Droid.Resource.Id.decimalMode;
+			global::Com.Syncfusion.Numerictextbox.Resource.Id.doubleMode = global::Evans.XamlTemplates.Droid.Resource.Id.doubleMode;
+			global::Com.Syncfusion.Numerictextbox.Resource.Id.onKeyFocus = global::Evans.XamlTemplates.Droid.Resource.Id.onKeyFocus;
+			global::Com.Syncfusion.Numerictextbox.Resource.Id.onLostFocus = global::Evans.XamlTemplates.Droid.Resource.Id.onLostFocus;
+			global::Com.Syncfusion.Numerictextbox.Resource.Id.value = global::Evans.XamlTemplates.Droid.Resource.Id.value;
+			global::Com.Syncfusion.Numerictextbox.Resource.String.library_name = global::Evans.XamlTemplates.Droid.Resource.String.library_name;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_allowNull = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_allowNull;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_borderColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_borderColor;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_culture = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_culture;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_enableGroupSeparator = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_enableGroupSeparator;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_fontSize = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_fontSize;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_maximumDecimalDigits = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_maximumDecimalDigits;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_numberFormat = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_numberFormat;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_numericTextBoxValue = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_numericTextBoxValue;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_parsingMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_parsingMode;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_percentDisplayMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_percentDisplayMode;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_selectAllOnFocus = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_selectAllOnFocus;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_valueChangeMode = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_valueChangeMode;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_watermark = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_watermark;
+			global::Com.Syncfusion.Numerictextbox.Resource.Styleable.SfNumericTextBox_watermarkColor = global::Evans.XamlTemplates.Droid.Resource.Styleable.SfNumericTextBox_watermarkColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Evans.XamlTemplates.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -864,9 +2908,9 @@ namespace Evans.XamlTemplates.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.listMode = global::Evans.XamlTemplates.Droid.Resource.Id.listMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.list_item = global::Evans.XamlTemplates.Droid.Resource.Id.list_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.main_appbar = global::Evans.XamlTemplates.Droid.Resource.Id.main_appbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.main_scrollview = global::Evans.XamlTemplates.Droid.Resource.Id.main_scrollview;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.main_tablayout = global::Evans.XamlTemplates.Droid.Resource.Id.main_tablayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.main_toolbar = global::Evans.XamlTemplates.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.main_viewpager = global::Evans.XamlTemplates.Droid.Resource.Id.main_viewpager;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.masked = global::Evans.XamlTemplates.Droid.Resource.Id.masked;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.media_actions = global::Evans.XamlTemplates.Droid.Resource.Id.media_actions;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.message = global::Evans.XamlTemplates.Droid.Resource.Id.message;
@@ -911,7 +2955,6 @@ namespace Evans.XamlTemplates.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.search_voice_btn = global::Evans.XamlTemplates.Droid.Resource.Id.search_voice_btn;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.select_dialog_listview = global::Evans.XamlTemplates.Droid.Resource.Id.select_dialog_listview;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.shellcontent_appbar = global::Evans.XamlTemplates.Droid.Resource.Id.shellcontent_appbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.shellcontent_scrollview = global::Evans.XamlTemplates.Droid.Resource.Id.shellcontent_scrollview;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.shellcontent_toolbar = global::Evans.XamlTemplates.Droid.Resource.Id.shellcontent_toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.shortcut = global::Evans.XamlTemplates.Droid.Resource.Id.shortcut;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showCustom = global::Evans.XamlTemplates.Droid.Resource.Id.showCustom;
@@ -1459,6 +3502,7 @@ namespace Evans.XamlTemplates.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_TabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::Evans.XamlTemplates.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewStyle = global::Evans.XamlTemplates.Droid.Resource.Style.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_background = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_backgroundSplit = global::Evans.XamlTemplates.Droid.Resource.Styleable.ActionBar_backgroundSplit;
@@ -2221,1003 +4265,1045 @@ namespace Evans.XamlTemplates.Droid
 			public const int alertDialogTheme = 2130903077;
 			
 			// aapt resource value: 0x7F030026
-			public const int allowStacking = 2130903078;
+			public const int allowNull = 2130903078;
 			
 			// aapt resource value: 0x7F030027
-			public const int alpha = 2130903079;
+			public const int allowStacking = 2130903079;
 			
 			// aapt resource value: 0x7F030028
-			public const int alphabeticModifiers = 2130903080;
+			public const int alpha = 2130903080;
 			
 			// aapt resource value: 0x7F030029
-			public const int arrowHeadLength = 2130903081;
+			public const int alphabeticModifiers = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int arrowShaftLength = 2130903082;
+			public const int arrowHeadLength = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int autoCompleteTextViewStyle = 2130903083;
+			public const int arrowShaftLength = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int autoSizeMaxTextSize = 2130903084;
+			public const int autoCompleteTextViewStyle = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int autoSizeMinTextSize = 2130903085;
+			public const int autoSizeMaxTextSize = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int autoSizePresetSizes = 2130903086;
+			public const int autoSizeMinTextSize = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int autoSizeStepGranularity = 2130903087;
+			public const int autoSizePresetSizes = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int autoSizeTextType = 2130903088;
+			public const int autoSizeStepGranularity = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int background = 2130903089;
+			public const int autoSizeTextType = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int backgroundSplit = 2130903090;
+			public const int background = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int backgroundStacked = 2130903091;
+			public const int backgroundSplit = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int backgroundTint = 2130903092;
+			public const int backgroundStacked = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int backgroundTintMode = 2130903093;
+			public const int backgroundTint = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int barLength = 2130903094;
+			public const int backgroundTintMode = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int behavior_autoHide = 2130903095;
+			public const int barLength = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int behavior_hideable = 2130903096;
+			public const int behavior_autoHide = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int behavior_overlapTop = 2130903097;
+			public const int behavior_hideable = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int behavior_peekHeight = 2130903098;
+			public const int behavior_overlapTop = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int behavior_skipCollapsed = 2130903099;
-			
-			// aapt resource value: 0x7F03003D
-			public const int borderlessButtonStyle = 2130903101;
+			public const int behavior_peekHeight = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int borderWidth = 2130903100;
+			public const int behavior_skipCollapsed = 2130903100;
 			
-			// aapt resource value: 0x7F03003E
-			public const int bottomSheetDialogTheme = 2130903102;
+			// aapt resource value: 0x7F03003D
+			public const int borderColor = 2130903101;
 			
 			// aapt resource value: 0x7F03003F
-			public const int bottomSheetStyle = 2130903103;
+			public const int borderlessButtonStyle = 2130903103;
+			
+			// aapt resource value: 0x7F03003E
+			public const int borderWidth = 2130903102;
 			
 			// aapt resource value: 0x7F030040
-			public const int buttonBarButtonStyle = 2130903104;
+			public const int bottomSheetDialogTheme = 2130903104;
 			
 			// aapt resource value: 0x7F030041
-			public const int buttonBarNegativeButtonStyle = 2130903105;
+			public const int bottomSheetStyle = 2130903105;
 			
 			// aapt resource value: 0x7F030042
-			public const int buttonBarNeutralButtonStyle = 2130903106;
+			public const int buttonBarButtonStyle = 2130903106;
 			
 			// aapt resource value: 0x7F030043
-			public const int buttonBarPositiveButtonStyle = 2130903107;
+			public const int buttonBarNegativeButtonStyle = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int buttonBarStyle = 2130903108;
+			public const int buttonBarNeutralButtonStyle = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int buttonGravity = 2130903109;
+			public const int buttonBarPositiveButtonStyle = 2130903109;
 			
 			// aapt resource value: 0x7F030046
-			public const int buttonPanelSideLayout = 2130903110;
+			public const int buttonBarStyle = 2130903110;
 			
 			// aapt resource value: 0x7F030047
-			public const int buttonStyle = 2130903111;
+			public const int buttonGravity = 2130903111;
 			
 			// aapt resource value: 0x7F030048
-			public const int buttonStyleSmall = 2130903112;
+			public const int buttonPanelSideLayout = 2130903112;
 			
 			// aapt resource value: 0x7F030049
-			public const int buttonTint = 2130903113;
+			public const int buttonStyle = 2130903113;
 			
 			// aapt resource value: 0x7F03004A
-			public const int buttonTintMode = 2130903114;
+			public const int buttonStyleSmall = 2130903114;
 			
 			// aapt resource value: 0x7F03004B
-			public const int cardBackgroundColor = 2130903115;
+			public const int buttonTint = 2130903115;
 			
 			// aapt resource value: 0x7F03004C
-			public const int cardCornerRadius = 2130903116;
+			public const int buttonTintMode = 2130903116;
 			
 			// aapt resource value: 0x7F03004D
-			public const int cardElevation = 2130903117;
+			public const int cardBackgroundColor = 2130903117;
 			
 			// aapt resource value: 0x7F03004E
-			public const int cardMaxElevation = 2130903118;
+			public const int cardCornerRadius = 2130903118;
 			
 			// aapt resource value: 0x7F03004F
-			public const int cardPreventCornerOverlap = 2130903119;
+			public const int cardElevation = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int cardUseCompatPadding = 2130903120;
+			public const int cardMaxElevation = 2130903120;
 			
 			// aapt resource value: 0x7F030051
-			public const int checkboxStyle = 2130903121;
+			public const int cardPreventCornerOverlap = 2130903121;
 			
 			// aapt resource value: 0x7F030052
-			public const int checkedTextViewStyle = 2130903122;
+			public const int cardUseCompatPadding = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int closeIcon = 2130903123;
+			public const int checkboxStyle = 2130903123;
 			
 			// aapt resource value: 0x7F030054
-			public const int closeItemLayout = 2130903124;
+			public const int checkedTextViewStyle = 2130903124;
 			
 			// aapt resource value: 0x7F030055
-			public const int collapseContentDescription = 2130903125;
-			
-			// aapt resource value: 0x7F030057
-			public const int collapsedTitleGravity = 2130903127;
-			
-			// aapt resource value: 0x7F030058
-			public const int collapsedTitleTextAppearance = 2130903128;
+			public const int closeIcon = 2130903125;
 			
 			// aapt resource value: 0x7F030056
-			public const int collapseIcon = 2130903126;
+			public const int closeItemLayout = 2130903126;
+			
+			// aapt resource value: 0x7F030057
+			public const int collapseContentDescription = 2130903127;
 			
 			// aapt resource value: 0x7F030059
-			public const int color = 2130903129;
+			public const int collapsedTitleGravity = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int colorAccent = 2130903130;
+			public const int collapsedTitleTextAppearance = 2130903130;
+			
+			// aapt resource value: 0x7F030058
+			public const int collapseIcon = 2130903128;
 			
 			// aapt resource value: 0x7F03005B
-			public const int colorBackgroundFloating = 2130903131;
+			public const int color = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int colorButtonNormal = 2130903132;
+			public const int colorAccent = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int colorControlActivated = 2130903133;
+			public const int colorBackgroundFloating = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int colorControlHighlight = 2130903134;
+			public const int colorButtonNormal = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int colorControlNormal = 2130903135;
+			public const int colorControlActivated = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int colorError = 2130903136;
+			public const int colorControlHighlight = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int colorPrimary = 2130903137;
+			public const int colorControlNormal = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int colorPrimaryDark = 2130903138;
+			public const int colorError = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int colorSwitchThumbNormal = 2130903139;
+			public const int colorPrimary = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int commitIcon = 2130903140;
+			public const int colorPrimaryDark = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int contentDescription = 2130903141;
+			public const int colorSwitchThumbNormal = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int contentInsetEnd = 2130903142;
+			public const int commitIcon = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int contentInsetEndWithActions = 2130903143;
+			public const int contentDescription = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int contentInsetLeft = 2130903144;
+			public const int contentInsetEnd = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int contentInsetRight = 2130903145;
+			public const int contentInsetEndWithActions = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int contentInsetStart = 2130903146;
+			public const int contentInsetLeft = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int contentInsetStartWithNavigation = 2130903147;
+			public const int contentInsetRight = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int contentPadding = 2130903148;
+			public const int contentInsetStart = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int contentPaddingBottom = 2130903149;
+			public const int contentInsetStartWithNavigation = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int contentPaddingLeft = 2130903150;
+			public const int contentPadding = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int contentPaddingRight = 2130903151;
+			public const int contentPaddingBottom = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int contentPaddingTop = 2130903152;
+			public const int contentPaddingLeft = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int contentScrim = 2130903153;
+			public const int contentPaddingRight = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int controlBackground = 2130903154;
+			public const int contentPaddingTop = 2130903154;
 			
 			// aapt resource value: 0x7F030073
-			public const int counterEnabled = 2130903155;
+			public const int contentScrim = 2130903155;
 			
 			// aapt resource value: 0x7F030074
-			public const int counterMaxLength = 2130903156;
+			public const int controlBackground = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int counterOverflowTextAppearance = 2130903157;
+			public const int counterEnabled = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int counterTextAppearance = 2130903158;
+			public const int counterMaxLength = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int customNavigationLayout = 2130903159;
+			public const int counterOverflowTextAppearance = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int defaultQueryHint = 2130903160;
+			public const int counterTextAppearance = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int dialogPreferredPadding = 2130903161;
+			public const int culture = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int dialogTheme = 2130903162;
+			public const int customNavigationLayout = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int displayOptions = 2130903163;
+			public const int defaultQueryHint = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int divider = 2130903164;
+			public const int dialogPreferredPadding = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int dividerHorizontal = 2130903165;
+			public const int dialogTheme = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int dividerPadding = 2130903166;
+			public const int displayOptions = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int dividerVertical = 2130903167;
+			public const int divider = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int drawableSize = 2130903168;
+			public const int dividerHorizontal = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int drawerArrowStyle = 2130903169;
-			
-			// aapt resource value: 0x7F030083
-			public const int dropdownListPreferredItemHeight = 2130903171;
+			public const int dividerPadding = 2130903169;
 			
 			// aapt resource value: 0x7F030082
-			public const int dropDownListViewStyle = 2130903170;
+			public const int dividerVertical = 2130903170;
+			
+			// aapt resource value: 0x7F030083
+			public const int drawableSize = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int editTextBackground = 2130903172;
-			
-			// aapt resource value: 0x7F030085
-			public const int editTextColor = 2130903173;
+			public const int drawerArrowStyle = 2130903172;
 			
 			// aapt resource value: 0x7F030086
-			public const int editTextStyle = 2130903174;
+			public const int dropdownListPreferredItemHeight = 2130903174;
+			
+			// aapt resource value: 0x7F030085
+			public const int dropDownListViewStyle = 2130903173;
 			
 			// aapt resource value: 0x7F030087
-			public const int elevation = 2130903175;
+			public const int editTextBackground = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int errorEnabled = 2130903176;
+			public const int editTextColor = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int errorTextAppearance = 2130903177;
+			public const int editTextStyle = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int expandActivityOverflowButtonDrawable = 2130903178;
+			public const int elevation = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int expanded = 2130903179;
+			public const int enableGroupSeparator = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int expandedTitleGravity = 2130903180;
+			public const int errorEnabled = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int expandedTitleMargin = 2130903181;
+			public const int errorTextAppearance = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int expandedTitleMarginBottom = 2130903182;
+			public const int expandActivityOverflowButtonDrawable = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int expandedTitleMarginEnd = 2130903183;
+			public const int expanded = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int expandedTitleMarginStart = 2130903184;
+			public const int expandedTitleGravity = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int expandedTitleMarginTop = 2130903185;
+			public const int expandedTitleMargin = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int expandedTitleTextAppearance = 2130903186;
+			public const int expandedTitleMarginBottom = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int externalRouteEnabledDrawable = 2130903187;
+			public const int expandedTitleMarginEnd = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int fabSize = 2130903188;
+			public const int expandedTitleMarginStart = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int fastScrollEnabled = 2130903189;
+			public const int expandedTitleMarginTop = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int fastScrollHorizontalThumbDrawable = 2130903190;
+			public const int expandedTitleTextAppearance = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int fastScrollHorizontalTrackDrawable = 2130903191;
+			public const int externalRouteEnabledDrawable = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int fastScrollVerticalThumbDrawable = 2130903192;
+			public const int fabSize = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int fastScrollVerticalTrackDrawable = 2130903193;
+			public const int fastScrollEnabled = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int font = 2130903194;
+			public const int fastScrollHorizontalThumbDrawable = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int fontFamily = 2130903195;
+			public const int fastScrollHorizontalTrackDrawable = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int fontProviderAuthority = 2130903196;
+			public const int fastScrollVerticalThumbDrawable = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int fontProviderCerts = 2130903197;
+			public const int fastScrollVerticalTrackDrawable = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int fontProviderFetchStrategy = 2130903198;
+			public const int font = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int fontProviderFetchTimeout = 2130903199;
+			public const int fontFamily = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int fontProviderPackage = 2130903200;
+			public const int fontProviderAuthority = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int fontProviderQuery = 2130903201;
+			public const int fontProviderCerts = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int fontStyle = 2130903202;
+			public const int fontProviderFetchStrategy = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int fontWeight = 2130903203;
+			public const int fontProviderFetchTimeout = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int foregroundInsidePadding = 2130903204;
+			public const int fontProviderPackage = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int gapBetweenBars = 2130903205;
+			public const int fontProviderQuery = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int goIcon = 2130903206;
+			public const int fontSize = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int headerLayout = 2130903207;
+			public const int fontStyle = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int height = 2130903208;
+			public const int fontWeight = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int hideOnContentScroll = 2130903209;
+			public const int foregroundInsidePadding = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int hintAnimationEnabled = 2130903210;
+			public const int gapBetweenBars = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int hintEnabled = 2130903211;
+			public const int goIcon = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int hintTextAppearance = 2130903212;
+			public const int headerLayout = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int homeAsUpIndicator = 2130903213;
+			public const int height = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int homeLayout = 2130903214;
+			public const int hideOnContentScroll = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int icon = 2130903215;
-			
-			// aapt resource value: 0x7F0300B2
-			public const int iconifiedByDefault = 2130903218;
+			public const int hintAnimationEnabled = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int iconTint = 2130903216;
+			public const int hintEnabled = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int iconTintMode = 2130903217;
+			public const int hintTextAppearance = 2130903217;
+			
+			// aapt resource value: 0x7F0300B2
+			public const int homeAsUpIndicator = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int imageButtonStyle = 2130903219;
+			public const int homeLayout = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int indeterminateProgressStyle = 2130903220;
-			
-			// aapt resource value: 0x7F0300B5
-			public const int initialActivityCount = 2130903221;
-			
-			// aapt resource value: 0x7F0300B6
-			public const int insetForeground = 2130903222;
+			public const int icon = 2130903220;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int isLightTheme = 2130903223;
+			public const int iconifiedByDefault = 2130903223;
+			
+			// aapt resource value: 0x7F0300B5
+			public const int iconTint = 2130903221;
+			
+			// aapt resource value: 0x7F0300B6
+			public const int iconTintMode = 2130903222;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int itemBackground = 2130903224;
+			public const int imageButtonStyle = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int itemIconTint = 2130903225;
+			public const int indeterminateProgressStyle = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int itemPadding = 2130903226;
+			public const int initialActivityCount = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int itemTextAppearance = 2130903227;
+			public const int insetForeground = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int itemTextColor = 2130903228;
+			public const int isLightTheme = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int keylines = 2130903229;
+			public const int itemBackground = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int layout = 2130903230;
+			public const int itemIconTint = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int layoutManager = 2130903231;
+			public const int itemPadding = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int layout_anchor = 2130903232;
+			public const int itemTextAppearance = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int layout_anchorGravity = 2130903233;
+			public const int itemTextColor = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int layout_behavior = 2130903234;
+			public const int keylines = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int layout_collapseMode = 2130903235;
+			public const int layout = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int layout_collapseParallaxMultiplier = 2130903236;
+			public const int layoutManager = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int layout_dodgeInsetEdges = 2130903237;
+			public const int layout_anchor = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int layout_insetEdge = 2130903238;
+			public const int layout_anchorGravity = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int layout_keyline = 2130903239;
+			public const int layout_behavior = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int layout_scrollFlags = 2130903240;
+			public const int layout_collapseMode = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int layout_scrollInterpolator = 2130903241;
+			public const int layout_collapseParallaxMultiplier = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int listChoiceBackgroundIndicator = 2130903242;
+			public const int layout_dodgeInsetEdges = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int listDividerAlertDialog = 2130903243;
+			public const int layout_insetEdge = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int listItemLayout = 2130903244;
+			public const int layout_keyline = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int listLayout = 2130903245;
+			public const int layout_scrollFlags = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int listMenuViewStyle = 2130903246;
+			public const int layout_scrollInterpolator = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int listPopupWindowStyle = 2130903247;
+			public const int listChoiceBackgroundIndicator = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int listPreferredItemHeight = 2130903248;
+			public const int listDividerAlertDialog = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int listPreferredItemHeightLarge = 2130903249;
+			public const int listItemLayout = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int listPreferredItemHeightSmall = 2130903250;
+			public const int listLayout = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int listPreferredItemPaddingLeft = 2130903251;
+			public const int listMenuViewStyle = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int listPreferredItemPaddingRight = 2130903252;
+			public const int listPopupWindowStyle = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int logo = 2130903253;
+			public const int listPreferredItemHeight = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int logoDescription = 2130903254;
+			public const int listPreferredItemHeightLarge = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int maxActionInlineWidth = 2130903255;
+			public const int listPreferredItemHeightSmall = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int maxButtonHeight = 2130903256;
+			public const int listPreferredItemPaddingLeft = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int measureWithLargestChild = 2130903257;
+			public const int listPreferredItemPaddingRight = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int mediaRouteAudioTrackDrawable = 2130903258;
+			public const int logo = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int mediaRouteButtonStyle = 2130903259;
+			public const int logoDescription = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int mediaRouteButtonTint = 2130903260;
+			public const int maxActionInlineWidth = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int mediaRouteCloseDrawable = 2130903261;
+			public const int maxButtonHeight = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int mediaRouteControlPanelThemeOverlay = 2130903262;
+			public const int maximumDecimalDigits = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int mediaRouteDefaultIconDrawable = 2130903263;
+			public const int measureWithLargestChild = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int mediaRoutePauseDrawable = 2130903264;
+			public const int mediaRouteAudioTrackDrawable = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int mediaRoutePlayDrawable = 2130903265;
+			public const int mediaRouteButtonStyle = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int mediaRouteSpeakerGroupIconDrawable = 2130903266;
+			public const int mediaRouteButtonTint = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int mediaRouteSpeakerIconDrawable = 2130903267;
+			public const int mediaRouteCloseDrawable = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int mediaRouteStopDrawable = 2130903268;
+			public const int mediaRouteControlPanelThemeOverlay = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int mediaRouteTheme = 2130903269;
+			public const int mediaRouteDefaultIconDrawable = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int mediaRouteTvIconDrawable = 2130903270;
+			public const int mediaRoutePauseDrawable = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int menu = 2130903271;
+			public const int mediaRoutePlayDrawable = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int multiChoiceItemLayout = 2130903272;
+			public const int mediaRouteSpeakerGroupIconDrawable = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int navigationContentDescription = 2130903273;
+			public const int mediaRouteSpeakerIconDrawable = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int navigationIcon = 2130903274;
+			public const int mediaRouteStopDrawable = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int navigationMode = 2130903275;
+			public const int mediaRouteTheme = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int numericModifiers = 2130903276;
+			public const int mediaRouteTvIconDrawable = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int overlapAnchor = 2130903277;
+			public const int menu = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int paddingBottomNoButtons = 2130903278;
+			public const int multiChoiceItemLayout = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int paddingEnd = 2130903279;
+			public const int navigationContentDescription = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int paddingStart = 2130903280;
+			public const int navigationIcon = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int paddingTopNoTitle = 2130903281;
+			public const int navigationMode = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int panelBackground = 2130903282;
+			public const int numberFormat = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int panelMenuListTheme = 2130903283;
+			public const int numericModifiers = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int panelMenuListWidth = 2130903284;
+			public const int numericTextBoxValue = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int passwordToggleContentDescription = 2130903285;
+			public const int overlapAnchor = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int passwordToggleDrawable = 2130903286;
+			public const int paddingBottomNoButtons = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int passwordToggleEnabled = 2130903287;
+			public const int paddingEnd = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int passwordToggleTint = 2130903288;
+			public const int paddingStart = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int passwordToggleTintMode = 2130903289;
+			public const int paddingTopNoTitle = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int popupMenuStyle = 2130903290;
+			public const int panelBackground = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int popupTheme = 2130903291;
+			public const int panelMenuListTheme = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int popupWindowStyle = 2130903292;
+			public const int panelMenuListWidth = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int preserveIconSpacing = 2130903293;
+			public const int parsingMode = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int pressedTranslationZ = 2130903294;
+			public const int passwordToggleContentDescription = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int progressBarPadding = 2130903295;
+			public const int passwordToggleDrawable = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int progressBarStyle = 2130903296;
+			public const int passwordToggleEnabled = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int queryBackground = 2130903297;
+			public const int passwordToggleTint = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int queryHint = 2130903298;
+			public const int passwordToggleTintMode = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int radioButtonStyle = 2130903299;
+			public const int percentDisplayMode = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int ratingBarStyle = 2130903300;
+			public const int popupMenuStyle = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int ratingBarStyleIndicator = 2130903301;
+			public const int popupTheme = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int ratingBarStyleSmall = 2130903302;
+			public const int popupWindowStyle = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int reverseLayout = 2130903303;
+			public const int preserveIconSpacing = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int rippleColor = 2130903304;
+			public const int pressedTranslationZ = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int scrimAnimationDuration = 2130903305;
+			public const int progressBarPadding = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int scrimVisibleHeightTrigger = 2130903306;
+			public const int progressBarStyle = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int searchHintIcon = 2130903307;
+			public const int queryBackground = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int searchIcon = 2130903308;
+			public const int queryHint = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int searchViewStyle = 2130903309;
+			public const int radioButtonStyle = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int seekBarStyle = 2130903310;
+			public const int ratingBarStyle = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int selectableItemBackground = 2130903311;
+			public const int ratingBarStyleIndicator = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int selectableItemBackgroundBorderless = 2130903312;
+			public const int ratingBarStyleSmall = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int showAsAction = 2130903313;
+			public const int reverseLayout = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int showDividers = 2130903314;
+			public const int rippleColor = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int showText = 2130903315;
+			public const int scrimAnimationDuration = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int showTitle = 2130903316;
+			public const int scrimVisibleHeightTrigger = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int singleChoiceItemLayout = 2130903317;
+			public const int searchHintIcon = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int spanCount = 2130903318;
+			public const int searchIcon = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int spinBars = 2130903319;
+			public const int searchViewStyle = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int spinnerDropDownItemStyle = 2130903320;
-			
-			// aapt resource value: 0x7F030119
-			public const int spinnerStyle = 2130903321;
+			public const int seekBarStyle = 2130903320;
 			
 			// aapt resource value: 0x7F03011A
-			public const int splitTrack = 2130903322;
+			public const int selectableItemBackground = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int srcCompat = 2130903323;
+			public const int selectableItemBackgroundBorderless = 2130903323;
+			
+			// aapt resource value: 0x7F030119
+			public const int selectAllOnFocus = 2130903321;
 			
 			// aapt resource value: 0x7F03011C
-			public const int stackFromEnd = 2130903324;
+			public const int showAsAction = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int state_above_anchor = 2130903325;
+			public const int showDividers = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int state_collapsed = 2130903326;
+			public const int showText = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int state_collapsible = 2130903327;
+			public const int showTitle = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int statusBarBackground = 2130903328;
+			public const int singleChoiceItemLayout = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int statusBarScrim = 2130903329;
+			public const int spanCount = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int subMenuArrow = 2130903330;
+			public const int spinBars = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int submitBackground = 2130903331;
+			public const int spinnerDropDownItemStyle = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int subtitle = 2130903332;
+			public const int spinnerStyle = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int subtitleTextAppearance = 2130903333;
+			public const int splitTrack = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int subtitleTextColor = 2130903334;
+			public const int srcCompat = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int subtitleTextStyle = 2130903335;
+			public const int stackFromEnd = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int suggestionRowLayout = 2130903336;
+			public const int state_above_anchor = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int switchMinWidth = 2130903337;
+			public const int state_collapsed = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int switchPadding = 2130903338;
+			public const int state_collapsible = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int switchStyle = 2130903339;
+			public const int statusBarBackground = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int switchTextAppearance = 2130903340;
+			public const int statusBarScrim = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int tabBackground = 2130903341;
+			public const int subMenuArrow = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int tabContentStart = 2130903342;
+			public const int submitBackground = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int tabGravity = 2130903343;
+			public const int subtitle = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int tabIndicatorColor = 2130903344;
+			public const int subtitleTextAppearance = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int tabIndicatorHeight = 2130903345;
+			public const int subtitleTextColor = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int tabMaxWidth = 2130903346;
+			public const int subtitleTextStyle = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int tabMinWidth = 2130903347;
+			public const int suggestionRowLayout = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int tabMode = 2130903348;
+			public const int switchMinWidth = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int tabPadding = 2130903349;
+			public const int switchPadding = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int tabPaddingBottom = 2130903350;
+			public const int switchStyle = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int tabPaddingEnd = 2130903351;
+			public const int switchTextAppearance = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int tabPaddingStart = 2130903352;
+			public const int tabBackground = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int tabPaddingTop = 2130903353;
+			public const int tabContentStart = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int tabSelectedTextColor = 2130903354;
+			public const int tabGravity = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int tabTextAppearance = 2130903355;
+			public const int tabIndicatorColor = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int tabTextColor = 2130903356;
+			public const int tabIndicatorHeight = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int textAllCaps = 2130903357;
+			public const int tabMaxWidth = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int textAppearanceLargePopupMenu = 2130903358;
+			public const int tabMinWidth = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int textAppearanceListItem = 2130903359;
+			public const int tabMode = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int textAppearanceListItemSecondary = 2130903360;
+			public const int tabPadding = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int textAppearanceListItemSmall = 2130903361;
+			public const int tabPaddingBottom = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int textAppearancePopupMenuHeader = 2130903362;
+			public const int tabPaddingEnd = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int textAppearanceSearchResultSubtitle = 2130903363;
+			public const int tabPaddingStart = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int textAppearanceSearchResultTitle = 2130903364;
+			public const int tabPaddingTop = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int textAppearanceSmallPopupMenu = 2130903365;
+			public const int tabSelectedTextColor = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int textColorAlertDialogListItem = 2130903366;
+			public const int tabTextAppearance = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int textColorError = 2130903367;
+			public const int tabTextColor = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int textColorSearchUrl = 2130903368;
+			public const int textAllCaps = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int theme = 2130903369;
+			public const int textAppearanceLargePopupMenu = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int thickness = 2130903370;
+			public const int textAppearanceListItem = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int thumbTextPadding = 2130903371;
+			public const int textAppearanceListItemSecondary = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int thumbTint = 2130903372;
+			public const int textAppearanceListItemSmall = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int thumbTintMode = 2130903373;
+			public const int textAppearancePopupMenuHeader = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int tickMark = 2130903374;
+			public const int textAppearanceSearchResultSubtitle = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int tickMarkTint = 2130903375;
+			public const int textAppearanceSearchResultTitle = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int tickMarkTintMode = 2130903376;
+			public const int textAppearanceSmallPopupMenu = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int tint = 2130903377;
+			public const int textColorAlertDialogListItem = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int tintMode = 2130903378;
+			public const int textColorError = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int title = 2130903379;
+			public const int textColorSearchUrl = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int titleEnabled = 2130903380;
+			public const int theme = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int titleMargin = 2130903381;
+			public const int thickness = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int titleMarginBottom = 2130903382;
+			public const int thumbTextPadding = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int titleMarginEnd = 2130903383;
-			
-			// aapt resource value: 0x7F03015A
-			public const int titleMargins = 2130903386;
+			public const int thumbTint = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int titleMarginStart = 2130903384;
+			public const int thumbTintMode = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int titleMarginTop = 2130903385;
+			public const int tickMark = 2130903385;
+			
+			// aapt resource value: 0x7F03015A
+			public const int tickMarkTint = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int titleTextAppearance = 2130903387;
+			public const int tickMarkTintMode = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int titleTextColor = 2130903388;
+			public const int tint = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int titleTextStyle = 2130903389;
+			public const int tintMode = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int toolbarId = 2130903390;
+			public const int title = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int toolbarNavigationButtonStyle = 2130903391;
+			public const int titleEnabled = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int toolbarStyle = 2130903392;
+			public const int titleMargin = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int tooltipForegroundColor = 2130903393;
+			public const int titleMarginBottom = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int tooltipFrameBackground = 2130903394;
-			
-			// aapt resource value: 0x7F030163
-			public const int tooltipText = 2130903395;
-			
-			// aapt resource value: 0x7F030164
-			public const int track = 2130903396;
+			public const int titleMarginEnd = 2130903394;
 			
 			// aapt resource value: 0x7F030165
-			public const int trackTint = 2130903397;
+			public const int titleMargins = 2130903397;
+			
+			// aapt resource value: 0x7F030163
+			public const int titleMarginStart = 2130903395;
+			
+			// aapt resource value: 0x7F030164
+			public const int titleMarginTop = 2130903396;
 			
 			// aapt resource value: 0x7F030166
-			public const int trackTintMode = 2130903398;
+			public const int titleTextAppearance = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int useCompatPadding = 2130903399;
+			public const int titleTextColor = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int voiceIcon = 2130903400;
+			public const int titleTextStyle = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int windowActionBar = 2130903401;
+			public const int toolbarId = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int windowActionBarOverlay = 2130903402;
+			public const int toolbarNavigationButtonStyle = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int windowActionModeOverlay = 2130903403;
+			public const int toolbarStyle = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int windowFixedHeightMajor = 2130903404;
+			public const int tooltipForegroundColor = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int windowFixedHeightMinor = 2130903405;
+			public const int tooltipFrameBackground = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int windowFixedWidthMajor = 2130903406;
+			public const int tooltipText = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int windowFixedWidthMinor = 2130903407;
+			public const int track = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int windowMinWidthMajor = 2130903408;
+			public const int trackTint = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int windowMinWidthMinor = 2130903409;
+			public const int trackTintMode = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int windowNoTitle = 2130903410;
+			public const int useCompatPadding = 2130903410;
+			
+			// aapt resource value: 0x7F030173
+			public const int valueChangeMode = 2130903411;
+			
+			// aapt resource value: 0x7F030174
+			public const int voiceIcon = 2130903412;
+			
+			// aapt resource value: 0x7F030175
+			public const int watermark = 2130903413;
+			
+			// aapt resource value: 0x7F030176
+			public const int watermarkColor = 2130903414;
+			
+			// aapt resource value: 0x7F030177
+			public const int windowActionBar = 2130903415;
+			
+			// aapt resource value: 0x7F030178
+			public const int windowActionBarOverlay = 2130903416;
+			
+			// aapt resource value: 0x7F030179
+			public const int windowActionModeOverlay = 2130903417;
+			
+			// aapt resource value: 0x7F03017A
+			public const int windowFixedHeightMajor = 2130903418;
+			
+			// aapt resource value: 0x7F03017B
+			public const int windowFixedHeightMinor = 2130903419;
+			
+			// aapt resource value: 0x7F03017C
+			public const int windowFixedWidthMajor = 2130903420;
+			
+			// aapt resource value: 0x7F03017D
+			public const int windowFixedWidthMinor = 2130903421;
+			
+			// aapt resource value: 0x7F03017E
+			public const int windowMinWidthMajor = 2130903422;
+			
+			// aapt resource value: 0x7F03017F
+			public const int windowMinWidthMinor = 2130903423;
+			
+			// aapt resource value: 0x7F030180
+			public const int windowNoTitle = 2130903424;
 			
 			static Attribute()
 			{
@@ -4337,664 +6423,766 @@ namespace Evans.XamlTemplates.Droid
 			public const int abc_vector_test = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int avd_hide_password = 2131165273;
+			public const int Avatar1 = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int avd_show_password = 2131165274;
+			public const int Avatar10 = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int design_bottom_navigation_item_background = 2131165275;
+			public const int Avatar11 = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int design_fab_background = 2131165276;
+			public const int Avatar12 = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int design_ic_visibility = 2131165277;
+			public const int Avatar13 = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int design_ic_visibility_off = 2131165278;
+			public const int Avatar14 = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int design_password_eye = 2131165279;
+			public const int Avatar15 = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_snackbar_background = 2131165280;
+			public const int Avatar16 = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int ic_audiotrack_dark = 2131165281;
+			public const int Avatar17 = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int ic_audiotrack_light = 2131165282;
+			public const int Avatar18 = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int ic_dialog_close_dark = 2131165283;
+			public const int Avatar19 = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_dialog_close_light = 2131165284;
+			public const int Avatar2 = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int ic_group_collapse_00 = 2131165285;
+			public const int Avatar20 = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int ic_group_collapse_01 = 2131165286;
+			public const int Avatar21 = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int ic_group_collapse_02 = 2131165287;
+			public const int Avatar22 = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int ic_group_collapse_03 = 2131165288;
+			public const int Avatar23 = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int ic_group_collapse_04 = 2131165289;
+			public const int Avatar24 = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_group_collapse_05 = 2131165290;
+			public const int Avatar25 = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_group_collapse_06 = 2131165291;
+			public const int Avatar26 = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_group_collapse_07 = 2131165292;
+			public const int Avatar27 = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_group_collapse_08 = 2131165293;
+			public const int Avatar28 = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_group_collapse_09 = 2131165294;
+			public const int Avatar29 = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_group_collapse_10 = 2131165295;
+			public const int Avatar3 = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int ic_group_collapse_11 = 2131165296;
+			public const int Avatar30 = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int ic_group_collapse_12 = 2131165297;
+			public const int Avatar4 = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int ic_group_collapse_13 = 2131165298;
+			public const int Avatar5 = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int ic_group_collapse_14 = 2131165299;
+			public const int Avatar6 = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int ic_group_collapse_15 = 2131165300;
+			public const int Avatar7 = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int ic_group_expand_00 = 2131165301;
+			public const int Avatar8 = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int ic_group_expand_01 = 2131165302;
+			public const int Avatar9 = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int ic_group_expand_02 = 2131165303;
+			public const int avd_hide_password = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int ic_group_expand_03 = 2131165304;
+			public const int avd_show_password = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int ic_group_expand_04 = 2131165305;
+			public const int design_bottom_navigation_item_background = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int ic_group_expand_05 = 2131165306;
+			public const int design_fab_background = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int ic_group_expand_06 = 2131165307;
+			public const int design_ic_visibility = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int ic_group_expand_07 = 2131165308;
+			public const int design_ic_visibility_off = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int ic_group_expand_08 = 2131165309;
+			public const int design_password_eye = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int ic_group_expand_09 = 2131165310;
+			public const int design_snackbar_background = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int ic_group_expand_10 = 2131165311;
+			public const int dropdownbuttonimage = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int ic_group_expand_11 = 2131165312;
+			public const int ic_audiotrack_dark = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int ic_group_expand_12 = 2131165313;
+			public const int ic_audiotrack_light = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int ic_group_expand_13 = 2131165314;
+			public const int ic_dialog_close_dark = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int ic_group_expand_14 = 2131165315;
+			public const int ic_dialog_close_light = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int ic_group_expand_15 = 2131165316;
+			public const int ic_group_collapse_00 = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int ic_media_pause_dark = 2131165317;
+			public const int ic_group_collapse_01 = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int ic_media_pause_light = 2131165318;
+			public const int ic_group_collapse_02 = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int ic_media_play_dark = 2131165319;
+			public const int ic_group_collapse_03 = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int ic_media_play_light = 2131165320;
+			public const int ic_group_collapse_04 = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int ic_media_stop_dark = 2131165321;
+			public const int ic_group_collapse_05 = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ic_media_stop_light = 2131165322;
+			public const int ic_group_collapse_06 = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int ic_mr_button_connected_00_dark = 2131165323;
+			public const int ic_group_collapse_07 = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int ic_mr_button_connected_00_light = 2131165324;
+			public const int ic_group_collapse_08 = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int ic_mr_button_connected_01_dark = 2131165325;
+			public const int ic_group_collapse_09 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int ic_mr_button_connected_01_light = 2131165326;
+			public const int ic_group_collapse_10 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int ic_mr_button_connected_02_dark = 2131165327;
+			public const int ic_group_collapse_11 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ic_mr_button_connected_02_light = 2131165328;
+			public const int ic_group_collapse_12 = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int ic_mr_button_connected_03_dark = 2131165329;
+			public const int ic_group_collapse_13 = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int ic_mr_button_connected_03_light = 2131165330;
+			public const int ic_group_collapse_14 = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int ic_mr_button_connected_04_dark = 2131165331;
+			public const int ic_group_collapse_15 = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int ic_mr_button_connected_04_light = 2131165332;
+			public const int ic_group_expand_00 = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int ic_mr_button_connected_05_dark = 2131165333;
+			public const int ic_group_expand_01 = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int ic_mr_button_connected_05_light = 2131165334;
+			public const int ic_group_expand_02 = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int ic_mr_button_connected_06_dark = 2131165335;
+			public const int ic_group_expand_03 = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int ic_mr_button_connected_06_light = 2131165336;
+			public const int ic_group_expand_04 = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int ic_mr_button_connected_07_dark = 2131165337;
+			public const int ic_group_expand_05 = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_mr_button_connected_07_light = 2131165338;
+			public const int ic_group_expand_06 = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ic_mr_button_connected_08_dark = 2131165339;
+			public const int ic_group_expand_07 = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int ic_mr_button_connected_08_light = 2131165340;
+			public const int ic_group_expand_08 = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_mr_button_connected_09_dark = 2131165341;
+			public const int ic_group_expand_09 = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_mr_button_connected_09_light = 2131165342;
+			public const int ic_group_expand_10 = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_mr_button_connected_10_dark = 2131165343;
+			public const int ic_group_expand_11 = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_mr_button_connected_10_light = 2131165344;
+			public const int ic_group_expand_12 = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_mr_button_connected_11_dark = 2131165345;
+			public const int ic_group_expand_13 = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_mr_button_connected_11_light = 2131165346;
+			public const int ic_group_expand_14 = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_mr_button_connected_12_dark = 2131165347;
+			public const int ic_group_expand_15 = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_mr_button_connected_12_light = 2131165348;
+			public const int ic_media_pause_dark = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_mr_button_connected_13_dark = 2131165349;
+			public const int ic_media_pause_light = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_mr_button_connected_13_light = 2131165350;
+			public const int ic_media_play_dark = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_mr_button_connected_14_dark = 2131165351;
+			public const int ic_media_play_light = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_mr_button_connected_14_light = 2131165352;
+			public const int ic_media_stop_dark = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_mr_button_connected_15_dark = 2131165353;
+			public const int ic_media_stop_light = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_mr_button_connected_15_light = 2131165354;
+			public const int ic_mr_button_connected_00_dark = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_16_dark = 2131165355;
+			public const int ic_mr_button_connected_00_light = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_16_light = 2131165356;
+			public const int ic_mr_button_connected_01_dark = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_17_dark = 2131165357;
+			public const int ic_mr_button_connected_01_light = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_17_light = 2131165358;
+			public const int ic_mr_button_connected_02_dark = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_18_dark = 2131165359;
+			public const int ic_mr_button_connected_02_light = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_18_light = 2131165360;
+			public const int ic_mr_button_connected_03_dark = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_19_dark = 2131165361;
+			public const int ic_mr_button_connected_03_light = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_19_light = 2131165362;
+			public const int ic_mr_button_connected_04_dark = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_20_dark = 2131165363;
+			public const int ic_mr_button_connected_04_light = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_20_light = 2131165364;
+			public const int ic_mr_button_connected_05_dark = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_21_dark = 2131165365;
+			public const int ic_mr_button_connected_05_light = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_21_light = 2131165366;
+			public const int ic_mr_button_connected_06_dark = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_22_dark = 2131165367;
+			public const int ic_mr_button_connected_06_light = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_22_light = 2131165368;
+			public const int ic_mr_button_connected_07_dark = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_23_dark = 2131165369;
+			public const int ic_mr_button_connected_07_light = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_23_light = 2131165370;
+			public const int ic_mr_button_connected_08_dark = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_24_dark = 2131165371;
+			public const int ic_mr_button_connected_08_light = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_24_light = 2131165372;
+			public const int ic_mr_button_connected_09_dark = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_25_dark = 2131165373;
+			public const int ic_mr_button_connected_09_light = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_25_light = 2131165374;
+			public const int ic_mr_button_connected_10_dark = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_26_dark = 2131165375;
+			public const int ic_mr_button_connected_10_light = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_26_light = 2131165376;
+			public const int ic_mr_button_connected_11_dark = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_27_dark = 2131165377;
+			public const int ic_mr_button_connected_11_light = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_27_light = 2131165378;
+			public const int ic_mr_button_connected_12_dark = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_28_dark = 2131165379;
+			public const int ic_mr_button_connected_12_light = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_28_light = 2131165380;
+			public const int ic_mr_button_connected_13_dark = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_29_dark = 2131165381;
+			public const int ic_mr_button_connected_13_light = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_29_light = 2131165382;
+			public const int ic_mr_button_connected_14_dark = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_30_dark = 2131165383;
+			public const int ic_mr_button_connected_14_light = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_30_light = 2131165384;
+			public const int ic_mr_button_connected_15_dark = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connecting_00_dark = 2131165385;
+			public const int ic_mr_button_connected_15_light = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connecting_00_light = 2131165386;
+			public const int ic_mr_button_connected_16_dark = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connecting_01_dark = 2131165387;
+			public const int ic_mr_button_connected_16_light = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connecting_01_light = 2131165388;
+			public const int ic_mr_button_connected_17_dark = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connecting_02_dark = 2131165389;
+			public const int ic_mr_button_connected_17_light = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connecting_02_light = 2131165390;
+			public const int ic_mr_button_connected_18_dark = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connecting_03_dark = 2131165391;
+			public const int ic_mr_button_connected_18_light = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connecting_03_light = 2131165392;
+			public const int ic_mr_button_connected_19_dark = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connecting_04_dark = 2131165393;
+			public const int ic_mr_button_connected_19_light = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connecting_04_light = 2131165394;
+			public const int ic_mr_button_connected_20_dark = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connecting_05_dark = 2131165395;
+			public const int ic_mr_button_connected_20_light = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connecting_05_light = 2131165396;
+			public const int ic_mr_button_connected_21_dark = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connecting_06_dark = 2131165397;
+			public const int ic_mr_button_connected_21_light = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connecting_06_light = 2131165398;
+			public const int ic_mr_button_connected_22_dark = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connecting_07_dark = 2131165399;
+			public const int ic_mr_button_connected_22_light = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connecting_07_light = 2131165400;
+			public const int ic_mr_button_connected_23_dark = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connecting_08_dark = 2131165401;
+			public const int ic_mr_button_connected_23_light = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connecting_08_light = 2131165402;
+			public const int ic_mr_button_connected_24_dark = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connecting_09_dark = 2131165403;
+			public const int ic_mr_button_connected_24_light = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connecting_09_light = 2131165404;
+			public const int ic_mr_button_connected_25_dark = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connecting_10_dark = 2131165405;
+			public const int ic_mr_button_connected_25_light = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connecting_10_light = 2131165406;
+			public const int ic_mr_button_connected_26_dark = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connecting_11_dark = 2131165407;
+			public const int ic_mr_button_connected_26_light = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connecting_11_light = 2131165408;
+			public const int ic_mr_button_connected_27_dark = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connecting_12_dark = 2131165409;
+			public const int ic_mr_button_connected_27_light = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connecting_12_light = 2131165410;
+			public const int ic_mr_button_connected_28_dark = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connecting_13_dark = 2131165411;
+			public const int ic_mr_button_connected_28_light = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connecting_13_light = 2131165412;
+			public const int ic_mr_button_connected_29_dark = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connecting_14_dark = 2131165413;
+			public const int ic_mr_button_connected_29_light = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connecting_14_light = 2131165414;
+			public const int ic_mr_button_connected_30_dark = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connecting_15_dark = 2131165415;
+			public const int ic_mr_button_connected_30_light = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connecting_15_light = 2131165416;
+			public const int ic_mr_button_connecting_00_dark = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_16_dark = 2131165417;
+			public const int ic_mr_button_connecting_00_light = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_16_light = 2131165418;
+			public const int ic_mr_button_connecting_01_dark = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_17_dark = 2131165419;
+			public const int ic_mr_button_connecting_01_light = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_17_light = 2131165420;
+			public const int ic_mr_button_connecting_02_dark = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_18_dark = 2131165421;
+			public const int ic_mr_button_connecting_02_light = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_18_light = 2131165422;
+			public const int ic_mr_button_connecting_03_dark = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_19_dark = 2131165423;
+			public const int ic_mr_button_connecting_03_light = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_19_light = 2131165424;
+			public const int ic_mr_button_connecting_04_dark = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_20_dark = 2131165425;
+			public const int ic_mr_button_connecting_04_light = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_20_light = 2131165426;
+			public const int ic_mr_button_connecting_05_dark = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_21_dark = 2131165427;
+			public const int ic_mr_button_connecting_05_light = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_21_light = 2131165428;
+			public const int ic_mr_button_connecting_06_dark = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_22_dark = 2131165429;
+			public const int ic_mr_button_connecting_06_light = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_22_light = 2131165430;
+			public const int ic_mr_button_connecting_07_dark = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_23_dark = 2131165431;
+			public const int ic_mr_button_connecting_07_light = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_23_light = 2131165432;
+			public const int ic_mr_button_connecting_08_dark = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_24_dark = 2131165433;
+			public const int ic_mr_button_connecting_08_light = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_24_light = 2131165434;
+			public const int ic_mr_button_connecting_09_dark = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_25_dark = 2131165435;
+			public const int ic_mr_button_connecting_09_light = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_25_light = 2131165436;
+			public const int ic_mr_button_connecting_10_dark = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_26_dark = 2131165437;
+			public const int ic_mr_button_connecting_10_light = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_26_light = 2131165438;
+			public const int ic_mr_button_connecting_11_dark = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_27_dark = 2131165439;
+			public const int ic_mr_button_connecting_11_light = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_27_light = 2131165440;
+			public const int ic_mr_button_connecting_12_dark = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_28_dark = 2131165441;
+			public const int ic_mr_button_connecting_12_light = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_28_light = 2131165442;
+			public const int ic_mr_button_connecting_13_dark = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_29_dark = 2131165443;
+			public const int ic_mr_button_connecting_13_light = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_29_light = 2131165444;
+			public const int ic_mr_button_connecting_14_dark = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_30_dark = 2131165445;
+			public const int ic_mr_button_connecting_14_light = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_30_light = 2131165446;
+			public const int ic_mr_button_connecting_15_dark = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_disabled_dark = 2131165447;
+			public const int ic_mr_button_connecting_15_light = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_disabled_light = 2131165448;
+			public const int ic_mr_button_connecting_16_dark = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_disconnected_dark = 2131165449;
+			public const int ic_mr_button_connecting_16_light = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_disconnected_light = 2131165450;
+			public const int ic_mr_button_connecting_17_dark = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_grey = 2131165451;
+			public const int ic_mr_button_connecting_17_light = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_vol_type_speaker_dark = 2131165452;
+			public const int ic_mr_button_connecting_18_dark = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_vol_type_speaker_group_dark = 2131165453;
+			public const int ic_mr_button_connecting_18_light = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_vol_type_speaker_group_light = 2131165454;
+			public const int ic_mr_button_connecting_19_dark = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_vol_type_speaker_light = 2131165455;
+			public const int ic_mr_button_connecting_19_light = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_vol_type_tv_dark = 2131165456;
+			public const int ic_mr_button_connecting_20_dark = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_vol_type_tv_light = 2131165457;
+			public const int ic_mr_button_connecting_20_light = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int mr_button_connected_dark = 2131165458;
+			public const int ic_mr_button_connecting_21_dark = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int mr_button_connected_light = 2131165459;
+			public const int ic_mr_button_connecting_21_light = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int mr_button_connecting_dark = 2131165460;
+			public const int ic_mr_button_connecting_22_dark = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int mr_button_connecting_light = 2131165461;
+			public const int ic_mr_button_connecting_22_light = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int mr_button_dark = 2131165462;
+			public const int ic_mr_button_connecting_23_dark = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int mr_button_light = 2131165463;
+			public const int ic_mr_button_connecting_23_light = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int mr_dialog_close_dark = 2131165464;
+			public const int ic_mr_button_connecting_24_dark = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int mr_dialog_close_light = 2131165465;
+			public const int ic_mr_button_connecting_24_light = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int mr_dialog_material_background_dark = 2131165466;
+			public const int ic_mr_button_connecting_25_dark = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int mr_dialog_material_background_light = 2131165467;
+			public const int ic_mr_button_connecting_25_light = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int mr_group_collapse = 2131165468;
+			public const int ic_mr_button_connecting_26_dark = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int mr_group_expand = 2131165469;
+			public const int ic_mr_button_connecting_26_light = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int mr_media_pause_dark = 2131165470;
+			public const int ic_mr_button_connecting_27_dark = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int mr_media_pause_light = 2131165471;
+			public const int ic_mr_button_connecting_27_light = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int mr_media_play_dark = 2131165472;
+			public const int ic_mr_button_connecting_28_dark = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int mr_media_play_light = 2131165473;
+			public const int ic_mr_button_connecting_28_light = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int mr_media_stop_dark = 2131165474;
+			public const int ic_mr_button_connecting_29_dark = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int mr_media_stop_light = 2131165475;
+			public const int ic_mr_button_connecting_29_light = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int mr_vol_type_audiotrack_dark = 2131165476;
+			public const int ic_mr_button_connecting_30_dark = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int mr_vol_type_audiotrack_light = 2131165477;
+			public const int ic_mr_button_connecting_30_light = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int navigation_empty_icon = 2131165478;
+			public const int ic_mr_button_disabled_dark = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int notification_action_background = 2131165479;
+			public const int ic_mr_button_disabled_light = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int notification_bg = 2131165480;
+			public const int ic_mr_button_disconnected_dark = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int notification_bg_low = 2131165481;
+			public const int ic_mr_button_disconnected_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int notification_bg_low_normal = 2131165482;
+			public const int ic_mr_button_grey = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int notification_bg_low_pressed = 2131165483;
+			public const int ic_vol_type_speaker_dark = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int notification_bg_normal = 2131165484;
+			public const int ic_vol_type_speaker_group_dark = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int notification_bg_normal_pressed = 2131165485;
+			public const int ic_vol_type_speaker_group_light = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int notification_icon_background = 2131165486;
+			public const int ic_vol_type_speaker_light = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int notification_template_icon_bg = 2131165487;
+			public const int ic_vol_type_tv_dark = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int notification_template_icon_low_bg = 2131165488;
-			
-			// aapt resource value: 0x7F070131
-			public const int notification_tile_bg = 2131165489;
+			public const int ic_vol_type_tv_light = 2131165488;
 			
 			// aapt resource value: 0x7F070132
-			public const int notify_panel_notification_icon_bg = 2131165490;
+			public const int inputlayout_togglecollapseicon = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int tooltip_frame_dark = 2131165491;
+			public const int inputlayout_togglevisibleicon = 2131165491;
+			
+			// aapt resource value: 0x7F070131
+			public const int input_layout_drop_down_icon = 2131165489;
 			
 			// aapt resource value: 0x7F070134
-			public const int tooltip_frame_light = 2131165492;
+			public const int mr_button_connected_dark = 2131165492;
+			
+			// aapt resource value: 0x7F070135
+			public const int mr_button_connected_light = 2131165493;
+			
+			// aapt resource value: 0x7F070136
+			public const int mr_button_connecting_dark = 2131165494;
+			
+			// aapt resource value: 0x7F070137
+			public const int mr_button_connecting_light = 2131165495;
+			
+			// aapt resource value: 0x7F070138
+			public const int mr_button_dark = 2131165496;
+			
+			// aapt resource value: 0x7F070139
+			public const int mr_button_light = 2131165497;
+			
+			// aapt resource value: 0x7F07013A
+			public const int mr_dialog_close_dark = 2131165498;
+			
+			// aapt resource value: 0x7F07013B
+			public const int mr_dialog_close_light = 2131165499;
+			
+			// aapt resource value: 0x7F07013C
+			public const int mr_dialog_material_background_dark = 2131165500;
+			
+			// aapt resource value: 0x7F07013D
+			public const int mr_dialog_material_background_light = 2131165501;
+			
+			// aapt resource value: 0x7F07013E
+			public const int mr_group_collapse = 2131165502;
+			
+			// aapt resource value: 0x7F07013F
+			public const int mr_group_expand = 2131165503;
+			
+			// aapt resource value: 0x7F070140
+			public const int mr_media_pause_dark = 2131165504;
+			
+			// aapt resource value: 0x7F070141
+			public const int mr_media_pause_light = 2131165505;
+			
+			// aapt resource value: 0x7F070142
+			public const int mr_media_play_dark = 2131165506;
+			
+			// aapt resource value: 0x7F070143
+			public const int mr_media_play_light = 2131165507;
+			
+			// aapt resource value: 0x7F070144
+			public const int mr_media_stop_dark = 2131165508;
+			
+			// aapt resource value: 0x7F070145
+			public const int mr_media_stop_light = 2131165509;
+			
+			// aapt resource value: 0x7F070146
+			public const int mr_vol_type_audiotrack_dark = 2131165510;
+			
+			// aapt resource value: 0x7F070147
+			public const int mr_vol_type_audiotrack_light = 2131165511;
+			
+			// aapt resource value: 0x7F070148
+			public const int navigation_empty_icon = 2131165512;
+			
+			// aapt resource value: 0x7F070149
+			public const int notification_action_background = 2131165513;
+			
+			// aapt resource value: 0x7F07014A
+			public const int notification_bg = 2131165514;
+			
+			// aapt resource value: 0x7F07014B
+			public const int notification_bg_low = 2131165515;
+			
+			// aapt resource value: 0x7F07014C
+			public const int notification_bg_low_normal = 2131165516;
+			
+			// aapt resource value: 0x7F07014D
+			public const int notification_bg_low_pressed = 2131165517;
+			
+			// aapt resource value: 0x7F07014E
+			public const int notification_bg_normal = 2131165518;
+			
+			// aapt resource value: 0x7F07014F
+			public const int notification_bg_normal_pressed = 2131165519;
+			
+			// aapt resource value: 0x7F070150
+			public const int notification_icon_background = 2131165520;
+			
+			// aapt resource value: 0x7F070151
+			public const int notification_template_icon_bg = 2131165521;
+			
+			// aapt resource value: 0x7F070152
+			public const int notification_template_icon_low_bg = 2131165522;
+			
+			// aapt resource value: 0x7F070153
+			public const int notification_tile_bg = 2131165523;
+			
+			// aapt resource value: 0x7F070154
+			public const int notify_panel_notification_icon_bg = 2131165524;
+			
+			// aapt resource value: 0x7F070155
+			public const int tooltip_frame_dark = 2131165525;
+			
+			// aapt resource value: 0x7F070156
+			public const int tooltip_frame_light = 2131165526;
 			
 			static Drawable()
 			{
@@ -5009,647 +7197,665 @@ namespace Evans.XamlTemplates.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080006
-			public const int action0 = 2131230726;
-			
-			// aapt resource value: 0x7F080018
-			public const int actions = 2131230744;
-			
 			// aapt resource value: 0x7F080007
-			public const int action_bar = 2131230727;
-			
-			// aapt resource value: 0x7F080008
-			public const int action_bar_activity_content = 2131230728;
-			
-			// aapt resource value: 0x7F080009
-			public const int action_bar_container = 2131230729;
-			
-			// aapt resource value: 0x7F08000A
-			public const int action_bar_root = 2131230730;
-			
-			// aapt resource value: 0x7F08000B
-			public const int action_bar_spinner = 2131230731;
-			
-			// aapt resource value: 0x7F08000C
-			public const int action_bar_subtitle = 2131230732;
-			
-			// aapt resource value: 0x7F08000D
-			public const int action_bar_title = 2131230733;
-			
-			// aapt resource value: 0x7F08000E
-			public const int action_container = 2131230734;
-			
-			// aapt resource value: 0x7F08000F
-			public const int action_context_bar = 2131230735;
-			
-			// aapt resource value: 0x7F080010
-			public const int action_divider = 2131230736;
-			
-			// aapt resource value: 0x7F080011
-			public const int action_image = 2131230737;
-			
-			// aapt resource value: 0x7F080012
-			public const int action_menu_divider = 2131230738;
-			
-			// aapt resource value: 0x7F080013
-			public const int action_menu_presenter = 2131230739;
-			
-			// aapt resource value: 0x7F080014
-			public const int action_mode_bar = 2131230740;
-			
-			// aapt resource value: 0x7F080015
-			public const int action_mode_bar_stub = 2131230741;
-			
-			// aapt resource value: 0x7F080016
-			public const int action_mode_close_button = 2131230742;
-			
-			// aapt resource value: 0x7F080017
-			public const int action_text = 2131230743;
+			public const int action0 = 2131230727;
 			
 			// aapt resource value: 0x7F080019
-			public const int activity_chooser_view_content = 2131230745;
+			public const int actions = 2131230745;
+			
+			// aapt resource value: 0x7F080008
+			public const int action_bar = 2131230728;
+			
+			// aapt resource value: 0x7F080009
+			public const int action_bar_activity_content = 2131230729;
+			
+			// aapt resource value: 0x7F08000A
+			public const int action_bar_container = 2131230730;
+			
+			// aapt resource value: 0x7F08000B
+			public const int action_bar_root = 2131230731;
+			
+			// aapt resource value: 0x7F08000C
+			public const int action_bar_spinner = 2131230732;
+			
+			// aapt resource value: 0x7F08000D
+			public const int action_bar_subtitle = 2131230733;
+			
+			// aapt resource value: 0x7F08000E
+			public const int action_bar_title = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int action_container = 2131230735;
+			
+			// aapt resource value: 0x7F080010
+			public const int action_context_bar = 2131230736;
+			
+			// aapt resource value: 0x7F080011
+			public const int action_divider = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int action_image = 2131230738;
+			
+			// aapt resource value: 0x7F080013
+			public const int action_menu_divider = 2131230739;
+			
+			// aapt resource value: 0x7F080014
+			public const int action_menu_presenter = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int action_mode_bar = 2131230741;
+			
+			// aapt resource value: 0x7F080016
+			public const int action_mode_bar_stub = 2131230742;
+			
+			// aapt resource value: 0x7F080017
+			public const int action_mode_close_button = 2131230743;
+			
+			// aapt resource value: 0x7F080018
+			public const int action_text = 2131230744;
 			
 			// aapt resource value: 0x7F08001A
-			public const int add = 2131230746;
+			public const int activity_chooser_view_content = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int alertTitle = 2131230747;
+			public const int add = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int all = 2131230748;
+			public const int alertTitle = 2131230748;
+			
+			// aapt resource value: 0x7F08001D
+			public const int all = 2131230749;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
-			// aapt resource value: 0x7F08001D
-			public const int always = 2131230749;
-			
 			// aapt resource value: 0x7F08001E
-			public const int async = 2131230750;
+			public const int always = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int auto = 2131230751;
+			public const int async = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int beginning = 2131230752;
+			public const int auto = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int blocking = 2131230753;
+			public const int beginning = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int bottom = 2131230754;
+			public const int blocking = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int bottomtab_navarea = 2131230755;
+			public const int bottom = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int bottomtab_tabbar = 2131230756;
+			public const int bottomtab_navarea = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int buttonPanel = 2131230757;
+			public const int bottomtab_tabbar = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int cancel_action = 2131230758;
+			public const int buttonPanel = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int center = 2131230759;
+			public const int cancel_action = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int center_horizontal = 2131230760;
+			public const int center = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int center_vertical = 2131230761;
+			public const int center_horizontal = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int checkbox = 2131230762;
+			public const int center_vertical = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int chronometer = 2131230763;
+			public const int checkbox = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int clip_horizontal = 2131230764;
+			public const int chronometer = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int clip_vertical = 2131230765;
+			public const int clip_horizontal = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int collapseActionView = 2131230766;
+			public const int clip_vertical = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int container = 2131230767;
+			public const int collapseActionView = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int contentPanel = 2131230768;
+			public const int compute = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int coordinator = 2131230769;
+			public const int container = 2131230769;
+			
+			// aapt resource value: 0x7F080032
+			public const int contentPanel = 2131230770;
+			
+			// aapt resource value: 0x7F080033
+			public const int coordinator = 2131230771;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080032
-			public const int custom = 2131230770;
-			
-			// aapt resource value: 0x7F080033
-			public const int customPanel = 2131230771;
-			
 			// aapt resource value: 0x7F080034
-			public const int decor_content_parent = 2131230772;
+			public const int custom = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int default_activity_button = 2131230773;
+			public const int customPanel = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int design_bottom_sheet = 2131230774;
+			public const int decimalMode = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int design_menu_item_action_area = 2131230775;
+			public const int decor_content_parent = 2131230775;
 			
 			// aapt resource value: 0x7F080038
-			public const int design_menu_item_action_area_stub = 2131230776;
+			public const int default_activity_button = 2131230776;
 			
 			// aapt resource value: 0x7F080039
-			public const int design_menu_item_text = 2131230777;
+			public const int design_bottom_sheet = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int design_navigation_view = 2131230778;
+			public const int design_menu_item_action_area = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int disableHome = 2131230779;
+			public const int design_menu_item_action_area_stub = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int edit_query = 2131230780;
+			public const int design_menu_item_text = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int end = 2131230781;
+			public const int design_navigation_view = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int end_padder = 2131230782;
+			public const int disableHome = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int enterAlways = 2131230783;
+			public const int doubleMode = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int enterAlwaysCollapsed = 2131230784;
+			public const int edit_query = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int exitUntilCollapsed = 2131230785;
-			
-			// aapt resource value: 0x7F080043
-			public const int expanded_menu = 2131230787;
+			public const int end = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int expand_activities_button = 2131230786;
+			public const int end_padder = 2131230786;
+			
+			// aapt resource value: 0x7F080043
+			public const int enterAlways = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int fill = 2131230788;
+			public const int enterAlwaysCollapsed = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int fill_horizontal = 2131230789;
-			
-			// aapt resource value: 0x7F080046
-			public const int fill_vertical = 2131230790;
+			public const int exitUntilCollapsed = 2131230789;
 			
 			// aapt resource value: 0x7F080047
-			public const int @fixed = 2131230791;
+			public const int expanded_menu = 2131230791;
+			
+			// aapt resource value: 0x7F080046
+			public const int expand_activities_button = 2131230790;
 			
 			// aapt resource value: 0x7F080048
-			public const int flyoutcontent_appbar = 2131230792;
+			public const int fill = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int flyoutcontent_recycler = 2131230793;
+			public const int fill_horizontal = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int forever = 2131230794;
+			public const int fill_vertical = 2131230794;
+			
+			// aapt resource value: 0x7F08004B
+			public const int @fixed = 2131230795;
+			
+			// aapt resource value: 0x7F08004C
+			public const int flyoutcontent_appbar = 2131230796;
+			
+			// aapt resource value: 0x7F08004D
+			public const int flyoutcontent_recycler = 2131230797;
+			
+			// aapt resource value: 0x7F08004E
+			public const int forever = 2131230798;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F08004B
-			public const int ghost_view = 2131230795;
-			
-			// aapt resource value: 0x7F08004C
-			public const int home = 2131230796;
-			
-			// aapt resource value: 0x7F08004D
-			public const int homeAsUp = 2131230797;
-			
-			// aapt resource value: 0x7F08004E
-			public const int icon = 2131230798;
-			
 			// aapt resource value: 0x7F08004F
-			public const int icon_group = 2131230799;
+			public const int ghost_view = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int ifRoom = 2131230800;
+			public const int home = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int image = 2131230801;
+			public const int homeAsUp = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int info = 2131230802;
+			public const int icon = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int italic = 2131230803;
+			public const int icon_group = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int item_touch_helper_previous_elevation = 2131230804;
+			public const int ifRoom = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int largeLabel = 2131230805;
+			public const int image = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int left = 2131230806;
+			public const int info = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int line1 = 2131230807;
-			
-			// aapt resource value: 0x7F080058
-			public const int line3 = 2131230808;
-			
-			// aapt resource value: 0x7F080059
-			public const int listMode = 2131230809;
-			
-			// aapt resource value: 0x7F08005A
-			public const int list_item = 2131230810;
-			
-			// aapt resource value: 0x7F08005B
-			public const int main_appbar = 2131230811;
-			
-			// aapt resource value: 0x7F08005C
-			public const int main_scrollview = 2131230812;
-			
-			// aapt resource value: 0x7F08005D
-			public const int main_tablayout = 2131230813;
-			
-			// aapt resource value: 0x7F08005E
-			public const int main_toolbar = 2131230814;
-			
-			// aapt resource value: 0x7F08005F
-			public const int masked = 2131230815;
-			
-			// aapt resource value: 0x7F080060
-			public const int media_actions = 2131230816;
-			
-			// aapt resource value: 0x7F080061
-			public const int message = 2131230817;
+			public const int italic = 2131230807;
 			
 			// aapt resource value: 0x7F080003
-			public const int META = 2131230723;
+			public const int Itemname = 2131230723;
+			
+			// aapt resource value: 0x7F080058
+			public const int item_touch_helper_previous_elevation = 2131230808;
+			
+			// aapt resource value: 0x7F080059
+			public const int largeLabel = 2131230809;
+			
+			// aapt resource value: 0x7F08005A
+			public const int left = 2131230810;
+			
+			// aapt resource value: 0x7F08005B
+			public const int line1 = 2131230811;
+			
+			// aapt resource value: 0x7F08005C
+			public const int line3 = 2131230812;
+			
+			// aapt resource value: 0x7F08005D
+			public const int listMode = 2131230813;
+			
+			// aapt resource value: 0x7F08005E
+			public const int list_item = 2131230814;
+			
+			// aapt resource value: 0x7F08005F
+			public const int main_appbar = 2131230815;
+			
+			// aapt resource value: 0x7F080060
+			public const int main_tablayout = 2131230816;
+			
+			// aapt resource value: 0x7F080061
+			public const int main_toolbar = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int middle = 2131230818;
+			public const int main_viewpager = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int mini = 2131230819;
+			public const int masked = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int mr_art = 2131230820;
+			public const int media_actions = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int mr_chooser_list = 2131230821;
-			
-			// aapt resource value: 0x7F080066
-			public const int mr_chooser_route_desc = 2131230822;
-			
-			// aapt resource value: 0x7F080067
-			public const int mr_chooser_route_icon = 2131230823;
-			
-			// aapt resource value: 0x7F080068
-			public const int mr_chooser_route_name = 2131230824;
-			
-			// aapt resource value: 0x7F080069
-			public const int mr_chooser_title = 2131230825;
-			
-			// aapt resource value: 0x7F08006A
-			public const int mr_close = 2131230826;
-			
-			// aapt resource value: 0x7F08006B
-			public const int mr_control_divider = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int mr_control_playback_ctrl = 2131230828;
-			
-			// aapt resource value: 0x7F08006D
-			public const int mr_control_subtitle = 2131230829;
-			
-			// aapt resource value: 0x7F08006E
-			public const int mr_control_title = 2131230830;
-			
-			// aapt resource value: 0x7F08006F
-			public const int mr_control_title_container = 2131230831;
-			
-			// aapt resource value: 0x7F080070
-			public const int mr_custom_control = 2131230832;
-			
-			// aapt resource value: 0x7F080071
-			public const int mr_default_control = 2131230833;
-			
-			// aapt resource value: 0x7F080072
-			public const int mr_dialog_area = 2131230834;
-			
-			// aapt resource value: 0x7F080073
-			public const int mr_expandable_area = 2131230835;
-			
-			// aapt resource value: 0x7F080074
-			public const int mr_group_expand_collapse = 2131230836;
-			
-			// aapt resource value: 0x7F080075
-			public const int mr_media_main_control = 2131230837;
-			
-			// aapt resource value: 0x7F080076
-			public const int mr_name = 2131230838;
-			
-			// aapt resource value: 0x7F080077
-			public const int mr_playback_control = 2131230839;
-			
-			// aapt resource value: 0x7F080078
-			public const int mr_title_bar = 2131230840;
-			
-			// aapt resource value: 0x7F080079
-			public const int mr_volume_control = 2131230841;
-			
-			// aapt resource value: 0x7F08007A
-			public const int mr_volume_group_list = 2131230842;
-			
-			// aapt resource value: 0x7F08007B
-			public const int mr_volume_item_icon = 2131230843;
-			
-			// aapt resource value: 0x7F08007C
-			public const int mr_volume_slider = 2131230844;
-			
-			// aapt resource value: 0x7F08007D
-			public const int multiply = 2131230845;
-			
-			// aapt resource value: 0x7F08007E
-			public const int navigation_header_container = 2131230846;
-			
-			// aapt resource value: 0x7F08007F
-			public const int never = 2131230847;
-			
-			// aapt resource value: 0x7F080080
-			public const int none = 2131230848;
-			
-			// aapt resource value: 0x7F080081
-			public const int normal = 2131230849;
-			
-			// aapt resource value: 0x7F080082
-			public const int notification_background = 2131230850;
-			
-			// aapt resource value: 0x7F080083
-			public const int notification_main_column = 2131230851;
-			
-			// aapt resource value: 0x7F080084
-			public const int notification_main_column_container = 2131230852;
-			
-			// aapt resource value: 0x7F080085
-			public const int parallax = 2131230853;
-			
-			// aapt resource value: 0x7F080086
-			public const int parentPanel = 2131230854;
-			
-			// aapt resource value: 0x7F080087
-			public const int parent_matrix = 2131230855;
-			
-			// aapt resource value: 0x7F080088
-			public const int pin = 2131230856;
-			
-			// aapt resource value: 0x7F080089
-			public const int progress_circular = 2131230857;
-			
-			// aapt resource value: 0x7F08008A
-			public const int progress_horizontal = 2131230858;
-			
-			// aapt resource value: 0x7F08008B
-			public const int radio = 2131230859;
-			
-			// aapt resource value: 0x7F08008C
-			public const int right = 2131230860;
-			
-			// aapt resource value: 0x7F08008D
-			public const int right_icon = 2131230861;
-			
-			// aapt resource value: 0x7F08008E
-			public const int right_side = 2131230862;
-			
-			// aapt resource value: 0x7F08008F
-			public const int save_image_matrix = 2131230863;
-			
-			// aapt resource value: 0x7F080090
-			public const int save_non_transition_alpha = 2131230864;
-			
-			// aapt resource value: 0x7F080091
-			public const int save_scale_type = 2131230865;
-			
-			// aapt resource value: 0x7F080092
-			public const int screen = 2131230866;
-			
-			// aapt resource value: 0x7F080093
-			public const int scroll = 2131230867;
-			
-			// aapt resource value: 0x7F080097
-			public const int scrollable = 2131230871;
-			
-			// aapt resource value: 0x7F080094
-			public const int scrollIndicatorDown = 2131230868;
-			
-			// aapt resource value: 0x7F080095
-			public const int scrollIndicatorUp = 2131230869;
-			
-			// aapt resource value: 0x7F080096
-			public const int scrollView = 2131230870;
-			
-			// aapt resource value: 0x7F080098
-			public const int search_badge = 2131230872;
-			
-			// aapt resource value: 0x7F080099
-			public const int search_bar = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int search_button = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int search_close_btn = 2131230875;
-			
-			// aapt resource value: 0x7F08009C
-			public const int search_edit_frame = 2131230876;
-			
-			// aapt resource value: 0x7F08009D
-			public const int search_go_btn = 2131230877;
-			
-			// aapt resource value: 0x7F08009E
-			public const int search_mag_icon = 2131230878;
-			
-			// aapt resource value: 0x7F08009F
-			public const int search_plate = 2131230879;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int search_src_text = 2131230880;
-			
-			// aapt resource value: 0x7F0800A1
-			public const int search_voice_btn = 2131230881;
-			
-			// aapt resource value: 0x7F0800A2
-			public const int select_dialog_listview = 2131230882;
-			
-			// aapt resource value: 0x7F0800A3
-			public const int shellcontent_appbar = 2131230883;
-			
-			// aapt resource value: 0x7F0800A4
-			public const int shellcontent_scrollview = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int shellcontent_toolbar = 2131230885;
+			public const int message = 2131230821;
 			
 			// aapt resource value: 0x7F080004
-			public const int SHIFT = 2131230724;
+			public const int META = 2131230724;
+			
+			// aapt resource value: 0x7F080066
+			public const int middle = 2131230822;
+			
+			// aapt resource value: 0x7F080067
+			public const int mini = 2131230823;
+			
+			// aapt resource value: 0x7F080068
+			public const int mr_art = 2131230824;
+			
+			// aapt resource value: 0x7F080069
+			public const int mr_chooser_list = 2131230825;
+			
+			// aapt resource value: 0x7F08006A
+			public const int mr_chooser_route_desc = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int mr_chooser_route_icon = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int mr_chooser_route_name = 2131230828;
+			
+			// aapt resource value: 0x7F08006D
+			public const int mr_chooser_title = 2131230829;
+			
+			// aapt resource value: 0x7F08006E
+			public const int mr_close = 2131230830;
+			
+			// aapt resource value: 0x7F08006F
+			public const int mr_control_divider = 2131230831;
+			
+			// aapt resource value: 0x7F080070
+			public const int mr_control_playback_ctrl = 2131230832;
+			
+			// aapt resource value: 0x7F080071
+			public const int mr_control_subtitle = 2131230833;
+			
+			// aapt resource value: 0x7F080072
+			public const int mr_control_title = 2131230834;
+			
+			// aapt resource value: 0x7F080073
+			public const int mr_control_title_container = 2131230835;
+			
+			// aapt resource value: 0x7F080074
+			public const int mr_custom_control = 2131230836;
+			
+			// aapt resource value: 0x7F080075
+			public const int mr_default_control = 2131230837;
+			
+			// aapt resource value: 0x7F080076
+			public const int mr_dialog_area = 2131230838;
+			
+			// aapt resource value: 0x7F080077
+			public const int mr_expandable_area = 2131230839;
+			
+			// aapt resource value: 0x7F080078
+			public const int mr_group_expand_collapse = 2131230840;
+			
+			// aapt resource value: 0x7F080079
+			public const int mr_media_main_control = 2131230841;
+			
+			// aapt resource value: 0x7F08007A
+			public const int mr_name = 2131230842;
+			
+			// aapt resource value: 0x7F08007B
+			public const int mr_playback_control = 2131230843;
+			
+			// aapt resource value: 0x7F08007C
+			public const int mr_title_bar = 2131230844;
+			
+			// aapt resource value: 0x7F08007D
+			public const int mr_volume_control = 2131230845;
+			
+			// aapt resource value: 0x7F08007E
+			public const int mr_volume_group_list = 2131230846;
+			
+			// aapt resource value: 0x7F08007F
+			public const int mr_volume_item_icon = 2131230847;
+			
+			// aapt resource value: 0x7F080080
+			public const int mr_volume_slider = 2131230848;
+			
+			// aapt resource value: 0x7F080081
+			public const int multiply = 2131230849;
+			
+			// aapt resource value: 0x7F080082
+			public const int navigation_header_container = 2131230850;
+			
+			// aapt resource value: 0x7F080083
+			public const int never = 2131230851;
+			
+			// aapt resource value: 0x7F080084
+			public const int none = 2131230852;
+			
+			// aapt resource value: 0x7F080085
+			public const int normal = 2131230853;
+			
+			// aapt resource value: 0x7F080086
+			public const int notification_background = 2131230854;
+			
+			// aapt resource value: 0x7F080087
+			public const int notification_main_column = 2131230855;
+			
+			// aapt resource value: 0x7F080088
+			public const int notification_main_column_container = 2131230856;
+			
+			// aapt resource value: 0x7F080089
+			public const int onKeyFocus = 2131230857;
+			
+			// aapt resource value: 0x7F08008A
+			public const int onLostFocus = 2131230858;
+			
+			// aapt resource value: 0x7F08008B
+			public const int parallax = 2131230859;
+			
+			// aapt resource value: 0x7F08008C
+			public const int parentPanel = 2131230860;
+			
+			// aapt resource value: 0x7F08008D
+			public const int parent_matrix = 2131230861;
+			
+			// aapt resource value: 0x7F08008E
+			public const int pin = 2131230862;
+			
+			// aapt resource value: 0x7F08008F
+			public const int progress_circular = 2131230863;
+			
+			// aapt resource value: 0x7F080090
+			public const int progress_horizontal = 2131230864;
+			
+			// aapt resource value: 0x7F080091
+			public const int radio = 2131230865;
+			
+			// aapt resource value: 0x7F080092
+			public const int right = 2131230866;
+			
+			// aapt resource value: 0x7F080093
+			public const int right_icon = 2131230867;
+			
+			// aapt resource value: 0x7F080094
+			public const int right_side = 2131230868;
+			
+			// aapt resource value: 0x7F080095
+			public const int save_image_matrix = 2131230869;
+			
+			// aapt resource value: 0x7F080096
+			public const int save_non_transition_alpha = 2131230870;
+			
+			// aapt resource value: 0x7F080097
+			public const int save_scale_type = 2131230871;
+			
+			// aapt resource value: 0x7F080098
+			public const int screen = 2131230872;
+			
+			// aapt resource value: 0x7F080099
+			public const int scroll = 2131230873;
+			
+			// aapt resource value: 0x7F08009D
+			public const int scrollable = 2131230877;
+			
+			// aapt resource value: 0x7F08009A
+			public const int scrollIndicatorDown = 2131230874;
+			
+			// aapt resource value: 0x7F08009B
+			public const int scrollIndicatorUp = 2131230875;
+			
+			// aapt resource value: 0x7F08009C
+			public const int scrollView = 2131230876;
+			
+			// aapt resource value: 0x7F08009E
+			public const int search_badge = 2131230878;
+			
+			// aapt resource value: 0x7F08009F
+			public const int search_bar = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int search_button = 2131230880;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int search_close_btn = 2131230881;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int search_edit_frame = 2131230882;
+			
+			// aapt resource value: 0x7F0800A3
+			public const int search_go_btn = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int search_mag_icon = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int search_plate = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int shortcut = 2131230886;
+			public const int search_src_text = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int showCustom = 2131230887;
+			public const int search_voice_btn = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int showHome = 2131230888;
+			public const int select_dialog_listview = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int showTitle = 2131230889;
+			public const int shellcontent_appbar = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int sliding_tabs = 2131230890;
-			
-			// aapt resource value: 0x7F0800AB
-			public const int smallLabel = 2131230891;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int snackbar_action = 2131230892;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int snackbar_text = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int snap = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int spacer = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int split_action_bar = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int src_atop = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int src_in = 2131230898;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int src_over = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int start = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int status_bar_latest_event_content = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int submenuarrow = 2131230902;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int submit_area = 2131230903;
+			public const int shellcontent_toolbar = 2131230890;
 			
 			// aapt resource value: 0x7F080005
-			public const int SYM = 2131230725;
+			public const int SHIFT = 2131230725;
+			
+			// aapt resource value: 0x7F0800AB
+			public const int shortcut = 2131230891;
+			
+			// aapt resource value: 0x7F0800AC
+			public const int showCustom = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int showHome = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int showTitle = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int sliding_tabs = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int smallLabel = 2131230896;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int snackbar_action = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int snackbar_text = 2131230898;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int snap = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int spacer = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int split_action_bar = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int src_atop = 2131230902;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int src_in = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int tabMode = 2131230904;
+			public const int src_over = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int tag_transition_group = 2131230905;
+			public const int start = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int text = 2131230906;
+			public const int status_bar_latest_event_content = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int text2 = 2131230907;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int textinput_counter = 2131230911;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int textinput_error = 2131230912;
+			public const int submenuarrow = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int textSpacerNoButtons = 2131230908;
+			public const int submit_area = 2131230908;
+			
+			// aapt resource value: 0x7F080006
+			public const int SYM = 2131230726;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int textSpacerNoTitle = 2131230909;
+			public const int tabMode = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int text_input_password_toggle = 2131230910;
+			public const int tag_transition_group = 2131230910;
 			
-			// aapt resource value: 0x7F0800C1
-			public const int time = 2131230913;
+			// aapt resource value: 0x7F0800BF
+			public const int text = 2131230911;
 			
-			// aapt resource value: 0x7F0800C2
-			public const int title = 2131230914;
-			
-			// aapt resource value: 0x7F0800C3
-			public const int titleDividerNoCustom = 2131230915;
+			// aapt resource value: 0x7F0800C0
+			public const int text2 = 2131230912;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int title_template = 2131230916;
+			public const int textinput_counter = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int toolbar = 2131230917;
+			public const int textinput_error = 2131230917;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int textSpacerNoButtons = 2131230913;
+			
+			// aapt resource value: 0x7F0800C2
+			public const int textSpacerNoTitle = 2131230914;
+			
+			// aapt resource value: 0x7F0800C3
+			public const int text_input_password_toggle = 2131230915;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int top = 2131230918;
+			public const int time = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int topPanel = 2131230919;
+			public const int title = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int touch_outside = 2131230920;
+			public const int titleDividerNoCustom = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int transition_current_scene = 2131230921;
+			public const int title_template = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int transition_layout_save = 2131230922;
+			public const int toolbar = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int transition_position = 2131230923;
+			public const int top = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int transition_scene_layoutid_cache = 2131230924;
+			public const int topPanel = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int transition_transform = 2131230925;
+			public const int touch_outside = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int uniform = 2131230926;
+			public const int transition_current_scene = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int up = 2131230927;
+			public const int transition_layout_save = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int useLogo = 2131230928;
+			public const int transition_position = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int view_offset_helper = 2131230929;
+			public const int transition_scene_layoutid_cache = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int visible = 2131230930;
+			public const int transition_transform = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int volume_item_container = 2131230931;
+			public const int uniform = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int withText = 2131230932;
+			public const int up = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int wrap_content = 2131230933;
+			public const int useLogo = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int value = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int view_offset_helper = 2131230935;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int visible = 2131230936;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int volume_item_container = 2131230937;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int withText = 2131230938;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int wrap_content = 2131230939;
 			
 			static Id()
 			{
@@ -5817,139 +8023,151 @@ namespace Evans.XamlTemplates.Droid
 			public const int BottomTabLayout = 2131427354;
 			
 			// aapt resource value: 0x7F0B001B
-			public const int design_bottom_navigation_item = 2131427355;
+			public const int CustomizedImageView = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int design_bottom_sheet_dialog = 2131427356;
+			public const int CustomizedView = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int design_layout_snackbar = 2131427357;
+			public const int design_bottom_navigation_item = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int design_layout_snackbar_include = 2131427358;
+			public const int design_bottom_sheet_dialog = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int design_layout_tab_icon = 2131427359;
+			public const int design_layout_snackbar = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_layout_tab_text = 2131427360;
+			public const int design_layout_snackbar_include = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_menu_item_action_area = 2131427361;
+			public const int design_layout_tab_icon = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_navigation_item = 2131427362;
+			public const int design_layout_tab_text = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_navigation_item_header = 2131427363;
+			public const int design_menu_item_action_area = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_navigation_item_separator = 2131427364;
+			public const int design_navigation_item = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_navigation_item_subheader = 2131427365;
+			public const int design_navigation_item_header = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_navigation_menu = 2131427366;
+			public const int design_navigation_item_separator = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_menu_item = 2131427367;
+			public const int design_navigation_item_subheader = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_text_input_password_icon = 2131427368;
+			public const int design_navigation_menu = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int FlyoutContent = 2131427369;
+			public const int design_navigation_menu_item = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int mr_chooser_dialog = 2131427370;
+			public const int design_text_input_password_icon = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int mr_chooser_list_item = 2131427371;
+			public const int FlyoutContent = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int mr_controller_material_dialog_b = 2131427372;
+			public const int mr_chooser_dialog = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int mr_controller_volume_item = 2131427373;
+			public const int mr_chooser_list_item = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mr_playback_control = 2131427374;
+			public const int mr_controller_material_dialog_b = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mr_volume_control = 2131427375;
+			public const int mr_controller_volume_item = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int notification_action = 2131427376;
+			public const int mr_playback_control = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_action_tombstone = 2131427377;
+			public const int mr_volume_control = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_media_action = 2131427378;
+			public const int notification_action = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_media_cancel_action = 2131427379;
+			public const int notification_action_tombstone = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_big_media = 2131427380;
+			public const int notification_media_action = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_big_media_custom = 2131427381;
+			public const int notification_media_cancel_action = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_big_media_narrow = 2131427382;
+			public const int notification_template_big_media = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_big_media_narrow_custom = 2131427383;
+			public const int notification_template_big_media_custom = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_custom_big = 2131427384;
+			public const int notification_template_big_media_narrow = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_icon_group = 2131427385;
+			public const int notification_template_big_media_narrow_custom = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int notification_template_lines_media = 2131427386;
+			public const int notification_template_custom_big = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int notification_template_media = 2131427387;
+			public const int notification_template_icon_group = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int notification_template_media_custom = 2131427388;
+			public const int notification_template_lines_media = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int notification_template_part_chronometer = 2131427389;
+			public const int notification_template_media = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_template_part_time = 2131427390;
+			public const int notification_template_media_custom = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int RootLayout = 2131427391;
+			public const int notification_template_part_chronometer = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int select_dialog_item_material = 2131427392;
+			public const int notification_template_part_time = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int select_dialog_multichoice_material = 2131427393;
+			public const int RootLayout = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int select_dialog_singlechoice_material = 2131427394;
+			public const int ScrollViewer = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int ShellContent = 2131427395;
+			public const int select_dialog_item_material = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int support_simple_spinner_dropdown_item = 2131427396;
+			public const int select_dialog_multichoice_material = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int Tabbar = 2131427397;
+			public const int select_dialog_singlechoice_material = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int Toolbar = 2131427398;
+			public const int sfcomboBox_layout = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int tooltip = 2131427399;
+			public const int ShellContent = 2131427399;
+			
+			// aapt resource value: 0x7F0B0048
+			public const int support_simple_spinner_dropdown_item = 2131427400;
+			
+			// aapt resource value: 0x7F0B0049
+			public const int Tabbar = 2131427401;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int Toolbar = 2131427402;
+			
+			// aapt resource value: 0x7F0B004B
+			public const int tooltip = 2131427403;
 			
 			static Layout()
 			{
@@ -6080,91 +8298,106 @@ namespace Evans.XamlTemplates.Droid
 			public const int bottom_sheet_behavior = 2131558430;
 			
 			// aapt resource value: 0x7F0D001F
-			public const int character_counter_pattern = 2131558431;
+			public const int cancel_drop = 2131558431;
 			
 			// aapt resource value: 0x7F0D0020
-			public const int mr_button_content_description = 2131558432;
+			public const int character_counter_pattern = 2131558432;
 			
 			// aapt resource value: 0x7F0D0021
-			public const int mr_cast_button_connected = 2131558433;
+			public const int drop_above = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int mr_cast_button_connecting = 2131558434;
+			public const int drop_below = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int mr_cast_button_disconnected = 2131558435;
+			public const int library_name = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int mr_chooser_searching = 2131558436;
+			public const int load_more_items = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int mr_chooser_title = 2131558437;
+			public const int mr_button_content_description = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int mr_controller_album_art = 2131558438;
+			public const int mr_cast_button_connected = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int mr_controller_casting_screen = 2131558439;
+			public const int mr_cast_button_connecting = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int mr_controller_close_description = 2131558440;
+			public const int mr_cast_button_disconnected = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int mr_controller_collapse_group = 2131558441;
+			public const int mr_chooser_searching = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int mr_controller_disconnect = 2131558442;
+			public const int mr_chooser_title = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int mr_controller_expand_group = 2131558443;
+			public const int mr_controller_album_art = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int mr_controller_no_info_available = 2131558444;
+			public const int mr_controller_casting_screen = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int mr_controller_no_media_selected = 2131558445;
+			public const int mr_controller_close_description = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mr_controller_pause = 2131558446;
+			public const int mr_controller_collapse_group = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int mr_controller_play = 2131558447;
+			public const int mr_controller_disconnect = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int mr_controller_stop = 2131558448;
+			public const int mr_controller_expand_group = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int mr_controller_stop_casting = 2131558449;
+			public const int mr_controller_no_info_available = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int mr_controller_volume_slider = 2131558450;
+			public const int mr_controller_no_media_selected = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int mr_system_route_name = 2131558451;
+			public const int mr_controller_pause = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int mr_user_route_category_name = 2131558452;
+			public const int mr_controller_play = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int password_toggle_content_description = 2131558453;
+			public const int mr_controller_stop = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int path_password_eye = 2131558454;
+			public const int mr_controller_stop_casting = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int path_password_eye_mask_strike_through = 2131558455;
+			public const int mr_controller_volume_slider = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int path_password_eye_mask_visible = 2131558456;
+			public const int mr_system_route_name = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int path_password_strike_through = 2131558457;
+			public const int mr_user_route_category_name = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int search_menu_title = 2131558458;
+			public const int password_toggle_content_description = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int status_bar_notification_info_overflow = 2131558459;
+			public const int path_password_eye = 2131558459;
+			
+			// aapt resource value: 0x7F0D003C
+			public const int path_password_eye_mask_strike_through = 2131558460;
+			
+			// aapt resource value: 0x7F0D003D
+			public const int path_password_eye_mask_visible = 2131558461;
+			
+			// aapt resource value: 0x7F0D003E
+			public const int path_password_strike_through = 2131558462;
+			
+			// aapt resource value: 0x7F0D003F
+			public const int search_menu_title = 2131558463;
+			
+			// aapt resource value: 0x7F0D0040
+			public const int status_bar_notification_info_overflow = 2131558464;
 			
 			static String()
 			{
@@ -6700,6 +8933,9 @@ namespace Evans.XamlTemplates.Droid
 			
 			// aapt resource value: 0x7F0E00AD
 			public const int CardView_Light = 2131624109;
+			
+			// aapt resource value: 0x7F0E0192
+			public const int collectionViewStyle = 2131624338;
 			
 			// aapt resource value: 0x7F0E00AE
 			public const int MainTheme = 2131624110;
@@ -7398,37 +9634,37 @@ namespace Evans.XamlTemplates.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F030077,0x7F03007B,0x7F03007C,0x7F030087,0x7F0300A8,0x7F0300A9,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B4,0x7F0300BA,0x7F0300D5,0x7F0300EB,0x7F0300FB,0x7F0300FF,0x7F030100,0x7F030124,0x7F030127,0x7F030153,0x7F03015D }
+			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030034,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03007A,0x7F03007E,0x7F03007F,0x7F03008A,0x7F0300AD,0x7F0300AE,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300B9,0x7F0300BF,0x7F0300DA,0x7F0300F1,0x7F030105,0x7F030109,0x7F03010A,0x7F03012F,0x7F030132,0x7F03015E,0x7F030168 }
 			public static int[] ActionBar = new int[] {
-					2130903089,
 					2130903090,
 					2130903091,
-					2130903142,
-					2130903143,
+					2130903092,
 					2130903144,
 					2130903145,
 					2130903146,
 					2130903147,
-					2130903159,
-					2130903163,
-					2130903164,
-					2130903175,
-					2130903208,
-					2130903209,
+					2130903148,
+					2130903149,
+					2130903162,
+					2130903166,
+					2130903167,
+					2130903178,
 					2130903213,
 					2130903214,
-					2130903215,
+					2130903218,
+					2130903219,
 					2130903220,
-					2130903226,
-					2130903253,
-					2130903275,
-					2130903291,
-					2130903295,
-					2130903296,
-					2130903332,
-					2130903335,
-					2130903379,
-					2130903389};
+					2130903225,
+					2130903231,
+					2130903258,
+					2130903281,
+					2130903301,
+					2130903305,
+					2130903306,
+					2130903343,
+					2130903346,
+					2130903390,
+					2130903400};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -7535,14 +9771,14 @@ namespace Evans.XamlTemplates.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030054,0x7F0300A8,0x7F030127,0x7F03015D }
+			// aapt resource value: { 0x7F030032,0x7F030033,0x7F030056,0x7F0300AD,0x7F030132,0x7F030168 }
 			public static int[] ActionMode = new int[] {
-					2130903089,
 					2130903090,
-					2130903124,
-					2130903208,
-					2130903335,
-					2130903389};
+					2130903091,
+					2130903126,
+					2130903213,
+					2130903346,
+					2130903400};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -7562,10 +9798,10 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F03008A,0x7F0300B5 }
+			// aapt resource value: { 0x7F03008E,0x7F0300BA }
 			public static int[] ActivityChooserView = new int[] {
-					2130903178,
-					2130903221};
+					2130903182,
+					2130903226};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -7573,15 +9809,15 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030046,0x7F0300CC,0x7F0300CD,0x7F0300E8,0x7F030114,0x7F030115 }
+			// aapt resource value: { 0x10100F2,0x7F030048,0x7F0300D1,0x7F0300D2,0x7F0300EE,0x7F03011F,0x7F030120 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903110,
-					2130903244,
-					2130903245,
-					2130903272,
-					2130903316,
-					2130903317};
+					2130903112,
+					2130903249,
+					2130903250,
+					2130903278,
+					2130903327,
+					2130903328};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -7604,18 +9840,18 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 6
 			public const int AlertDialog_singleChoiceItemLayout = 6;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030087,0x7F03008B }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F03008A,0x7F03008F }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903175,
-					2130903179};
+					2130903178,
+					2130903183};
 			
-			// aapt resource value: { 0x7F03011E,0x7F03011F }
+			// aapt resource value: { 0x7F030129,0x7F03012A }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903326,
-					2130903327};
+					2130903337,
+					2130903338};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -7638,10 +9874,10 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F0300C8,0x7F0300C9 }
+			// aapt resource value: { 0x7F0300CD,0x7F0300CE }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903240,
-					2130903241};
+					2130903245,
+					2130903246};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -7649,12 +9885,12 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
 			
-			// aapt resource value: { 0x1010119,0x7F03011B,0x7F030151,0x7F030152 }
+			// aapt resource value: { 0x1010119,0x7F030126,0x7F03015C,0x7F03015D }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903323,
-					2130903377,
-					2130903378};
+					2130903334,
+					2130903388,
+					2130903389};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -7668,12 +9904,12 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F03014E,0x7F03014F,0x7F030150 }
+			// aapt resource value: { 0x1010142,0x7F030159,0x7F03015A,0x7F03015B }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903374,
-					2130903375,
-					2130903376};
+					2130903385,
+					2130903386,
+					2130903387};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -7718,16 +9954,16 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F03009B,0x7F03013D }
+			// aapt resource value: { 0x1010034,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F03009F,0x7F030148 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903084,
 					2130903085,
 					2130903086,
 					2130903087,
 					2130903088,
-					2130903195,
-					2130903357};
+					2130903089,
+					2130903199,
+					2130903368};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -7753,7 +9989,7 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 7
 			public const int AppCompatTextView_textAllCaps = 7;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003D,0x7F030040,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030047,0x7F030048,0x7F030051,0x7F030052,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030072,0x7F030079,0x7F03007A,0x7F03007D,0x7F03007F,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F0300AD,0x7F0300B3,0x7F0300CA,0x7F0300CB,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F0300FA,0x7F0300FC,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030110,0x7F030118,0x7F030119,0x7F03012B,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030148,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030049,0x7F03004A,0x7F030053,0x7F030054,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030074,0x7F03007C,0x7F03007D,0x7F030080,0x7F030082,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F0300B2,0x7F0300B8,0x7F0300CF,0x7F0300D0,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F030104,0x7F030106,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030110,0x7F030117,0x7F030118,0x7F03011A,0x7F03011B,0x7F030123,0x7F030124,0x7F030136,0x7F030149,0x7F03014A,0x7F03014B,0x7F03014C,0x7F03014D,0x7F03014E,0x7F03014F,0x7F030150,0x7F030151,0x7F030153,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -7792,19 +10028,17 @@ namespace Evans.XamlTemplates.Droid
 					2130903075,
 					2130903076,
 					2130903077,
-					2130903083,
-					2130903101,
-					2130903104,
-					2130903105,
+					2130903084,
+					2130903103,
 					2130903106,
 					2130903107,
 					2130903108,
-					2130903111,
-					2130903112,
-					2130903121,
-					2130903122,
-					2130903130,
-					2130903131,
+					2130903109,
+					2130903110,
+					2130903113,
+					2130903114,
+					2130903123,
+					2130903124,
 					2130903132,
 					2130903133,
 					2130903134,
@@ -7813,67 +10047,69 @@ namespace Evans.XamlTemplates.Droid
 					2130903137,
 					2130903138,
 					2130903139,
-					2130903154,
-					2130903161,
-					2130903162,
+					2130903140,
+					2130903141,
+					2130903156,
+					2130903164,
 					2130903165,
-					2130903167,
+					2130903168,
 					2130903170,
-					2130903171,
-					2130903172,
 					2130903173,
 					2130903174,
-					2130903213,
-					2130903219,
-					2130903242,
-					2130903243,
-					2130903246,
+					2130903175,
+					2130903176,
+					2130903177,
+					2130903218,
+					2130903224,
 					2130903247,
 					2130903248,
-					2130903249,
-					2130903250,
 					2130903251,
 					2130903252,
-					2130903282,
-					2130903283,
-					2130903284,
+					2130903253,
+					2130903254,
+					2130903255,
+					2130903256,
+					2130903257,
 					2130903290,
+					2130903291,
 					2130903292,
-					2130903299,
 					2130903300,
-					2130903301,
 					2130903302,
 					2130903309,
 					2130903310,
 					2130903311,
 					2130903312,
+					2130903319,
 					2130903320,
-					2130903321,
-					2130903339,
-					2130903358,
-					2130903359,
-					2130903360,
-					2130903361,
-					2130903362,
-					2130903363,
-					2130903364,
-					2130903365,
-					2130903366,
-					2130903368,
-					2130903391,
-					2130903392,
-					2130903393,
-					2130903394,
-					2130903401,
+					2130903322,
+					2130903323,
+					2130903331,
+					2130903332,
+					2130903350,
+					2130903369,
+					2130903370,
+					2130903371,
+					2130903372,
+					2130903373,
+					2130903374,
+					2130903375,
+					2130903376,
+					2130903377,
+					2130903379,
 					2130903402,
 					2130903403,
 					2130903404,
 					2130903405,
-					2130903406,
-					2130903407,
-					2130903408,
-					2130903409,
-					2130903410};
+					2130903415,
+					2130903416,
+					2130903417,
+					2130903418,
+					2130903419,
+					2130903420,
+					2130903421,
+					2130903422,
+					2130903423,
+					2130903424};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -8232,13 +10468,13 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 118
 			public const int AppCompatTheme_windowNoTitle = 118;
 			
-			// aapt resource value: { 0x7F030087,0x7F0300B8,0x7F0300B9,0x7F0300BC,0x7F0300E7 }
+			// aapt resource value: { 0x7F03008A,0x7F0300BD,0x7F0300BE,0x7F0300C1,0x7F0300ED }
 			public static int[] BottomNavigationView = new int[] {
-					2130903175,
-					2130903224,
-					2130903225,
-					2130903228,
-					2130903271};
+					2130903178,
+					2130903229,
+					2130903230,
+					2130903233,
+					2130903277};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -8255,11 +10491,11 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 4
 			public const int BottomNavigationView_menu = 4;
 			
-			// aapt resource value: { 0x7F030038,0x7F03003A,0x7F03003B }
+			// aapt resource value: { 0x7F030039,0x7F03003B,0x7F03003C }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130903096,
-					2130903098,
-					2130903099};
+					2130903097,
+					2130903099,
+					2130903100};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 0;
@@ -8270,28 +10506,28 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 2
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
 			
-			// aapt resource value: { 0x7F030026 }
+			// aapt resource value: { 0x7F030027 }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903078};
+					2130903079};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F03006C,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903115,
-					2130903116,
 					2130903117,
 					2130903118,
 					2130903119,
 					2130903120,
-					2130903148,
-					2130903149,
+					2130903121,
+					2130903122,
 					2130903150,
 					2130903151,
-					2130903152};
+					2130903152,
+					2130903153,
+					2130903154};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -8332,24 +10568,24 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x7F030057,0x7F030058,0x7F030071,0x7F03008C,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030109,0x7F03010A,0x7F030121,0x7F030153,0x7F030154,0x7F03015E }
+			// aapt resource value: { 0x7F030059,0x7F03005A,0x7F030073,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030113,0x7F030114,0x7F03012C,0x7F03015E,0x7F03015F,0x7F030169 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903127,
-					2130903128,
-					2130903153,
-					2130903180,
-					2130903181,
-					2130903182,
-					2130903183,
+					2130903129,
+					2130903130,
+					2130903155,
 					2130903184,
 					2130903185,
 					2130903186,
-					2130903305,
-					2130903306,
-					2130903329,
-					2130903379,
-					2130903380,
-					2130903390};
+					2130903187,
+					2130903188,
+					2130903189,
+					2130903190,
+					2130903315,
+					2130903316,
+					2130903340,
+					2130903390,
+					2130903391,
+					2130903401};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -8381,10 +10617,10 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F0300C3,0x7F0300C4 }
+			// aapt resource value: { 0x7F0300C8,0x7F0300C9 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903235,
-					2130903236};
+					2130903240,
+					2130903241};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -8410,11 +10646,11 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 15
 			public const int CollapsingToolbarLayout_toolbarId = 15;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030027 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F030028 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903079};
+					2130903080};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -8425,11 +10661,11 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030049,0x7F03004A }
+			// aapt resource value: { 0x1010107,0x7F03004B,0x7F03004C }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903113,
-					2130903114};
+					2130903115,
+					2130903116};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -8440,23 +10676,23 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F0300BD,0x7F030120 }
+			// aapt resource value: { 0x7F0300C2,0x7F03012B }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903229,
-					2130903328};
+					2130903234,
+					2130903339};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F0300C5,0x7F0300C6,0x7F0300C7 }
+			// aapt resource value: { 0x10100B3,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300CA,0x7F0300CB,0x7F0300CC }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903232,
-					2130903233,
-					2130903234,
 					2130903237,
 					2130903238,
-					2130903239};
+					2130903239,
+					2130903242,
+					2130903243,
+					2130903244};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -8482,11 +10718,11 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03003E,0x7F03003F,0x7F030147 }
+			// aapt resource value: { 0x7F030040,0x7F030041,0x7F030152 }
 			public static int[] DesignTheme = new int[] {
-					2130903102,
-					2130903103,
-					2130903367};
+					2130903104,
+					2130903105,
+					2130903378};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -8497,16 +10733,16 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 2
 			public const int DesignTheme_textColorError = 2;
 			
-			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030059,0x7F030080,0x7F0300A5,0x7F030117,0x7F03014A }
+			// aapt resource value: { 0x7F03002A,0x7F03002B,0x7F030037,0x7F03005B,0x7F030083,0x7F0300AA,0x7F030122,0x7F030155 }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903081,
 					2130903082,
-					2130903094,
-					2130903129,
-					2130903168,
-					2130903205,
-					2130903319,
-					2130903370};
+					2130903083,
+					2130903095,
+					2130903131,
+					2130903171,
+					2130903210,
+					2130903330,
+					2130903381};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -8532,16 +10768,16 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003C,0x7F030087,0x7F030094,0x7F0300FE,0x7F030108,0x7F030167 }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F03008A,0x7F030098,0x7F030108,0x7F030112,0x7F030172 }
 			public static int[] FloatingActionButton = new int[] {
-					2130903092,
 					2130903093,
-					2130903100,
-					2130903175,
-					2130903188,
-					2130903294,
+					2130903094,
+					2130903102,
+					2130903178,
+					2130903192,
 					2130903304,
-					2130903399};
+					2130903314,
+					2130903410};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -8549,9 +10785,9 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F030037 }
+			// aapt resource value: { 0x7F030038 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903095};
+					2130903096};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -8574,23 +10810,23 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 7
 			public const int FloatingActionButton_useCompatPadding = 7;
 			
-			// aapt resource value: { 0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1 }
+			// aapt resource value: { 0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300A5 }
 			public static int[] FontFamily = new int[] {
-					2130903196,
-					2130903197,
-					2130903198,
-					2130903199,
 					2130903200,
-					2130903201};
+					2130903201,
+					2130903202,
+					2130903203,
+					2130903204,
+					2130903205};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x7F03009A,0x7F0300A2,0x7F0300A3 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x7F03009E,0x7F0300A7,0x7F0300A8 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
-					2130903194,
-					2130903202,
-					2130903203};
+					2130903198,
+					2130903207,
+					2130903208};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -8628,11 +10864,11 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300A4 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0300A9 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903204};
+					2130903209};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -8643,17 +10879,17 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03007C,0x7F03007E,0x7F0300D9,0x7F030112 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03007F,0x7F030081,0x7F0300DF,0x7F03011D }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903164,
-					2130903166,
-					2130903257,
-					2130903314};
+					2130903167,
+					2130903169,
+					2130903263,
+					2130903325};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -8712,12 +10948,12 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030093,0x7F0300DC }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030097,0x7F0300E2 }
 			public static int[] MediaRouteButton = new int[] {
 					16843071,
 					16843072,
-					2130903187,
-					2130903260};
+					2130903191,
+					2130903266};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -8758,7 +10994,7 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030065,0x7F0300B0,0x7F0300B1,0x7F0300EC,0x7F030111,0x7F030163 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030029,0x7F030067,0x7F0300B5,0x7F0300B6,0x7F0300F3,0x7F03011C,0x7F03016E }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -8776,13 +11012,13 @@ namespace Evans.XamlTemplates.Droid
 					2130903053,
 					2130903071,
 					2130903072,
-					2130903080,
-					2130903141,
-					2130903216,
-					2130903217,
-					2130903276,
-					2130903313,
-					2130903395};
+					2130903081,
+					2130903143,
+					2130903221,
+					2130903222,
+					2130903283,
+					2130903324,
+					2130903406};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -8853,7 +11089,7 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0300FD,0x7F030122 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030107,0x7F03012D }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -8862,8 +11098,8 @@ namespace Evans.XamlTemplates.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903293,
-					2130903330};
+					2130903303,
+					2130903341};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -8892,18 +11128,18 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030087,0x7F0300A7,0x7F0300B8,0x7F0300B9,0x7F0300BB,0x7F0300BC,0x7F0300E7 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F03008A,0x7F0300AC,0x7F0300BD,0x7F0300BE,0x7F0300C0,0x7F0300C1,0x7F0300ED }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903175,
-					2130903207,
-					2130903224,
-					2130903225,
-					2130903227,
-					2130903228,
-					2130903271};
+					2130903178,
+					2130903212,
+					2130903229,
+					2130903230,
+					2130903232,
+					2130903233,
+					2130903277};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -8935,15 +11171,15 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 9
 			public const int NavigationView_menu = 9;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0300ED }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0300F5 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903277};
+					2130903285};
 			
-			// aapt resource value: { 0x7F03011D }
+			// aapt resource value: { 0x7F030128 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903325};
+					2130903336};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -8957,10 +11193,10 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F0300EE,0x7F0300F1 }
+			// aapt resource value: { 0x7F0300F6,0x7F0300F9 }
 			public static int[] RecycleListView = new int[] {
-					2130903278,
-					2130903281};
+					2130903286,
+					2130903289};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -8968,19 +11204,19 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F0300BF,0x7F030107,0x7F030116,0x7F03011C }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F0300C4,0x7F030111,0x7F030121,0x7F030127 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130903189,
-					2130903190,
-					2130903191,
-					2130903192,
 					2130903193,
-					2130903231,
-					2130903303,
-					2130903318,
-					2130903324};
+					2130903194,
+					2130903195,
+					2130903196,
+					2130903197,
+					2130903236,
+					2130903313,
+					2130903329,
+					2130903335};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -9015,39 +11251,39 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 10
 			public const int RecyclerView_stackFromEnd = 10;
 			
-			// aapt resource value: { 0x7F0300B6 }
+			// aapt resource value: { 0x7F0300BB }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903222};
+					2130903227};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F030039 }
+			// aapt resource value: { 0x7F03003A }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903097};
+					2130903098};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030053,0x7F030064,0x7F030078,0x7F0300A6,0x7F0300B2,0x7F0300BE,0x7F030101,0x7F030102,0x7F03010B,0x7F03010C,0x7F030123,0x7F030128,0x7F030168 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030055,0x7F030066,0x7F03007B,0x7F0300AB,0x7F0300B7,0x7F0300C3,0x7F03010B,0x7F03010C,0x7F030115,0x7F030116,0x7F03012E,0x7F030133,0x7F030174 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903123,
-					2130903140,
-					2130903160,
-					2130903206,
-					2130903218,
-					2130903230,
-					2130903297,
-					2130903298,
+					2130903125,
+					2130903142,
+					2130903163,
+					2130903211,
+					2130903223,
+					2130903235,
 					2130903307,
 					2130903308,
-					2130903331,
-					2130903336,
-					2130903400};
+					2130903317,
+					2130903318,
+					2130903342,
+					2130903347,
+					2130903412};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -9100,11 +11336,70 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x101011F,0x7F030087,0x7F0300D7 }
+			// aapt resource value: { 0x7F030026,0x7F03003D,0x7F030079,0x7F03008B,0x7F0300A6,0x7F0300DE,0x7F0300F2,0x7F0300F4,0x7F0300FD,0x7F030103,0x7F030119,0x7F030173,0x7F030175,0x7F030176 }
+			public static int[] SfNumericTextBox = new int[] {
+					2130903078,
+					2130903101,
+					2130903161,
+					2130903179,
+					2130903206,
+					2130903262,
+					2130903282,
+					2130903284,
+					2130903293,
+					2130903299,
+					2130903321,
+					2130903411,
+					2130903413,
+					2130903414};
+			
+			// aapt resource value: 0
+			public const int SfNumericTextBox_allowNull = 0;
+			
+			// aapt resource value: 1
+			public const int SfNumericTextBox_borderColor = 1;
+			
+			// aapt resource value: 2
+			public const int SfNumericTextBox_culture = 2;
+			
+			// aapt resource value: 3
+			public const int SfNumericTextBox_enableGroupSeparator = 3;
+			
+			// aapt resource value: 4
+			public const int SfNumericTextBox_fontSize = 4;
+			
+			// aapt resource value: 5
+			public const int SfNumericTextBox_maximumDecimalDigits = 5;
+			
+			// aapt resource value: 6
+			public const int SfNumericTextBox_numberFormat = 6;
+			
+			// aapt resource value: 7
+			public const int SfNumericTextBox_numericTextBoxValue = 7;
+			
+			// aapt resource value: 8
+			public const int SfNumericTextBox_parsingMode = 8;
+			
+			// aapt resource value: 9
+			public const int SfNumericTextBox_percentDisplayMode = 9;
+			
+			// aapt resource value: 10
+			public const int SfNumericTextBox_selectAllOnFocus = 10;
+			
+			// aapt resource value: 11
+			public const int SfNumericTextBox_valueChangeMode = 11;
+			
+			// aapt resource value: 12
+			public const int SfNumericTextBox_watermark = 12;
+			
+			// aapt resource value: 13
+			public const int SfNumericTextBox_watermarkColor = 13;
+			
+			// aapt resource value: { 0x101011F,0x7F03008A,0x7F0300DC }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903175,
-					2130903255};
+					2130903178,
+					2130903260};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -9115,13 +11410,13 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 2
 			public const int SnackbarLayout_maxActionInlineWidth = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0300FB }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030105 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903291};
+					2130903301};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -9138,22 +11433,22 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030113,0x7F03011A,0x7F030129,0x7F03012A,0x7F03012C,0x7F03014B,0x7F03014C,0x7F03014D,0x7F030164,0x7F030165,0x7F030166 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03011E,0x7F030125,0x7F030134,0x7F030135,0x7F030137,0x7F030156,0x7F030157,0x7F030158,0x7F03016F,0x7F030170,0x7F030171 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903315,
-					2130903322,
-					2130903337,
-					2130903338,
-					2130903340,
-					2130903371,
-					2130903372,
-					2130903373,
-					2130903396,
-					2130903397,
-					2130903398};
+					2130903326,
+					2130903333,
+					2130903348,
+					2130903349,
+					2130903351,
+					2130903382,
+					2130903383,
+					2130903384,
+					2130903407,
+					2130903408,
+					2130903409};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -9212,24 +11507,24 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030135,0x7F030136,0x7F030137,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C }
+			// aapt resource value: { 0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030147 }
 			public static int[] TabLayout = new int[] {
-					2130903341,
-					2130903342,
-					2130903343,
-					2130903344,
-					2130903345,
-					2130903346,
-					2130903347,
-					2130903348,
-					2130903349,
-					2130903350,
-					2130903351,
 					2130903352,
 					2130903353,
 					2130903354,
 					2130903355,
-					2130903356};
+					2130903356,
+					2130903357,
+					2130903358,
+					2130903359,
+					2130903360,
+					2130903361,
+					2130903362,
+					2130903363,
+					2130903364,
+					2130903365,
+					2130903366,
+					2130903367};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -9279,7 +11574,7 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 15
 			public const int TabLayout_tabTextColor = 15;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F03009B,0x7F03013D }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F03009F,0x7F030148 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -9292,8 +11587,8 @@ namespace Evans.XamlTemplates.Droid
 					16843107,
 					16843108,
 					16843692,
-					2130903195,
-					2130903357};
+					2130903199,
+					2130903368};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -9334,24 +11629,24 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 12
 			public const int TextAppearance_textAllCaps = 12;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030088,0x7F030089,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9 }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F030075,0x7F030076,0x7F030077,0x7F030078,0x7F03008C,0x7F03008D,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130903155,
-					2130903156,
 					2130903157,
 					2130903158,
-					2130903176,
-					2130903177,
-					2130903210,
-					2130903211,
-					2130903212,
-					2130903285,
-					2130903286,
-					2130903287,
-					2130903288,
-					2130903289};
+					2130903159,
+					2130903160,
+					2130903180,
+					2130903181,
+					2130903215,
+					2130903216,
+					2130903217,
+					2130903294,
+					2130903295,
+					2130903296,
+					2130903297,
+					2130903298};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -9401,37 +11696,37 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 15
 			public const int TextInputLayout_passwordToggleTintMode = 15;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030045,0x7F030055,0x7F030056,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F0300D5,0x7F0300D6,0x7F0300D8,0x7F0300E9,0x7F0300EA,0x7F0300FB,0x7F030124,0x7F030125,0x7F030126,0x7F030153,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030047,0x7F030057,0x7F030058,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F0300DA,0x7F0300DB,0x7F0300DD,0x7F0300EF,0x7F0300F0,0x7F030105,0x7F03012F,0x7F030130,0x7F030131,0x7F03015E,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903109,
-					2130903125,
-					2130903126,
-					2130903142,
-					2130903143,
+					2130903111,
+					2130903127,
+					2130903128,
 					2130903144,
 					2130903145,
 					2130903146,
 					2130903147,
-					2130903253,
-					2130903254,
-					2130903256,
-					2130903273,
-					2130903274,
-					2130903291,
-					2130903332,
-					2130903333,
-					2130903334,
-					2130903379,
-					2130903381,
-					2130903382,
-					2130903383,
-					2130903384,
-					2130903385,
-					2130903386,
-					2130903387,
-					2130903388};
+					2130903148,
+					2130903149,
+					2130903258,
+					2130903259,
+					2130903261,
+					2130903279,
+					2130903280,
+					2130903301,
+					2130903343,
+					2130903344,
+					2130903345,
+					2130903390,
+					2130903392,
+					2130903393,
+					2130903394,
+					2130903395,
+					2130903396,
+					2130903397,
+					2130903398,
+					2130903399};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -9520,19 +11815,19 @@ namespace Evans.XamlTemplates.Droid
 			// aapt resource value: 28
 			public const int Toolbar_titleTextColor = 28;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0300EF,0x7F0300F0,0x7F030149 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0300F7,0x7F0300F8,0x7F030154 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903279,
-					2130903280,
-					2130903369};
+					2130903287,
+					2130903288,
+					2130903380};
 			
-			// aapt resource value: { 0x10100D4,0x7F030034,0x7F030035 }
+			// aapt resource value: { 0x10100D4,0x7F030035,0x7F030036 }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903092,
-					2130903093};
+					2130903093,
+					2130903094};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;

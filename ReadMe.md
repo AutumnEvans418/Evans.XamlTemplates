@@ -135,6 +135,21 @@ namespace Evans.XamlTemplates
 }
 ```
 
+### Third Party Controls
+Third party work out of the box
+```csharp
+@DataGridSection(string Header, IEnumerable<object> Data)
+{
+    <syncfusion:SfDataGrid 
+        ItemsSource="@Data" 
+        AutoGenerateColumns="True" 
+        xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+        />
+}
+```
+
+
+
 ### More Advanced Example
 
 ```csharp
@@ -261,7 +276,7 @@ Run the `build.ps1` script
 ## Feature List
 
 - [ ] Allow to nest templates, such as one template calling another
-- [ ] Support third party controls, such as syncfusion
+- [x] Support third party controls, such as syncfusion
 - [ ] Default value support for parameters ex. ```string test = "test"```
 - [ ] Allow the use of ```@if``` statements
 - [ ] Support ```@foreach``` statements
