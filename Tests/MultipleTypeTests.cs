@@ -23,7 +23,7 @@ namespace Tests
 
 @Section(string Header, object Content)
 {
-    <StackLayout>
+    <StackLayout xmlns:local=""clr-namespace:Example"">
         <local:Header Text=""@Header""/>
         <ContentView Content=""@Content""/>
     </StackLayout>
