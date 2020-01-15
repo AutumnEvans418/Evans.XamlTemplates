@@ -148,7 +148,17 @@ Third party work out of the box
 }
 ```
 
+You can also place templates in other templates
 
+```csharp
+@DataGridSection(string HeaderText, IEnumerable<object> Data)
+{
+    <StackLayout xmlns:local="clr-namespace:Evans.XamlTemplates" xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
+        <local:Header Text="@HeaderText" />
+        <syncfusion:SfDataGrid ItemsSource="@Data" AutoGenerateColumns="True"/>
+    </StackLayout>
+}
+```
 
 ### More Advanced Example
 

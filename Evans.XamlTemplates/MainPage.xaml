@@ -59,9 +59,7 @@
         </StackLayout>
     </ContentPage>
     <ContentPage Title="Syncfusion">
-        <syncfusion:SfDataGrid ItemsSource="{Binding Data}">
-            <syncfusion:SfDataGrid.AutoGenerateColumns>True</syncfusion:SfDataGrid.AutoGenerateColumns>
-        </syncfusion:SfDataGrid>
+        <local:DataGridSection HeaderText="Data!" Data="{Binding Data}"/>
     </ContentPage>
 </TabbedPage>
 

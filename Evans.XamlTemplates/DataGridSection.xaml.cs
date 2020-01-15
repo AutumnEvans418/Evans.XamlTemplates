@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 namespace Evans.XamlTemplates
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -21,9 +22,9 @@ namespace Evans.XamlTemplates
         {
             InitializeComponent();
             _Header.BindingContext = this;
-            _Header.SetBinding(local:Header.TextProperty,nameof(HeaderText));
+            _Header.SetBinding(Evans.XamlTemplates.Header.TextProperty,nameof(HeaderText));
             _SfDataGrid.BindingContext = this;
-            _SfDataGrid.SetBinding(syncfusion:SfDataGrid.ItemsSourceProperty,nameof(Data));
+            _SfDataGrid.SetBinding(Syncfusion.SfDataGrid.XForms.SfDataGrid.ItemsSourceProperty,nameof(Data));
 
         }
         public string HeaderText { get => (string)GetValue(HeaderTextProperty); set => SetValue(HeaderTextProperty, value); }

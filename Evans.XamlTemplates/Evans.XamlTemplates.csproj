@@ -14,7 +14,7 @@
   <ItemGroup>
     <PackageReference Include="Syncfusion.Xamarin.SfDataGrid" Version="17.4.0.43" />
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
-    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.14">
+    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.16">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>

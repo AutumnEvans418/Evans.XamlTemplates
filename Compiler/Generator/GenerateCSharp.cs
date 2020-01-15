@@ -50,7 +50,7 @@ namespace " + AssemblyName + @"
         string GetNamespace(string namespaceXml)
         {
             if (namespaceXml.Contains("clr-namespace:"))
-                return namespaceXml.Split(':')[1] + ".";
+                return namespaceXml.Split(':',';')[1] + ".";
             return "";
         }
 
