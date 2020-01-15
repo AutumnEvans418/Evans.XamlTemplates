@@ -285,7 +285,7 @@ Run the `build.ps1` script
 
 ## Feature List
 
-- [ ] Allow to nest templates, such as one template calling another
+- [x] Allow to nest templates, such as one template calling another
 - [x] Support third party controls, such as syncfusion
 - [ ] Default value support for parameters ex. ```string test = "test"```
 - [ ] Allow the use of ```@if``` statements
