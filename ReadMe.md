@@ -280,9 +280,7 @@ There are several limitations to Xaml Templates
 - dotnet core 3.1
 - Xamarin.Forms
 
-
 ## How to build
-
 Run the `build.ps1` script
 
 - Run the ```packAndUpdate.ps1``` powershell script.  This will update the msbuild task and add it to the Evans.XamlTemplates Project
