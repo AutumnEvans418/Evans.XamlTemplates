@@ -150,15 +150,25 @@ namespace Tests
 
         public const string LocalLabel = @"@Ex(string label) { <local:Label Text=""@label""/> }";
 
-        public const string DefaultValue = @"@test(string label = ""test"") { <Label Text=""@label""/> }";
+        public const string DefaultStringValue = @"@test(string label = ""test"") { <Label Text=""@label""/> }";
+        public const string DefaultBoolValue = @"@test(bool vis = true) { <Label IsVisible=""@vis""/> }";
+        public const string DefaultNumValue = @"@test(int vis = 10) { <Label Text=""@vis""/> }";
 
         [TestCase(SyncfusionTemplate, "Syncfusion.SfDataGrid.XForms")]
         [TestCase(LocalLabel, "Test.Label")]
-        [TestCase(DefaultValue, @"label = ""test""")]
+        [TestCase(DefaultStringValue, @"label = ""test"";")]
+        [TestCase(DefaultBoolValue, @"vis = true;")]
+        [TestCase(DefaultNumValue, @"vis = 10;")]
         public void Output_Should_ContainCSharp(string code, string csharp)
         {
             var templator = new Templator();
             templator.Generate(code, "Test").First().CSharp.Content.Should().Contain(csharp);
+        }
+        [TestCase(SyncfusionTemplate, "HeaderText =")]
+        public void Output_Should_NOTContainCSharp(string code, string csharp)
+        {
+            var templator = new Templator();
+            templator.Generate(code, "Test").First().CSharp.Content.Should().NotContain(csharp);
         }
 
         [TestCase(SyncfusionTemplate, "Syncfusion.SfDataGrid.XForms")]

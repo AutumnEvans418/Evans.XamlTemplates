@@ -54,6 +54,27 @@ namespace Tests
             ex.Message.Should().Contain("line " + line);
         }
 
+
+        [TestCase("",1)]
+        [TestCase("test",2)]
+        [TestCase("test{",3)]
+        [TestCase("100{",3)]
+        [TestCase("100", 2)]
+        public void TokenCount(string code, int count)
+        {
+            parser.GetTokens(code).Should().HaveCount(count);
+        }
+
+        [Test]
+        public void ParseNum()
+        {
+            var test = "100";
+
+            parser.GetTokens(test).Should().HaveCount(2);
+
+            parser.GetTokens(test).First().Value.Should().Be("100");
+        }
+
         [Test]
         public void GetComments()
         {

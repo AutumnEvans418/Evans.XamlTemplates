@@ -93,9 +93,14 @@ namespace Evans.XamlTemplates
                     parameter.DefaultValue = Peek().Value;
                     Eat(TokenType.Id);
                 }
-                else
+                else if (Peek().TokenType == TokenType.Number)
                 {
                     parameter.DefaultValue = Peek().Value;
+                    Eat(TokenType.Number);
+                }
+                else
+                {
+                    parameter.DefaultValue = "\"" + Peek().Value + "\"";
                     Eat(TokenType.Quote);
                 }
             }

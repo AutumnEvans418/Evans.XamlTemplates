@@ -16,6 +16,7 @@
         Equal,
         EndOfFile,
         Colon,
-        Period
+        Period,
+        Number
     }
 }

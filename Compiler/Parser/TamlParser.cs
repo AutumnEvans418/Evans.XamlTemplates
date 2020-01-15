@@ -54,6 +54,16 @@ namespace Evans.XamlTemplates
                 {
                     Add(TokenType.Period, val.ToString());
                 }
+                else if (char.IsNumber(val))
+                {
+                    var num = "";
+                    while (Peek() is {} c && char.IsNumber(c))
+                    {
+                        num += c;
+                        Move();
+                    }
+                    Output.Add(new Token(TokenType.Number, Index, Line, num));
+                }
                 else if (char.IsLetter(val))
                 {
                     var id = "";
