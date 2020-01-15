@@ -8,12 +8,10 @@
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.LabelEntry">
   <ContentView.Content>
-      <_Root xmlns:local="clr-namespace:Evans.XamlTemplates" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-  <StackLayout>
-    <Label xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label" />
-    <Entry xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Entry" />
-    <Label xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label1" />
-  </StackLayout>
-</_Root>
+      <StackLayout>
+  <Label xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label" />
+  <Entry xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Entry" />
+  <Label xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label1" />
+</StackLayout>
     </ContentView.Content>
 </ContentView>

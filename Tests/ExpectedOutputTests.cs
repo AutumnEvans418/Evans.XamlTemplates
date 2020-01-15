@@ -154,6 +154,17 @@ namespace Tests
         public const string DefaultBoolValue = @"@test(bool vis = true) { <Label IsVisible=""@vis""/> }";
         public const string DefaultNumValue = @"@test(int vis = 10) { <Label Text=""@vis""/> }";
 
+        public const string Expander = @"
+@ExpanderControl(string Text, bool Expanded = true, object ExpandContent)
+{
+    <StackLayout>
+        <Label Text=""@Text""/>
+        <Switch IsToggled=""@Expanded""/>
+        <ContentView Content=""@ExpandContent"" IsVisible=""@Expanded""/>
+    </StackLayout>
+}
+";
+
         [TestCase(SyncfusionTemplate, "Syncfusion.SfDataGrid.XForms")]
         [TestCase(LocalLabel, "Test.Label")]
         [TestCase(DefaultStringValue, @"label = ""test"";")]
@@ -178,6 +189,7 @@ namespace Tests
             templator.Generate(code, "Test").First().Xaml.Content.Should().Contain(xaml);
         }
         [TestCase(SyncfusionTemplate, "<_Root")]
+        [TestCase(Expander, "@")]
 
         public void Output_Should_NOTContainXaml(string code, string xaml)
         {

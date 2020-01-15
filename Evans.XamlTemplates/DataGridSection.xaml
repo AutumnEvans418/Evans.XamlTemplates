@@ -8,11 +8,9 @@
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.DataGridSection">
   <ContentView.Content>
-      <_Root xmlns:local="clr-namespace:Evans.XamlTemplates" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-  <StackLayout xmlns:local="clr-namespace:Evans.XamlTemplates" xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
-    <local:Header xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Header" />
-    <syncfusion:SfDataGrid AutoGenerateColumns="True" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_SfDataGrid" />
-  </StackLayout>
-</_Root>
+      <StackLayout xmlns:local="clr-namespace:Evans.XamlTemplates" xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
+  <local:Header xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Header" />
+  <syncfusion:SfDataGrid AutoGenerateColumns="True" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_SfDataGrid" />
+</StackLayout>
     </ContentView.Content>
 </ContentView>

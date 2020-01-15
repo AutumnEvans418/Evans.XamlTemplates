@@ -6,8 +6,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:Evans.XamlTemplates"
              mc:Ignorable="d"
-             x:Class="Evans.XamlTemplates.Header">
+             x:Class="Evans.XamlTemplates.ExpanderControl">
   <ContentView.Content>
-      <Label FontSize="Large" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label" />
+      <StackLayout>
+  <Label xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label" />
+  <Switch xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Switch" />
+  <ContentView xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_ContentView" />
+</StackLayout>
     </ContentView.Content>
 </ContentView>

@@ -12,8 +12,8 @@ namespace Evans.XamlTemplates.Generator
             {
                 if (control.HasParameter)
                 {
-                    var properties = control.ControlProperties.Where(p => p.IsParameter).Select(p => p.Name);
-                    var attributes = control.Node.Attributes().Where(c => properties.Contains(c.Name.LocalName));
+                    var properties = control.ControlProperties.Where(p => p.IsParameter).Select(p => p.Name).ToList();
+                    var attributes = control.Node.Attributes().Where(c => properties.Contains(c.Name.LocalName)).ToList();
 
                     foreach (var xAttribute in attributes)
                     {

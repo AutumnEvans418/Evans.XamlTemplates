@@ -13,7 +13,7 @@ namespace Evans.XamlTemplates
             Xml = xml;
         }
 
-        public string FormattedXml() => Xml.Root.ToString();
+        public string FormattedXml() => Xml.Root.FirstNode.ToString();
         //{
         //    try
         //    {
