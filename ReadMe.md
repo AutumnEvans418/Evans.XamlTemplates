@@ -290,6 +290,7 @@ Run the `build.ps1` script
 - [ ] Add line to the error message
 - [ ] Add syntax highlighting for taml files
 - [ ] Add ability to generate c# methods and event handling
+- [ ] Support Xml Dot Attributes
 
 # Analysis
 
