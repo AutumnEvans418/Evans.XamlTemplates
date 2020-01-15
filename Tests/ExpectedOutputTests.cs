@@ -177,8 +177,15 @@ namespace Tests
             var templator = new Templator();
             templator.Generate(code, "Test").First().Xaml.Content.Should().Contain(xaml);
         }
+        [TestCase(SyncfusionTemplate, "<_Root")]
 
-       
+        public void Output_Should_NOTContainXaml(string code, string xaml)
+        {
+            var templator = new Templator();
+            templator.Generate(code, "Test").First().Xaml.Content.Should().NotContain(xaml);
+        }
+
+
 
         [TestCase(MultipleTypeTests.codeWithoutXmlns, "local:Header")]
         [TestCase(ThirdPartyControl, "AutoGenerateColumns")]

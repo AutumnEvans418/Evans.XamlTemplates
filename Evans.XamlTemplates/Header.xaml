@@ -8,6 +8,8 @@
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.Header">
   <ContentView.Content>
-      <Label FontSize="Large" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+      <_Root xmlns:local="clr-namespace:Evans.XamlTemplates" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+  <Label FontSize="Large" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label" />
+</_Root>
     </ContentView.Content>
 </ContentView>

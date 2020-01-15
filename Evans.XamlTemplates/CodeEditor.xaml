@@ -8,8 +8,10 @@
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.CodeEditor">
   <ContentView.Content>
-      <ScrollView>
-  <Label x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
-</ScrollView>
+      <_Root xmlns:local="clr-namespace:Evans.XamlTemplates" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+  <ScrollView>
+    <Label xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label" />
+  </ScrollView>
+</_Root>
     </ContentView.Content>
 </ContentView>

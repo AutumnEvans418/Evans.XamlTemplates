@@ -8,9 +8,11 @@
              mc:Ignorable="d"
              x:Class="Evans.XamlTemplates.Section">
   <ContentView.Content>
-      <StackLayout>
-  <Label FontSize="Large" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
-  <ContentView x:Name="_ContentView" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
-</StackLayout>
+      <_Root xmlns:local="clr-namespace:Evans.XamlTemplates" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+  <StackLayout>
+    <Label FontSize="Large" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label" />
+    <ContentView xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_ContentView" />
+  </StackLayout>
+</_Root>
     </ContentView.Content>
 </ContentView>

@@ -7,5 +7,5 @@ dotnet build .\XamlTemplates.MSBuild\XamlTemplates.MSBuild.csproj -c release
 
 Move-Item -Path ".\*.nupkg" -Destination ".\nugetResults" -Force -Verbose
 
-dotnet add .\Evans.XamlTemplates\Evans.XamlTemplates.csproj package XamlTemplates.MSBuild
+dotnet add .\Evans.XamlTemplates\Evans.XamlTemplates.csproj package XamlTemplates.MSBuild -s "nugetResults"
 
