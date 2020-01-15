@@ -41,6 +41,19 @@ namespace Tests
 	</StackLayout>
 ";
 
+        [TestCase(@"test",1)]
+        [TestCase(@"`",1)]
+        [TestCase(@"
+`",2)]
+        [TestCase(@"@test
+{",2)]
+        public void LineNumberTest(string code, int line)
+        {
+            var ex = Assert.Throws<CompileException>(() => tamlAst.Evaluate(parser.GetTokens(code)));
+
+            ex.Message.Should().Contain("line " + line);
+        }
+
         [Test]
         public void GetComments()
         {

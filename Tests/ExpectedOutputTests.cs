@@ -150,9 +150,11 @@ namespace Tests
 
         public const string LocalLabel = @"@Ex(string label) { <local:Label Text=""@label""/> }";
 
+        public const string DefaultValue = @"@test(string label = ""test"") { <Label Text=""@label""/> }";
 
         [TestCase(SyncfusionTemplate, "Syncfusion.SfDataGrid.XForms")]
         [TestCase(LocalLabel, "Test.Label")]
+        [TestCase(DefaultValue, @"label = ""test""")]
         public void Output_Should_ContainCSharp(string code, string csharp)
         {
             var templator = new Templator();

@@ -83,6 +83,23 @@ namespace Evans.XamlTemplates
             var name = Peek().Value;
             parameter.Name = name ?? throw new CompileException("Expected parameter name but was null", Current);
             Eat(TokenType.Id);
+
+            if (Peek().TokenType == TokenType.Equal)
+            {
+                Eat(TokenType.Equal);
+
+                if (Peek().TokenType == TokenType.Id)
+                {
+                    parameter.DefaultValue = Peek().Value;
+                    Eat(TokenType.Id);
+                }
+                else
+                {
+                    parameter.DefaultValue = Peek().Value;
+                    Eat(TokenType.Quote);
+                }
+            }
+
             return parameter;
         }
 
