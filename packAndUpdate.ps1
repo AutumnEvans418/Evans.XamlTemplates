@@ -1,5 +1,7 @@
 
-dotnet build .\XamlTemplates.MSBuild\XamlTemplates.MSBuild.csproj
+dotnet clean .\XamlTemplates.MSBuild\XamlTemplates.MSBuild.csproj -c release
+
+dotnet build .\XamlTemplates.MSBuild\XamlTemplates.MSBuild.csproj -c release
 
 .\XamlTemplates.MSBuild\nuget.exe pack .\XamlTemplates.MSBuild\XamlTemplates.MSBuild.nuspec
 

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>XamlTemplates.MSBuild</id>
-    <version>1.0.3.11</version>
+    <version>1.0.3.14</version>
     <title>Xaml Templates</title>
     <authors>Chris Evans</authors>
     <description>Generate Xaml Templates with basic c# code</description>
@@ -14,7 +14,7 @@
   </metadata>
   <files>
     <file src="XamlTemplates.MSBuild.props" target="build" />
-    <file src=".\bin\debug\netstandard2.0\XamlTemplates.MSBuild.dll" target="build" />
-    <file src=".\bin\debug\netstandard2.0\Compiler.dll" target="build" />
+    <file src=".\bin\release\netstandard2.0\XamlTemplates.MSBuild.dll" target="build" />
+    <file src=".\bin\release\netstandard2.0\Compiler.dll" target="build" />
   </files>
 </package>

@@ -286,7 +286,7 @@ Run the `build.ps1` script
 - [ ] Support UWP
 - [x] Support Xamarin.Forms
 - [ ] Add parameters to MSBuild that can be customized
-- [ ] Add generated code warning
+- [x] Add generated code warning
 - [ ] Add line to the error message
 - [ ] Add syntax highlighting for taml files
 - [ ] Add ability to generate c# methods and event handling
