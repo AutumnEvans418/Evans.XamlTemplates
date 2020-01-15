@@ -12,11 +12,11 @@ namespace Evans.XamlTemplates
             Node = node;
         }
 
-        public List<Control> ChildControls { get; set; } = new List<Control>();
+        //public List<Control> ChildControls { get; set; } = new List<Control>();
 
-        public string Namespace { get; set; } = "";
+        public string Namespace => Name.NamespaceName;//Node.GetDefaultNamespace().NamespaceName;
 
-        public string Name { get; set; } = "";
+        public XName Name => Node.Name;
 
         public List<ControlProperty> ControlProperties { get; set; } = new List<ControlProperty>();
 

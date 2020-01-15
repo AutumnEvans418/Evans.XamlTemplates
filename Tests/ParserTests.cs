@@ -154,7 +154,7 @@ namespace Tests
 
             var program = tamlAst.Evaluate(tokens);
 
-            program.Templates.First().Body.Controls.First().ControlProperties.Last().Name.Should().Be("x:Name");
+            program.Templates.First().Body.Controls.First().ControlProperties.Last().Name.Should().Be("Name");
 
         }
 

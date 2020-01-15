@@ -50,7 +50,7 @@ namespace " + AssemblyName + @"
         string GetNamespace(string namespaceXml)
         {
             if (namespaceXml.Contains("clr-namespace:"))
-                return namespaceXml.Split(':',';')[1] + ".";
+                return namespaceXml.Replace("{","").Replace("}","").Split(':',';')[1] + ".";
             return "";
         }
 
@@ -64,7 +64,7 @@ namespace " + AssemblyName + @"
 
                 foreach (var property in control.Value.ControlProperties.Where(p => p.IsParameter))
                 {
-                    str += $"            {control.Key}.SetBinding({GetNamespace(control.Value.Namespace)}{control.Value.Name}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
+                    str += $"            {control.Key}.SetBinding({GetNamespace(control.Value.Namespace)}{control.Value.Name.LocalName}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
                 }
             }
 

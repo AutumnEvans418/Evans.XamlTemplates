@@ -118,8 +118,22 @@ namespace Evans.XamlTemplates
 
             try
             {
-                //var reader = new XmlDocument();
+                //check that it's valid xml
+                //var result = XDocument.Parse(xml);
+                
+
                 var declarations = _defaultXmlDeclaration.Aggregate(" ", (s, s1) => s + " " + s1);
+
+                //var index = xml.IndexOf('>');
+
+                //if (index < 0)
+                //{
+                //    throw new CompileException("Could not find '>' in xml", Peek());
+                //}
+                //var addedInsert = xml.Insert(index-1, declarations);
+
+                //var result = XDocument.Parse(addedInsert);
+
                 var reader = XDocument.Parse($"<_Root {declarations}>" + xml + "</_Root>");
 
                 var body = new Body(beginning, reader);
@@ -150,9 +164,9 @@ namespace Evans.XamlTemplates
                 var control = new Control(Peek(), node);
 
 
-                control.Namespace = node.GetDefaultNamespace().NamespaceName;
+                //control.Namespace = node.GetDefaultNamespace().NamespaceName;
 
-                control.Name = node.Name.LocalName;
+                //control.Name = node.Name.ToString();
                 foreach (XAttribute attribute in node.Attributes())
                 {
                     var property = new ControlProperty(Peek());
@@ -161,7 +175,7 @@ namespace Evans.XamlTemplates
                     control.ControlProperties.Add(property);
                 }
                 controls.Add(control);
-                control.ChildControls = RecurseXml(node.Descendants().ToList());
+                //control.ChildControls = RecurseXml(node.Descendants().ToList());
             }
             return controls;
         }

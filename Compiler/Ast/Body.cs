@@ -37,7 +37,7 @@ namespace Evans.XamlTemplates
             foreach (var control in controls)
             {
                 t.Add(control.Namespace);
-                t.AddRange(GetAssembliesByControl(control.ChildControls));
+                //t.AddRange(GetAssembliesByControl(control.ChildControls));
             }
             return t.Distinct().ToList();
         }

@@ -27,13 +27,23 @@ namespace Evans.XamlTemplates.Generator
 
                     //}
                     //control.Node.Attributes.RemoveAll();
-                    control.Node.Add(new XAttribute("x:Name", AddControl(control)));
+                    XNamespace x = "http://schemas.microsoft.com/winfx/2009/xaml";
+
+                    if(control.Node.Attribute(XNamespace.Xmlns + "x") == null)
+                    {
+                        control.Node.Add(new XAttribute(XNamespace.Xmlns + "x", "http://schemas.microsoft.com/winfx/2009/xaml"));
+                    }
+
+                    if (control.Node.Attribute(x + "Name") == null)
+                    {
+                        control.Node.Add(new XAttribute(x + "Name", AddControl(control)));
+                    }
 
                     //var att = control.Node.OwnerDocument.CreateAttribute("x", "Name", "http://schemas.microsoft.com/winfx/2009/xaml");
                     //att.Value = AddControl(control);
                     //control.Node.Attributes.Append(att);
                 }
-                RecurseControls(control.ChildControls);
+                //RecurseControls(control.ChildControls);
             }
         }
         public NameGenerator(IEnumerable<Control> controls)
@@ -52,7 +62,7 @@ namespace Evans.XamlTemplates.Generator
 
         public string AddControl(Control control)
         {
-            var name = "_" + RemoveColon(control.Name);
+            var name = "_" + control.Name.LocalName;//RemoveColon(control.Name);
 
             if (NamedControls.ContainsKey(name))
             {

@@ -41,7 +41,7 @@ namespace Evans.XamlTemplates
                         }
                     }
                 }
-                CheckControlsAndParameters(control.ChildControls, parameters);
+                //CheckControlsAndParameters(control.ChildControls, parameters);
             }
         }
     }
