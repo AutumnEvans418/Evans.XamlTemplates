@@ -24,6 +24,13 @@ namespace Tests
     </ContentView.Content>
 </ContentView>";
 
+        public const string SetContent = @"
+@test()
+{
+    <syncfusion:SfDataGrid xmlns:syncfusion=""clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"">
+        <syncfusion:SfDataGrid.AutoGenerateColumns>True</syncfusion:SfDataGrid.AutoGenerateColumns>
+    </syncfusion:SfDataGrid>
+}";
 
         public const string ThirdPartyControl = @"
 @DataGridSection(string Header, IEnumerable<object> Data)
@@ -35,15 +42,6 @@ namespace Tests
         />
 }";
 
-        public const string SetContent = @"
-@test()
-{
-    <syncfusion:SfDataGrid xmlns:syncfusion=""clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"">
-        <syncfusion:SfDataGrid.AutoGenerateColumns>True</syncfusion:SfDataGrid.AutoGenerateColumns>
-    </syncfusion:SfDataGrid>
-}";
-
-
 
         public const string ThirdPartyControlOutput = @"<?xml version=""1.0"" encoding=""UTF-8""?>
 <ContentView xmlns=""http://xamarin.com/schemas/2014/forms""
@@ -54,7 +52,7 @@ namespace Tests
              mc:Ignorable=""d""
              x:Class=""Test.DataGridSection"">
   <ContentView.Content>
-      <syncfusion:SfDataGrid AutoGenerateColumns=""True"" xmlns:syncfusion=""clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"" x:Name=""_syncfusion:SfDataGrid"" xmlns:x=""http://schemas.microsoft.com/winfx/2009/xaml"" />
+      <syncfusion:SfDataGrid AutoGenerateColumns=""True"" xmlns:syncfusion=""clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"" x:Name=""_SfDataGrid"" xmlns:x=""http://schemas.microsoft.com/winfx/2009/xaml"" />
     </ContentView.Content>
 </ContentView>";
 
@@ -77,8 +75,8 @@ namespace Tests
              x:Class=""Evans.XamlTemplates.DataGridSection"">
   <ContentView.Content>
       <StackLayout xmlns:local=""clr-namespace:Evans.XamlTemplates"" xmlns:syncfusion=""clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"">
-  <local:Header x:Name=""_local:Header"" xmlns:x=""http://schemas.microsoft.com/winfx/2009/xaml"" />
-  <syncfusion:SfDataGrid AutoGenerateColumns=""True"" x:Name=""_syncfusion:SfDataGrid"" xmlns:x=""http://schemas.microsoft.com/winfx/2009/xaml"" />
+  <local:Header x:Name=""_Header"" xmlns:x=""http://schemas.microsoft.com/winfx/2009/xaml"" />
+  <syncfusion:SfDataGrid AutoGenerateColumns=""True"" x:Name=""_SfDataGrid"" xmlns:x=""http://schemas.microsoft.com/winfx/2009/xaml"" />
 </StackLayout>
     </ContentView.Content>
 </ContentView>";
@@ -127,9 +125,9 @@ namespace Evans.XamlTemplates
             var templator = new Templator();
 
             var result = templator.Generate(input, "Test").First().Xaml.Content;
-            result = Regex.Replace(result, @"\s+", "");
+           var result2 = Regex.Replace(result, @"\s+", "");
             Console.WriteLine(result);
-            result.Should().Be(Regex.Replace(outputXaml, @"\s+", ""));
+            result2.Should().Be(Regex.Replace(outputXaml, @"\s+", ""));
         }
         [TestCase(Syncfusion, SyncfusionOutputCSharp)]
         public void Input_Should_Expect_CSharp(string input, string outputCSharp)
@@ -137,9 +135,9 @@ namespace Evans.XamlTemplates
             var templator = new Templator();
 
             var result = templator.Generate(input, "Test").First().CSharp.Content;
-            result = Regex.Replace(result, @"\s+", "");
+            var result2 = Regex.Replace(result, @"\s+", "");
             Console.WriteLine(result);
-            result.Should().Be(Regex.Replace(outputCSharp, @"\s+", ""));
+            result2.Should().Be(Regex.Replace(outputCSharp, @"\s+", ""));
         }
     }
 }

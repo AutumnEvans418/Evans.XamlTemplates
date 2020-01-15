@@ -14,7 +14,7 @@ namespace Evans.XamlTemplates.Generator
                     if (control.Node.Attributes != null && control.Node.OwnerDocument != null)
                     {
 
-                        foreach (var property in control.ControlProperties.Where(p=>p.IsParameter))
+                        foreach (var property in control.ControlProperties.Where(p => p.IsParameter))
                         {
                             control.Node.Attributes.Remove(control.Node.Attributes[property.Name]);
 
@@ -36,9 +36,17 @@ namespace Evans.XamlTemplates.Generator
         }
         Dictionary<string, int> controlPrefix = new Dictionary<string, int>();
         public Dictionary<string, Control> NamedControls { get; set; } = new Dictionary<string, Control>();
+
+
+        string RemoveColon(string name)
+        {
+            return name.Contains(":") ? name.Split(':')[1] : name;
+        }
+
         public string AddControl(Control control)
         {
-            var name = "_" + control.Name;
+            var name = "_" + RemoveColon(control.Name);
+
             if (NamedControls.ContainsKey(name))
             {
                 if (controlPrefix.ContainsKey(name))
@@ -49,7 +57,7 @@ namespace Evans.XamlTemplates.Generator
                 }
                 else
                 {
-                    controlPrefix.Add(name,1);
+                    controlPrefix.Add(name, 1);
                     name += controlPrefix[name];
                     NamedControls.Add(name, control);
                 }
