@@ -17,6 +17,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+" + GenerateUsingStatements() + @"
 namespace " + AssemblyName + @"
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -31,6 +32,28 @@ namespace " + AssemblyName + @"
 " + GenerateProperties() + @"
     }
 }";
+
+        private string GenerateUsingStatements()
+        {
+            //if (Template?.Body == null) return "";
+
+            //var assemblies = Template.Body.GetAllAssemblies().Where(p => p.Contains("clr-namespace:"));
+            //var str = "";
+            //foreach (var assembly in assemblies)
+            //{
+            //    str += $"using {assembly.Split(':')[1]};{Environment.NewLine}";
+            //}
+            //return str;
+            return "";
+        }
+
+        string GetNamespace(string namespaceXml)
+        {
+            if (namespaceXml.Contains("clr-namespace:"))
+                return namespaceXml.Split(':')[1] + ".";
+            return "";
+        }
+
         private string GenerateConstructor()
         {
             if (NameGenerator == null) return "";
@@ -39,9 +62,9 @@ namespace " + AssemblyName + @"
             {
                 str += $"            {control.Key}.BindingContext = this;{Environment.NewLine}";
 
-                foreach (var property in control.Value.ControlProperties.Where(p=>p.IsParameter))
+                foreach (var property in control.Value.ControlProperties.Where(p => p.IsParameter))
                 {
-                    str += $"            {control.Key}.SetBinding({control.Value.Name}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
+                    str += $"            {control.Key}.SetBinding({GetNamespace(control.Value.Namespace)}{control.Value.Node.LocalName}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
                 }
             }
 

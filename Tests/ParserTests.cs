@@ -22,6 +22,16 @@ namespace Tests
 }
 ";
 
+        string codeComment = @"
+//@LabelEntry(string label,string Text)
+//{
+//	<StackLayout>
+//		<Label Text=""@label""/>
+//		<Entry Text=""@Text""/>
+//	</StackLayout>
+//}
+";
+
         string codeMissingBracket = @"
 @LabelEntry(string label,string Text)
 {
@@ -31,6 +41,11 @@ namespace Tests
 	</StackLayout>
 ";
 
+        [Test]
+        public void GetComments()
+        {
+            parser.GetTokens(codeComment).Should().HaveCount(1);
+        }
 
         [Test]
         public void GetTokens()

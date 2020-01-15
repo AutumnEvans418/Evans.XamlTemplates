@@ -145,6 +145,10 @@ namespace Evans.XamlTemplates
             {
                 if (node == null) continue;
                 var control = new Control(Peek(), node);
+
+
+                control.Namespace = node.NamespaceURI;
+
                 control.Name = node.Name;
                 if (node.Attributes != null)
                 {

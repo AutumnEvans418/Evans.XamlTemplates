@@ -290,7 +290,9 @@ Run the `build.ps1` script
 - [ ] Add line to the error message
 - [ ] Add syntax highlighting for taml files
 - [ ] Add ability to generate c# methods and event handling
+- [x] Support Comments
 - [ ] Support Xml Dot Attributes
+  - https://docs.microsoft.com/en-us/dotnet/desktop-wpf/xaml-services/basic-reading-writing
 
 # Analysis
 

@@ -29,3 +29,10 @@
     </StackLayout>
 }
 
+@DataGridSection(string HeaderText, IEnumerable<object> Data)
+{
+    <StackLayout xmlns:local="clr-namespace:Evans.XamlTemplates" xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
+        <local:Header Text="@HeaderText" />
+        <syncfusion:SfDataGrid ItemsSource="@Data" AutoGenerateColumns="True"/>
+    </StackLayout>
+}

@@ -24,7 +24,15 @@ namespace Evans.XamlTemplates
             Output = new List<Token>();
             while (Peek() is { } val)
             {
-                if (char.IsWhiteSpace(val))
+                if (val == '/' && Peek(1) == '/')
+                {
+                    Move();
+                    Move();
+                    while (Peek() is {} c && c != '\n')
+                    {
+                        Move();
+                    }
+                }else if (char.IsWhiteSpace(val))
                 {
                     Move();
                 }
