@@ -6,11 +6,20 @@ namespace Evans.XamlTemplates
 {
     public class TamlParser : Iterator<char?>
     {
+        public int Line { get; set; } = 1;
+        protected override void Move()
+        {
+            if (Peek() == '\n')
+            {
+                Line++;
+            }
+            base.Move();
+        }
         public IList<Token> Output { get; set; } = new List<Token>();
 
         public void Add(TokenType type, string? val = null)
         {
-            Output.Add(new Token(type, Index, val));
+            Output.Add(new Token(type, Index,Line, val));
             Move();
         }
         public IEnumerable<Token> GetTokens(string code)
@@ -20,6 +29,7 @@ namespace Evans.XamlTemplates
             {
                 Input.Add(c);
             }
+            Line = 1;
             Index = 0;
             Output = new List<Token>();
             while (Peek() is { } val)
@@ -52,7 +62,7 @@ namespace Evans.XamlTemplates
                         id += c;
                         Move();
                     }
-                    Output.Add(new Token(TokenType.Id, Index, id));
+                    Output.Add(new Token(TokenType.Id, Index,Line, id));
                 }
                 else if (val == '(')
                 {
@@ -104,15 +114,15 @@ namespace Evans.XamlTemplates
                         Move();
                     }
                     Move();
-                    Output.Add(new Token(TokenType.Quote, Index, q));
+                    Output.Add(new Token(TokenType.Quote, Index,Line, q));
                 }
                 else
                 {
-                    throw new CompileException($"Did not recognize token {val}", Index);
+                    throw new CompileException($"Did not recognize token {val}", Index, Line);
                 }
                 
             }
-            Output.Add(new Token(TokenType.EndOfFile, Index));
+            Output.Add(new Token(TokenType.EndOfFile, Index,Line));
 
             return Output;
         }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Xml.Linq;
 using Evans.XamlTemplates;
 using FluentAssertions;
 using NUnit.Framework;
@@ -117,6 +118,25 @@ namespace Evans.XamlTemplates
     }
 }";
 
+
+        [TestCase(@"@test(){ @ }")]
+        public void Code_Should_ThrowCompileException(string code)
+        {
+            var tem = new Templator();
+
+            Assert.Throws<CompileException>(() => tem.Generate(code, "test"));
+        }
+
+        [Test]
+        public void SetContent_Test()
+        {
+            var xml = @"
+    <syncfusion:SfDataGrid xmlns:syncfusion=""clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"">
+        <syncfusion:SfDataGrid.AutoGenerateColumns>True</syncfusion:SfDataGrid.AutoGenerateColumns>
+    </syncfusion:SfDataGrid>";
+
+            XDocument.Parse(xml);
+        }
 
 
         [TestCase(MultipleTypeTests.codeWithoutXmlns, expectedCodeWithoutXmlns)]

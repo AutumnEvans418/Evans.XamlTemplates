@@ -64,7 +64,7 @@ namespace " + AssemblyName + @"
 
                 foreach (var property in control.Value.ControlProperties.Where(p => p.IsParameter))
                 {
-                    str += $"            {control.Key}.SetBinding({GetNamespace(control.Value.Namespace)}{control.Value.Node.LocalName}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
+                    str += $"            {control.Key}.SetBinding({GetNamespace(control.Value.Namespace)}{control.Value.Name}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
                 }
             }
 

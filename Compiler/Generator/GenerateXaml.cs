@@ -24,7 +24,7 @@ namespace Evans.XamlTemplates.Generator
         string AddNamesToXml(Body? body)
         {
             if (body == null) return "";
-            return body.FormattedXml;
+            return body.FormattedXml();
         }
 
         

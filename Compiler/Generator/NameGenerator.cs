@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Linq;
 
 namespace Evans.XamlTemplates.Generator
 {
@@ -11,20 +12,26 @@ namespace Evans.XamlTemplates.Generator
             {
                 if (control.HasParameter)
                 {
-                    if (control.Node.Attributes != null && control.Node.OwnerDocument != null)
+                    var properties = control.ControlProperties.Where(p => p.IsParameter).Select(p => p.Name);
+                    var attributes = control.Node.Attributes().Where(c => properties.Contains(c.Name.LocalName));
+
+                    foreach (var xAttribute in attributes)
                     {
-
-                        foreach (var property in control.ControlProperties.Where(p => p.IsParameter))
-                        {
-                            control.Node.Attributes.Remove(control.Node.Attributes[property.Name]);
-
-                        }
-
-                        //control.Node.Attributes.RemoveAll();
-                        var att = control.Node.OwnerDocument.CreateAttribute("x", "Name", "http://schemas.microsoft.com/winfx/2009/xaml");
-                        att.Value = AddControl(control);
-                        control.Node.Attributes.Append(att);
+                        xAttribute.Remove();
                     }
+                    //foreach (var property in control.ControlProperties.Where(p => p.IsParameter))
+                    //{
+
+
+                    //    control.Node.Attributes.Remove(control.Node.Attributes[property.Name]);
+
+                    //}
+                    //control.Node.Attributes.RemoveAll();
+                    control.Node.Add(new XAttribute("x:Name", AddControl(control)));
+
+                    //var att = control.Node.OwnerDocument.CreateAttribute("x", "Name", "http://schemas.microsoft.com/winfx/2009/xaml");
+                    //att.Value = AddControl(control);
+                    //control.Node.Attributes.Append(att);
                 }
                 RecurseControls(control.ChildControls);
             }

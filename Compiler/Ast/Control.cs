@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace Evans.XamlTemplates
 {
     public class Control : Node
     {
-        public Control(Token token, XmlNode node) : base(token)
+        public Control(Token token, XElement node) : base(token)
         {
             Node = node;
         }
@@ -20,6 +21,6 @@ namespace Evans.XamlTemplates
         public List<ControlProperty> ControlProperties { get; set; } = new List<ControlProperty>();
 
         public bool HasParameter => ControlProperties.Any(p => p.IsParameter);
-        public XmlNode Node { get; set; }
+        public XElement Node { get; set; }
     }
 }

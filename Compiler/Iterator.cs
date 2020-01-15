@@ -17,7 +17,7 @@ namespace Evans.XamlTemplates
             return Default;
         }
 
-        protected void Move()
+        protected virtual void Move()
         {
             Index++;
         }
