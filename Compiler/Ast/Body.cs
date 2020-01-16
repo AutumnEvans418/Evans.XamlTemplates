@@ -6,6 +6,7 @@ using System.Xml.Linq;
 
 namespace Evans.XamlTemplates
 {
+#nullable enable
     public class Body : Node
     {
         public Body(Token token, XDocument xml) : base(token)
@@ -13,23 +14,23 @@ namespace Evans.XamlTemplates
             Xml = xml;
         }
 
-        public string? FormattedXml() => Xml.Root?.FirstNode.ToString();
+        public string? FormattedXml() => Xml?.Root?.FirstNode?.ToString();
 
-        public List<string> GetAllAssemblies()
-        {
-            return GetAssembliesByControl(Controls);
-        }
+        //public List<string> GetAllAssemblies()
+        //{
+        //    return GetAssembliesByControl(Controls);
+        //}
 
-        List<string> GetAssembliesByControl(List<Control> controls)
-        {
-            var t = new List<string>();
-            foreach (var control in controls)
-            {
-                t.Add(control.Namespace);
-                //t.AddRange(GetAssembliesByControl(control.ChildControls));
-            }
-            return t.Distinct().ToList();
-        }
+        //List<string> GetAssembliesByControl(List<Control> controls)
+        //{
+        //    var t = new List<string>();
+        //    foreach (var control in controls)
+        //    {
+        //        t.Add(control.Namespace);
+        //        //t.AddRange(GetAssembliesByControl(control.ChildControls));
+        //    }
+        //    return t.Distinct().ToList();
+        //}
         
 
         public XDocument Xml { get; set; }

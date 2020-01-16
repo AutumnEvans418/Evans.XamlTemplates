@@ -7,10 +7,18 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.2.0.1367" />
-    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.22">
+    <PackageReference Include="XamlTemplates.MSBuild" Version="1.0.3.23">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Templates\" />
+  </ItemGroup>
+
+  <Target Name="XamlTemplateTasks" BeforeTargets="BeforeBuild">
+    <XamlTemplates Namespace="$(AssemblyName)" Folder="Templates" />
+  </Target>
 
 </Project>
