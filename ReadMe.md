@@ -307,6 +307,7 @@ Run the `build.ps1` script
 - [x] Support Comments
 - [ ] Support Xml Dot Attributes
   - https://docs.microsoft.com/en-us/dotnet/desktop-wpf/xaml-services/basic-reading-writing
+- [ ] Support different base types other than ContentView, such as StackLayout, Grid, etc.
 
 # Analysis
 
