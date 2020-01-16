@@ -190,6 +190,7 @@ namespace Tests
         }
         [TestCase(SyncfusionTemplate, "<_Root")]
         [TestCase(Expander, "@")]
+        [TestCase("@test(){}","@")]
 
         public void Output_Should_NOTContainXaml(string code, string xaml)
         {

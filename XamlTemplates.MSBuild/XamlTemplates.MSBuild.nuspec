@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>XamlTemplates.MSBuild</id>
-    <version>1.0.3.20</version>
+    <version>1.0.3.22</version>
     <title>Xaml Templates</title>
     <authors>Chris Evans</authors>
     <description>Generate Xaml Templates with basic c# code</description>

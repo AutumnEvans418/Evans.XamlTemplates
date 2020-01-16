@@ -13,18 +13,7 @@ namespace Evans.XamlTemplates
             Xml = xml;
         }
 
-        public string FormattedXml() => Xml.Root.FirstNode.ToString();
-        //{
-        //    try
-        //    {
-        //        return XDocument.Parse(Xml.FirstChild.InnerXml).ToString();
-        //    }
-        //    catch (XmlException e)
-        //    {
-        //        throw new CompileException($"Failed to parse xml: {e}", Token);
-        //    }
-
-        //} 
+        public string? FormattedXml() => Xml.Root?.FirstNode.ToString();
 
         public List<string> GetAllAssemblies()
         {

@@ -14,10 +14,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="16.4.0" />
+
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Compiler\Compiler.csproj" />
+    <ProjectReference Include="..\XamlTemplates.MSBuild\XamlTemplates.MSBuild.csproj" />
   </ItemGroup>
 
 </Project>
