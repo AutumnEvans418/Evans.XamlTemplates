@@ -1,5 +1,5 @@
 ﻿@page "/"
-
+@inject IJSRuntime js
 
 <div class="container">
     <div class="row">
@@ -21,7 +21,7 @@
     <div class="row card p-2">
         <div class="col">
             <h3>@CSharp.FileName</h3>
-            <pre>@CSharp.Content</pre>
+            <pre><code class="csharp">@CSharp.Content</code></pre>
         </div>
     </div>
 </div>
@@ -45,7 +45,7 @@
         {
             var result = gen.Generate(codestr, "Templates");
             Console.WriteLine("success!");
-            if(result.Any())
+            if (result.Any())
             {
                 Xaml = result[0].Xaml;
                 CSharp = result[0].CSharp;
@@ -58,7 +58,17 @@
         }
 
     }
-    protected override void OnInitialized()
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Console.WriteLine("highlighting...");
+            await js.InvokeVoidAsync("highlight");
+        }
+    }
+
+    protected override async void OnInitialized()
     {
         Console.WriteLine("Started!");
         CodeChanged();

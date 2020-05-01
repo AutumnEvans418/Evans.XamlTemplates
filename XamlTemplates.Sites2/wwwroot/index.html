@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,6 +8,9 @@
     <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/highlight/styles/default.css">
+    <script src="/highlight/highlight.pack.js"></script>
 </head>
 
 <body>
@@ -19,6 +22,19 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+        window.highlight = () =>
+        {
+            //hljs.initHighlightingOnLoad();
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+            console.log("highlighed!");
+        };
+    </script>
+<pre><code>print('hello world!')</code></pre>
 </body>
 
 </html>
