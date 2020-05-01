@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col p-2">
-            <textarea class="m-2 p-2 form-control" style="min-height: 400px" @oninput="(EventArgs) => { CodeChanged(); }" @bind="@codestr"></textarea>
+            <textarea class="p-2 form-control" style="min-height: 400px" @bind-value="@codestr" @bind-value:event="oninput"></textarea>
         </div>
     </div>
     <div>
@@ -30,10 +30,10 @@
 
 
     private string _codestr = Evans.XamlTemplates.Examples.Basic;
-    private string codestr { get => _codestr; set { _codestr = value; CodeChanged(); } }
-    private Evans.XamlTemplates.Generator.GeneratedFile Xaml;
-    private Evans.XamlTemplates.Generator.GeneratedFile CSharp;
-    private string ErrorMessage = "";
+    public string codestr { get => _codestr; set { _codestr = value; CodeChanged(); } }
+    public Evans.XamlTemplates.Generator.GeneratedFile Xaml { get; set; }
+    public Evans.XamlTemplates.Generator.GeneratedFile CSharp { get; set; }
+    public string ErrorMessage { get; set; } = "";
 
     Evans.XamlTemplates.Templator gen = new Evans.XamlTemplates.Templator();
 
@@ -45,9 +45,11 @@
         {
             var result = gen.Generate(codestr, "Templates");
             Console.WriteLine("success!");
-            Xaml = result[0].Xaml;
-            CSharp = result[0].CSharp;
-            base.StateHasChanged();
+            if(result.Any())
+            {
+                Xaml = result[0].Xaml;
+                CSharp = result[0].CSharp;
+            }
             ErrorMessage = "";
         }
         catch (Exception e)
