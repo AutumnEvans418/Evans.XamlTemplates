@@ -1,18 +1,27 @@
 ﻿@page "/"
-@inject IJSRuntime JsRuntime
+
 
 <div class="container">
     <div class="row">
-        <div class="col">
-            <input @oninput="(EventArgs) => { CodeChanged(); }" @bind="@codestr"></input>
+        <div class="col p-2">
+            <textarea class="m-2 p-2 form-control" style="min-height: 400px" @oninput="(EventArgs) => { CodeChanged(); }" @bind="@codestr"></textarea>
         </div>
+    </div>
+    <div>
         <div class="col">
-            <h3>Xaml Code</h3>
-            <pre><code class="xml">@Xaml</code> </pre>
+            <p style="color: red">@ErrorMessage</p>
         </div>
+    </div>
+    <div class="row">
+        <div class="col card p-2">
+            <h3>@Xaml.FileName</h3>
+            <pre><code class="xml">@Xaml.Content</code> </pre>
+        </div>
+    </div>
+    <div class="row card p-2">
         <div class="col">
-            <h3>CSharp Code</h3>
-            <pre>@CSharp</pre>
+            <h3>@CSharp.FileName</h3>
+            <pre>@CSharp.Content</pre>
         </div>
     </div>
 </div>
@@ -22,8 +31,8 @@
 
     private string _codestr = Evans.XamlTemplates.Examples.Basic;
     private string codestr { get => _codestr; set { _codestr = value; CodeChanged(); } }
-    private string Xaml = "";
-    private string CSharp = "";
+    private Evans.XamlTemplates.Generator.GeneratedFile Xaml;
+    private Evans.XamlTemplates.Generator.GeneratedFile CSharp;
     private string ErrorMessage = "";
 
     Evans.XamlTemplates.Templator gen = new Evans.XamlTemplates.Templator();
@@ -36,9 +45,10 @@
         {
             var result = gen.Generate(codestr, "Templates");
             Console.WriteLine("success!");
-            Xaml = result[0].Xaml.Content;
-            CSharp = result[0].CSharp.Content;
+            Xaml = result[0].Xaml;
+            CSharp = result[0].CSharp;
             base.StateHasChanged();
+            ErrorMessage = "";
         }
         catch (Exception e)
         {
