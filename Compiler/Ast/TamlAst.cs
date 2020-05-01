@@ -8,14 +8,16 @@ namespace Evans.XamlTemplates
 {
     public class TamlAst : Iterator<Token>
     {
-        protected override Token Default => new Token(TokenType.EndOfFile,Index);
+
+
+        protected override Token Default => new Token(TokenType.EndOfFile, Index, 0);
 
         private void Eat(TokenType token)
         {
             var p = Peek();
             if (p is { } t && t.TokenType != token)
             {
-                throw new CompileException($"Expected {token} but was {t.TokenType}", p.Index);
+                throw new CompileException($"Expected {token} but was {t.TokenType}", p);
             }
             Move();
         }
@@ -26,13 +28,13 @@ namespace Evans.XamlTemplates
             Eat(TokenType.At);
             if (Current.Value == null)
             {
-                throw new CompileException("Expected classname but was null", Current.Index);
+                throw new CompileException("Expected classname but was null", Current);
             }
             template.ClassName = Current.Value;
             Eat(TokenType.Id);
             Eat(TokenType.ParenthesesOpen);
-            while (Peek() is { } token 
-                   && token.TokenType != TokenType.ParenthesesClose 
+            while (Peek() is { } token
+                   && token.TokenType != TokenType.ParenthesesClose
                    && token.TokenType != TokenType.EndOfFile)
             {
                 template.Parameters.Add(GetParameter());
@@ -51,14 +53,14 @@ namespace Evans.XamlTemplates
         {
             var name = Peek().Value;
 
-            if (name == null) throw new CompileException("Expected TypeName but was null", Current.Index);
+            if (name == null) throw new CompileException("Expected TypeName but was null", Current);
 
             Eat(TokenType.Id);
             if (Peek().TokenType == TokenType.BracketOpen)
             {
                 name += Peek().Value;
                 Eat(TokenType.BracketOpen);
-                while (Peek() is { } token 
+                while (Peek() is { } token
                        && token.TokenType != TokenType.BracketClose
                        && token.TokenType != TokenType.EndOfFile)
                 {
@@ -68,7 +70,7 @@ namespace Evans.XamlTemplates
                 name += Peek().Value;
                 Eat(TokenType.BracketClose);
             }
-           
+
 
             return name;
         }
@@ -79,8 +81,30 @@ namespace Evans.XamlTemplates
 
             parameter.Type = GetTypeName();
             var name = Peek().Value;
-            parameter.Name = name ?? throw new CompileException("Expected parameter name but was null", Current.Index);
+            parameter.Name = name ?? throw new CompileException("Expected parameter name but was null", Current);
             Eat(TokenType.Id);
+
+            if (Peek().TokenType == TokenType.Equal)
+            {
+                Eat(TokenType.Equal);
+
+                if (Peek().TokenType == TokenType.Id)
+                {
+                    parameter.DefaultValue = Peek().Value;
+                    Eat(TokenType.Id);
+                }
+                else if (Peek().TokenType == TokenType.Number)
+                {
+                    parameter.DefaultValue = Peek().Value;
+                    Eat(TokenType.Number);
+                }
+                else
+                {
+                    parameter.DefaultValue = "\"" + Peek().Value + "\"";
+                    Eat(TokenType.Quote);
+                }
+            }
+
             return parameter;
         }
 
@@ -90,7 +114,7 @@ namespace Evans.XamlTemplates
             var xml = "";
             var beginning = Peek();
             Eat(TokenType.CurlyBracketOpen);
-            while (Peek() is { } token 
+            while (Peek() is { } token
                    && token.TokenType != TokenType.CurlyBracketClose
                    && token.TokenType != TokenType.EndOfFile)
             {
@@ -111,57 +135,69 @@ namespace Evans.XamlTemplates
             }
             Eat(TokenType.CurlyBracketClose);
 
-            var reader = new XmlDocument();
-            
-            
+
+
 
             try
             {
+                //check that it's valid xml
+                //var result = XDocument.Parse(xml);
+                
+
                 var declarations = _defaultXmlDeclaration.Aggregate(" ", (s, s1) => s + " " + s1);
-                reader.LoadXml($"<_Root {declarations}>" +  xml + "</_Root>");
+
+                //var index = xml.IndexOf('>');
+
+                //if (index < 0)
+                //{
+                //    throw new CompileException("Could not find '>' in xml", Peek());
+                //}
+                //var addedInsert = xml.Insert(index-1, declarations);
+
+                //var result = XDocument.Parse(addedInsert);
+
+                var reader = XDocument.Parse($"<_Root {declarations}>" + xml + "</_Root>");
+
+                var body = new Body(beginning, reader);
+                body.Xml = reader;
+                body.Controls = ParseXml(reader);
+                return body;
             }
             catch (XmlException e)
             {
-                throw new CompileException($"Failed to parse xml: {e}", Peek().Index);
+                throw new CompileException($"Failed to parse xml: {e}", Peek());
             }
-
-            var body = new Body(beginning, reader);
-            body.Xml = reader;
-            body.Controls = ParseXml(reader);
-            return body;
         }
 
 
 
-        private List<Control> ParseXml(XmlDocument reader)
+        private List<Control> ParseXml(XDocument reader)
         {
-            return RecurseXml(reader.FirstChild.ChildNodes.Cast<XmlNode>().ToList());
+            if(reader.Root == null) throw new ArgumentNullException(nameof(reader.Root));
+            return RecurseXml(reader.Root.Descendants().ToList());
         }
 
-        List<Control> RecurseXml(List<XmlNode> parentNode)
+        List<Control> RecurseXml(List<XElement> parentNode)
         {
             var controls = new List<Control>();
-            foreach (XmlNode node in parentNode)
+            foreach (XElement node in parentNode)
             {
                 if (node == null) continue;
                 var control = new Control(Peek(), node);
 
 
-                control.Namespace = node.NamespaceURI;
+                //control.Namespace = node.GetDefaultNamespace().NamespaceName;
 
-                control.Name = node.Name;
-                if (node.Attributes != null)
+                //control.Name = node.Name.ToString();
+                foreach (XAttribute attribute in node.Attributes())
                 {
-                    foreach (XmlAttribute attribute in node.Attributes)
-                    {
-                        var property = new ControlProperty(Peek());
-                        property.Name = attribute.Name;
-                        property.Value = attribute.Value;
-                        control.ControlProperties.Add(property);
-                    }
+                    var property = new ControlProperty(Peek());
+                    property.Name = attribute.Name.LocalName;
+                    property.Value = attribute.Value;
+                    control.ControlProperties.Add(property);
                 }
                 controls.Add(control);
-                control.ChildControls = RecurseXml(node.ChildNodes.Cast<XmlNode>().ToList());
+                //control.ChildControls = RecurseXml(node.Descendants().ToList());
             }
             return controls;
         }

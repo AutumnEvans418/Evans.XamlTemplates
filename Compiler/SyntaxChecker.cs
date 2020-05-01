@@ -17,7 +17,7 @@ namespace Evans.XamlTemplates
         {
             foreach (var template in _program.Templates)
             {
-                if (template.Body == null) throw new CompileException("Body was empty", template.Token.Index);
+                if (template.Body == null) throw new CompileException("Body was empty", template.Token);
                 CheckControlsAndParameters(template.Body.Controls, template.Parameters);
             }
         }
@@ -28,7 +28,7 @@ namespace Evans.XamlTemplates
             {
                 if (parameters.Any(p => p.Name == control.Name))
                 {
-                    throw new CompileException($"Parameter cannot have the same name as a control: '{control.Name}'", control.Token.Index);
+                    throw new CompileException($"Parameter cannot have the same name as a control: '{control.Name}'", control.Token);
                 }
 
                 if (control.HasParameter)
@@ -37,11 +37,11 @@ namespace Evans.XamlTemplates
                     {
                         if (parameters.Any(p => p.Name == property.Value.Substring(1)) != true)
                         {
-                            throw new CompileException($"Could not find parameter {property.Value}", property.Token.Index);
+                            throw new CompileException($"Could not find parameter {property.Value}", property.Token);
                         }
                     }
                 }
-                CheckControlsAndParameters(control.ChildControls, parameters);
+                //CheckControlsAndParameters(control.ChildControls, parameters);
             }
         }
     }

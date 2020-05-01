@@ -50,12 +50,13 @@ namespace " + AssemblyName + @"
         string GetNamespace(string namespaceXml)
         {
             if (namespaceXml.Contains("clr-namespace:"))
-                return namespaceXml.Split(':',';')[1] + ".";
+                return namespaceXml.Replace("{","").Replace("}","").Split(':',';')[1] + ".";
             return "";
         }
 
         private string GenerateConstructor()
         {
+            if (Template == null) return "";
             if (NameGenerator == null) return "";
             var str = "";
             foreach (var control in NameGenerator.NamedControls)
@@ -64,8 +65,13 @@ namespace " + AssemblyName + @"
 
                 foreach (var property in control.Value.ControlProperties.Where(p => p.IsParameter))
                 {
-                    str += $"            {control.Key}.SetBinding({GetNamespace(control.Value.Namespace)}{control.Value.Node.LocalName}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
+                    str += $"            {control.Key}.SetBinding({GetNamespace(control.Value.Namespace)}{control.Value.Name.LocalName}.{property.Name}Property,nameof({property.Value.Substring(1)}));{Environment.NewLine}";
                 }
+            }
+
+            foreach (var parameter in Template.Parameters.Where(p=>p.DefaultValue != null))
+            {
+                str += $"            {parameter.Name} = {parameter.DefaultValue};{Environment.NewLine}";
             }
 
             return str;

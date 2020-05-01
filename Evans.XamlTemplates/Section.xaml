@@ -9,8 +9,8 @@
              x:Class="Evans.XamlTemplates.Section">
   <ContentView.Content>
       <StackLayout>
-  <Label FontSize="Large" x:Name="_Label" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
-  <ContentView x:Name="_ContentView" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+  <Label FontSize="Large" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_Label" />
+  <ContentView xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="_ContentView" />
 </StackLayout>
     </ContentView.Content>
 </ContentView>

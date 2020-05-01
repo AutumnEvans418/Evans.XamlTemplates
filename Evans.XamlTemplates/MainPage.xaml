@@ -56,10 +56,23 @@
                     <Label Text="test"/>
                 </local:Section.SectionContent>
             </local:Section>
-        </StackLayout>
+
+
+
+            
+            
+            </StackLayout>
     </ContentPage>
     <ContentPage Title="Syncfusion">
         <local:DataGridSection HeaderText="Data!" Data="{Binding Data}"/>
+    </ContentPage>
+
+    <ContentPage Title="Expander" >
+        <local:ExpanderControl Expanded="False">
+            <local:ExpanderControl.ExpandContent>
+                <Label Text="Found me!"></Label>
+            </local:ExpanderControl.ExpandContent>
+        </local:ExpanderControl>
     </ContentPage>
 </TabbedPage>
 

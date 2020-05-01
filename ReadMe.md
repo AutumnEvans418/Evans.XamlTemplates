@@ -267,6 +267,12 @@ namespace Evans.XamlTemplates
 
 Notice how much code it takes to just make a template?  There needs to be a simpler solution
 
+## Limitations
+There are several limitations to Xaml Templates
+- Xaml templates relies on xml linq and doesn't support nested attributes, such as ```<ContentView.Content>```
+- The generated templates may not be optimized.  For example, repeating label and entries may be more effecient than placing them in stack layouts.
+- The razor style csharp code is not type checked, meaning if you put ```supertype test = blah``` as a parameter, it will generate.  Although, your project won't build, so it may still be obvious that the syntax is invalid
+
 # Developers
 
 ## Prerequisite
@@ -274,9 +280,7 @@ Notice how much code it takes to just make a template?  There needs to be a simp
 - dotnet core 3.1
 - Xamarin.Forms
 
-
 ## How to build
-
 Run the `build.ps1` script
 
 - Run the ```packAndUpdate.ps1``` powershell script.  This will update the msbuild task and add it to the Evans.XamlTemplates Project
@@ -287,7 +291,7 @@ Run the `build.ps1` script
 
 - [x] Allow to nest templates, such as one template calling another
 - [x] Support third party controls, such as syncfusion
-- [ ] Default value support for parameters ex. ```string test = "test"```
+- [x] Default value support for parameters ex. ```string test = "test"```
 - [ ] Allow the use of ```@if``` statements
 - [ ] Support ```@foreach``` statements
 - [x] Add example project
@@ -295,14 +299,15 @@ Run the `build.ps1` script
 - [ ] Support WPF
 - [ ] Support UWP
 - [x] Support Xamarin.Forms
-- [ ] Add parameters to MSBuild that can be customized
+- [x] Add parameters to MSBuild that can be customized
 - [x] Add generated code warning
-- [ ] Add line to the error message
+- [x] Add line to the error message
 - [ ] Add syntax highlighting for taml files
 - [ ] Add ability to generate c# methods and event handling
 - [x] Support Comments
 - [ ] Support Xml Dot Attributes
   - https://docs.microsoft.com/en-us/dotnet/desktop-wpf/xaml-services/basic-reading-writing
+- [ ] Support different base types other than ContentView, such as StackLayout, Grid, etc.
 
 # Analysis
 

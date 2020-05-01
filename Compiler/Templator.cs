@@ -24,7 +24,11 @@ namespace Evans.XamlTemplates
             
         }
 
-        public CompileException(string message, int index) : base(message + $" at index {index}")
+        public CompileException(string message, Token token) : this(message, token.Index, token.Line)
+        {
+            
+        }
+        public CompileException(string message, int index, int line) : base(message + $" at index {index}, line {line}")
         {
             
         }

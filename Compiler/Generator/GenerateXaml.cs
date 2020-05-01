@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
-
+#nullable enable
 namespace Evans.XamlTemplates.Generator
 {
     public class GenerateXaml
@@ -21,10 +21,10 @@ namespace Evans.XamlTemplates.Generator
 </ContentView>";
 
         
-        string AddNamesToXml(Body? body)
+        string? AddNamesToXml(Body? body)
         {
             if (body == null) return "";
-            return body.FormattedXml;
+            return body.FormattedXml();
         }
 
         

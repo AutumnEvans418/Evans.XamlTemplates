@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Linq;
 
 namespace Evans.XamlTemplates.Generator
 {
@@ -11,22 +12,38 @@ namespace Evans.XamlTemplates.Generator
             {
                 if (control.HasParameter)
                 {
-                    if (control.Node.Attributes != null && control.Node.OwnerDocument != null)
+                    var properties = control.ControlProperties.Where(p => p.IsParameter).Select(p => p.Name).ToList();
+                    var attributes = control.Node.Attributes().Where(c => properties.Contains(c.Name.LocalName)).ToList();
+
+                    foreach (var xAttribute in attributes)
                     {
-
-                        foreach (var property in control.ControlProperties.Where(p => p.IsParameter))
-                        {
-                            control.Node.Attributes.Remove(control.Node.Attributes[property.Name]);
-
-                        }
-
-                        //control.Node.Attributes.RemoveAll();
-                        var att = control.Node.OwnerDocument.CreateAttribute("x", "Name", "http://schemas.microsoft.com/winfx/2009/xaml");
-                        att.Value = AddControl(control);
-                        control.Node.Attributes.Append(att);
+                        xAttribute.Remove();
                     }
+                    //foreach (var property in control.ControlProperties.Where(p => p.IsParameter))
+                    //{
+
+
+                    //    control.Node.Attributes.Remove(control.Node.Attributes[property.Name]);
+
+                    //}
+                    //control.Node.Attributes.RemoveAll();
+                    XNamespace x = "http://schemas.microsoft.com/winfx/2009/xaml";
+
+                    if(control.Node.Attribute(XNamespace.Xmlns + "x") == null)
+                    {
+                        control.Node.Add(new XAttribute(XNamespace.Xmlns + "x", "http://schemas.microsoft.com/winfx/2009/xaml"));
+                    }
+
+                    if (control.Node.Attribute(x + "Name") == null)
+                    {
+                        control.Node.Add(new XAttribute(x + "Name", AddControl(control)));
+                    }
+
+                    //var att = control.Node.OwnerDocument.CreateAttribute("x", "Name", "http://schemas.microsoft.com/winfx/2009/xaml");
+                    //att.Value = AddControl(control);
+                    //control.Node.Attributes.Append(att);
                 }
-                RecurseControls(control.ChildControls);
+                //RecurseControls(control.ChildControls);
             }
         }
         public NameGenerator(IEnumerable<Control> controls)
@@ -45,7 +62,7 @@ namespace Evans.XamlTemplates.Generator
 
         public string AddControl(Control control)
         {
-            var name = "_" + RemoveColon(control.Name);
+            var name = "_" + control.Name.LocalName;//RemoveColon(control.Name);
 
             if (NamedControls.ContainsKey(name))
             {

@@ -10,7 +10,7 @@ namespace XamlTemplates.MSBuild
     public class XamlTemplates : Microsoft.Build.Utilities.Task
     {
         public string Filter { get; set; } = "*.taml";
-
+        public string Folder { get; set; } = "";
         public string Namespace { get; set; } =
             Assembly.GetEntryAssembly()?.GetName().Name ?? "Template";
         public override bool Execute()
@@ -35,8 +35,15 @@ namespace XamlTemplates.MSBuild
                         var x = generatedType.Xaml;
                         var c = generatedType.CSharp;
 
-                        File.WriteAllText(Path.Combine(Directory.GetCurrentDirectory(), x.FileName), x.Content);
-                        File.WriteAllText(Path.Combine(Directory.GetCurrentDirectory(), c.FileName), c.Content);
+                        var directory = Path.Combine(Directory.GetCurrentDirectory(), Folder);
+
+                        if (Directory.Exists(directory) != true)
+                        {
+                            Directory.CreateDirectory(directory);
+                        }
+
+                        File.WriteAllText(Path.Combine(directory,x.FileName), x.Content);
+                        File.WriteAllText(Path.Combine(directory, c.FileName), c.Content);
                     }
                 }
             }

@@ -36,3 +36,12 @@
         <syncfusion:SfDataGrid ItemsSource="@Data" AutoGenerateColumns="True"/>
     </StackLayout>
 }
+
+@ExpanderControl(string Text = "Default Label", bool Expanded = true, object ExpandContent)
+{
+    <StackLayout>
+        <Label Text="@Text"/>
+        <Switch IsToggled="@Expanded"/>
+        <ContentView Content="@ExpandContent" IsVisible="@Expanded"/>
+    </StackLayout>
+}
